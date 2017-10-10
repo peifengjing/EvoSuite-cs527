@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client/async-http-client.iml" filepath="$PROJECT_DIR$/client/async-http-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/async-http-client-example.iml" filepath="$PROJECT_DIR$/example/async-http-client-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/guava/async-http-client-extras-guava.iml" filepath="$PROJECT_DIR$/extras/guava/async-http-client-extras-guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/jdeferred/async-http-client-extras-jdeferred.iml" filepath="$PROJECT_DIR$/extras/jdeferred/async-http-client-extras-jdeferred.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/async-http-client-extras-parent.iml" filepath="$PROJECT_DIR$/extras/async-http-client-extras-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/registry/async-http-client-extras-registry.iml" filepath="$PROJECT_DIR$/extras/registry/async-http-client-extras-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/retrofit2/async-http-client-extras-retrofit2.iml" filepath="$PROJECT_DIR$/extras/retrofit2/async-http-client-extras-retrofit2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/rxjava/async-http-client-extras-rxjava.iml" filepath="$PROJECT_DIR$/extras/rxjava/async-http-client-extras-rxjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/rxjava2/async-http-client-extras-rxjava2.iml" filepath="$PROJECT_DIR$/extras/rxjava2/async-http-client-extras-rxjava2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/simple/async-http-client-extras-simple.iml" filepath="$PROJECT_DIR$/extras/simple/async-http-client-extras-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-utils/async-http-client-netty-utils.iml" filepath="$PROJECT_DIR$/netty-utils/async-http-client-netty-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/async-http-client-project.iml" filepath="$PROJECT_DIR$/async-http-client-project.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+[MASTER] 21:16:25.244 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 21:18:06.594 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/util/concurrent/FastThreadLocal
+[MASTER] 21:18:06.728 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpClientCodec: io/netty/channel/CombinedChannelDuplexHandler$1
+[MASTER] 21:18:06.993 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslHandler: io/netty/handler/codec/ByteToMessageDecoder$1
+[MASTER] 21:18:07.001 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$1
+[MASTER] 21:18:07.135 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1
+[MASTER] 21:18:07.136 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.ByteToMessageDecoder: Could not initialize class io.netty.handler.codec.ByteToMessageDecoder
+[MASTER] 21:18:07.151 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.netty.channel.ConnectionSemaphore: org/asynchttpclient/exception/TooManyConnectionsException
+[MASTER] 21:18:07.187 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/JdkSslClientContext
+[MASTER] 21:18:07.265 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$IndexOfProcessor
+[MASTER] 21:18:07.304 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.bootstrap.Bootstrap: io/netty/resolver/AddressResolverGroup
+[MASTER] 21:18:09.005 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaders: io/netty/handler/codec/http/EmptyHttpHeaders
+[MASTER] 21:18:09.232 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue: Lio/netty/util/internal/shaded/org/jctools/queues/LinkedQueueNode;
+[MASTER] 21:18:09.260 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.SpscLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue
+[MASTER] 21:18:09.470 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslHandler: io/netty/handler/codec/ByteToMessageDecoder$2
+[MASTER] 21:18:09.502 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.DefaultHttpResponse: io/netty/handler/codec/http/DefaultHttpHeaders
+[MASTER] 21:18:09.509 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$2
+[MASTER] 21:18:09.510 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 21:18:09.520 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad: io/netty/util/internal/shaded/org/jctools/util/UnsafeAccess
+[MASTER] 21:18:09.520 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:18:09.569 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/OpenSslClientContext
+[MASTER] 21:18:09.569 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL2Pad: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:18:09.574 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$IndexNotOfProcessor
+[MASTER] 21:18:09.636 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.bootstrap.Bootstrap: io/netty/resolver/DefaultAddressResolverGroup
+[MASTER] 21:18:09.637 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef
+[MASTER] 21:18:09.811 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/buffer/ByteBufUtil$1
+[MASTER] 21:18:09.857 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.DefaultHttpRequest: io/netty/handler/codec/http/CombinedHttpHeaders
+[MASTER] 21:18:09.904 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpStatusClass: io/netty/handler/codec/http/HttpStatusClass$1
+[MASTER] 21:18:09.905 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueue: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:18:09.911 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2
+[MASTER] 21:18:09.912 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1
+[MASTER] 21:18:09.925 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField
+[MASTER] 21:18:09.925 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL3Pad: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:18:09.957 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:18:09.962 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.netty.channel.ConnectionSemaphore: org/asynchttpclient/exception/TooManyConnectionsPerHostException
+[MASTER] 21:18:10.143 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil: io/netty/buffer/AbstractByteBufAllocator

@@ -1,0 +1,7 @@
+[MASTER] 21:20:45.989 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 21:20:52.897 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 21:20:53.195 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 21:20:53.434 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 21:21:08.112 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 21:22:58.328 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: org/eclipse/jetty/util/log/Log
+[MASTER] 21:22:58.485 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.PathWatcher: org.eclipse.jetty.util.component.AbstractLifeCycle

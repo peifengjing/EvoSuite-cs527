@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.github.kevinsawicki.http.HttpRequestTest
+-------------------------------------------------------------------------------
+Tests run: 161, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.928 sec

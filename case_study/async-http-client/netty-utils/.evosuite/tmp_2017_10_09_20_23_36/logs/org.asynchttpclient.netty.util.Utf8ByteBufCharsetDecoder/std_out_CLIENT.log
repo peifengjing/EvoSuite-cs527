@@ -1,0 +1,5 @@
+[MASTER] 20:23:49.399 [pool-2-thread-1] WARN  MethodCallReplacementClassAdapter - Failed to add serialId to class org/testng/TestNGAntTask: org/apache/tools/ant/Task
+[MASTER] 20:23:50.123 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/async-http-client/netty-utils/.evosuite/evosuite-seeds/org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder.seed
+[MASTER] 20:23:58.930 [pool-2-thread-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class io.netty.buffer.PooledByteBufAllocator, java.lang.NullPointerException
+[MASTER] 20:25:34.543 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+[MASTER] 20:25:47.386 [pool-2-thread-1] WARN  TestSuiteGenerator - JUnit checking timed out

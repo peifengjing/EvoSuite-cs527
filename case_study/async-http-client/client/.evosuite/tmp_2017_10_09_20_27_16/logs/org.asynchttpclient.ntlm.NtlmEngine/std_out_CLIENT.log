@@ -1,0 +1,3 @@
+[MASTER] 21:12:33.249 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.ntlm.NtlmEngine.seed
+[MASTER] 21:14:54.958 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 21:14:54.960 [pool-2-thread-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 1 seconds more than allowed.

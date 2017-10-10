@@ -1,0 +1,30 @@
+[MASTER] 21:23:22.463 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.AsyncHandler<T>.State : Type points to itself
+[MASTER] 21:23:29.882 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+[MASTER] 21:23:41.340 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 21:23:44.133 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 21:25:27.109 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ScheduledFutureTask: null
+[MASTER] 21:25:27.347 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue: Lio/netty/util/internal/shaded/org/jctools/queues/LinkedQueueNode;
+[MASTER] 21:25:27.369 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.SpscLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue
+[MASTER] 21:25:27.408 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 21:25:27.427 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.PromiseTask: Could not initialize class io.netty.util.concurrent.PromiseTask
+[MASTER] 21:25:27.455 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ImmediateEventExecutor: Could not initialize class io.netty.util.concurrent.ScheduledFutureTask
+[MASTER] 21:25:27.463 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad: io/netty/util/internal/shaded/org/jctools/util/UnsafeAccess
+[MASTER] 21:25:27.488 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:25:27.512 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilder: Could not initialize class io.netty.util.concurrent.ImmediateEventExecutor
+[MASTER] 21:25:27.513 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL2Pad: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:25:27.541 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$1
+[MASTER] 21:25:27.547 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef
+[MASTER] 21:25:27.555 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.GlobalEventExecutor: Could not initialize class io.netty.util.concurrent.GlobalEventExecutor
+[MASTER] 21:25:27.555 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueue: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:25:27.558 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.DefaultPromise: Could not initialize class io.netty.util.concurrent.DefaultPromise
+[MASTER] 21:25:27.562 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2
+[MASTER] 21:25:27.564 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1
+[MASTER] 21:25:27.570 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField
+[MASTER] 21:25:27.570 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL3Pad: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:25:27.570 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilderBase: Could not initialize class org.asynchttpclient.RequestBuilderBase
+[MASTER] 21:25:27.574 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1
+[MASTER] 21:25:27.581 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 21:25:27.930 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.DefaultPromise
+[MASTER] 21:25:28.162 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.GlobalEventExecutor
+[MASTER] 21:25:28.162 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.ImmediateEventExecutor
+[MASTER] 21:25:28.181 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class org.asynchttpclient.RequestBuilderBase

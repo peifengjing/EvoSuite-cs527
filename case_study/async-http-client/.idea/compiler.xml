@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="async-http-client" />
+        <module name="async-http-client-example" />
+        <module name="async-http-client-extras-guava" />
+        <module name="async-http-client-extras-jdeferred" />
+        <module name="async-http-client-extras-registry" />
+        <module name="async-http-client-extras-retrofit2" />
+        <module name="async-http-client-extras-rxjava" />
+        <module name="async-http-client-extras-rxjava2" />
+        <module name="async-http-client-extras-simple" />
+        <module name="async-http-client-netty-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="async-http-client" target="1.8" />
+      <module name="async-http-client-example" target="1.8" />
+      <module name="async-http-client-extras-guava" target="1.8" />
+      <module name="async-http-client-extras-jdeferred" target="1.8" />
+      <module name="async-http-client-extras-parent" target="1.8" />
+      <module name="async-http-client-extras-registry" target="1.8" />
+      <module name="async-http-client-extras-retrofit2" target="1.8" />
+      <module name="async-http-client-extras-rxjava" target="1.8" />
+      <module name="async-http-client-extras-rxjava2" target="1.8" />
+      <module name="async-http-client-extras-simple" target="1.8" />
+      <module name="async-http-client-netty-utils" target="1.8" />
+      <module name="async-http-client-project" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

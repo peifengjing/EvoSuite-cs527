@@ -1,0 +1,11 @@
+[MASTER] 23:03:58.924 [main] ERROR EvoSuite - Fatal crash on main EvoSuite process. Class  using seed 1507615438918. Configuration id : default
+java.lang.IllegalArgumentException: The class path resource /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/async-http-client/client/target/classes does not exist
+	at org.evosuite.classpath.ResourceList.addEntry(ResourceList.java:521) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.classpath.ResourceList.initCache(ResourceList.java:503) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.classpath.ResourceList.getCache(ResourceList.java:485) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.classpath.ResourceList.hasClass(ResourceList.java:186) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.executionmode.TestGeneration.findTargetClass(TestGeneration.java:196) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.executionmode.TestGeneration.generateTests(TestGeneration.java:211) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.executionmode.TestGeneration.executeTestGeneration(TestGeneration.java:78) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:267) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.EvoSuite.main(EvoSuite.java:300) ~[evosuite-master-1.0.5.jar:1.0.5]

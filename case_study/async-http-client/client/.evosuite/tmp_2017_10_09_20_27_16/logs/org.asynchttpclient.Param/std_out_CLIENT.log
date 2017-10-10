@@ -1,0 +1,3 @@
+[MASTER] 21:32:51.751 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.Param.seed
+[MASTER] 21:34:45.012 [pool-2-thread-1] WARN  TestSuiteGenerator - JUnit checking timed out
+[MASTER] 21:34:45.019 [pool-2-thread-1] WARN  TimeController - Phase JUNIT_CHECK lasted too long, 2 seconds more than allowed.

@@ -1,0 +1,141 @@
+* Starting client
+* Connecting to master process on port 13488
+* Analyzing classpath: 
+  - /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/http-request/lib/target/test-classes
+  - /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/http-request/lib/target/classes
+  - /Users/Peifeng/.m2/repository/junit/junit/4.10/junit-4.10.jar
+  - /Users/Peifeng/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/jetty-server/8.1.9.v20130131/jetty-server-8.1.9.v20130131.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/jetty-continuation/8.1.9.v20130131/jetty-continuation-8.1.9.v20130131.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/jetty-http/8.1.9.v20130131/jetty-http-8.1.9.v20130131.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/jetty-io/8.1.9.v20130131/jetty-io-8.1.9.v20130131.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/jetty-servlet/8.1.9.v20130131/jetty-servlet-8.1.9.v20130131.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/jetty-security/8.1.9.v20130131/jetty-security-8.1.9.v20130131.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/jetty-servlets/8.1.9.v20130131/jetty-servlets-8.1.9.v20130131.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/jetty-client/8.1.9.v20130131/jetty-client-8.1.9.v20130131.jar
+  - /Users/Peifeng/.m2/repository/org/eclipse/jetty/jetty-util/8.1.9.v20130131/jetty-util-8.1.9.v20130131.jar
+* Finished analyzing classpath
+* Generating tests for class com.github.kevinsawicki.http.HttpRequest
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 253 tests from /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/http-request/lib/.evosuite/evosuite-seeds/com.github.kevinsawicki.http.HttpRequest.seed
+* Total number of test goals: 
+  - Line 706
+  - Branch 463
+  - Exception 0
+  - MutationFactory 830
+  - Output 758
+  - Method 172
+  - MethodNoException 172
+  - CBranchFitnessFactory 463
+* Using seed 1507605263757
+* Starting evolution
+[MASTER] 20:14:37.141 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 4 seconds more than allowed.
+[MASTER] 20:14:51.765 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:14:51.779 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:14:53.178 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:14:53.604 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:14:54.742 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:01.275 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:01.994 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:05.028 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:05.769 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:06.026 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:08.837 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:09.745 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:09.833 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:11.199 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:13.218 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:14.231 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:14.444 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:14.778 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:15.489 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:16.009 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:16.065 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:17.979 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:18.147 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:19.900 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:21.299 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:24.117 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:25.489 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:27.996 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:31.102 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:32.191 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:32.242 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:32.756 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:33.308 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:33.462 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:34.674 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:35.477 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:36.204 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:36.402 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:36.733 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:36.734 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:36.766 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:37.793 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:39.426 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:39.431 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:39.541 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:39.617 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:39.686 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:39.733 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:40.297 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:41.820 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+[MASTER] 20:15:43.093 [pool-2-thread-1] WARN  TestCluster - No generator for special case class: class java.lang.Number
+* Search finished after 69s and 49 generations, 21506 statements, best individual has fitness: 2648.0370032121805
+* Writing sequences to pool
+[MASTER] 20:15:51.257 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 9 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 20:16:02.518 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 73%
+* Total number of goals: 706
+* Number of covered goals: 515
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 67%
+* Total number of goals: 463
+* Number of covered goals: 310
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 195
+* Number of covered goals: 195
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 69%
+* Total number of goals: 830
+* Number of covered goals: 572
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 18%
+* Total number of goals: 758
+* Number of covered goals: 136
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 96%
+* Total number of goals: 172
+* Number of covered goals: 165
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 57%
+* Total number of goals: 172
+* Number of covered goals: 98
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 63%
+* Total number of goals: 463
+* Number of covered goals: 294
+* Generated 271 tests with total length 1950
+* Resulting test suite's coverage: 48% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 20:16:14.022 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.6824444444444444% of time used, but only 1/271 tests minimized), falling back to using all assertions
+[MASTER] 20:16:16.891 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+[MASTER] 20:16:17.635 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 9s, but only 5s are left
+[MASTER] 20:16:20.464 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 9s, but only 2s are left
+* Writing JUnit test case 'HttpRequest_ESTest' to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/http-request/lib/.evosuite/tmp_2017_10_09_20_14_16/tests
