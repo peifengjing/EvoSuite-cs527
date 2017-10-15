@@ -1,0 +1,69 @@
+[MASTER] 23:18:44.348 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Problem for org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder. Class not found: org.testng.TestNGAntTask$Mode
+java.lang.NoClassDefFoundError: org/testng/TestNGAntTask
+	at java.lang.Class.getDeclaringClass0(Native Method)
+	at java.lang.Class.getDeclaringClass(Class.java:1235)
+	at java.lang.Class.getEnclosingClass(Class.java:1277)
+	at java.lang.Class.getSimpleBinaryName(Class.java:1443)
+	at java.lang.Class.getSimpleName(Class.java:1309)
+	at java.lang.Class.isAnonymousClass(Class.java:1411)
+	at org.evosuite.setup.TestUsageChecker.canUse(TestUsageChecker.java:155)
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:129)
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61)
+	at org.evosuite.seeding.CastClassManager.addCastClass(CastClassManager.java:127)
+	at org.evosuite.setup.TestCluster.cacheGenerators(TestCluster.java:489)
+	at org.evosuite.setup.TestCluster.removeUnusableGenerators(TestCluster.java:147)
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:146)
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117)
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131)
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110)
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130)
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org/apache/tools/ant/Task
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/tools/ant/Task
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:194)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.tools.ant.Task
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:159)
+	... 28 common frames omitted
+[MASTER] 23:18:44.348 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 23:18:50.243 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 23:18:51.149 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<Answers>[] fileAttributeArray0 = (FileAttribute<Answers>[]) Array.newInstance(FileAttribute.class, 8), assignment statement: fileAttributeArray0[0] = (FileAttribute<Answers>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:18:51.463 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<String>[] fileAttributeArray0 = (FileAttribute<String>[]) Array.newInstance(FileAttribute.class, 5), assignment statement: fileAttributeArray0[0] = (FileAttribute<String>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:18:52.837 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<String>[] fileAttributeArray0 = (FileAttribute<String>[]) Array.newInstance(FileAttribute.class, 5), assignment statement: fileAttributeArray0[0] = (FileAttribute<String>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:18:55.719 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<Utf8ByteBufCharsetDecoder>[] fileAttributeArray0 = (FileAttribute<Utf8ByteBufCharsetDecoder>[]) Array.newInstance(FileAttribute.class, 4), assignment statement: fileAttributeArray0[0] = (FileAttribute<Utf8ByteBufCharsetDecoder>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:19:09.819 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<UnpooledDirectByteBuf>[] fileAttributeArray0 = (FileAttribute<UnpooledDirectByteBuf>[]) Array.newInstance(FileAttribute.class, 7), assignment statement: fileAttributeArray0[0] = (FileAttribute<UnpooledDirectByteBuf>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:19:16.212 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<Integer>[] fileAttributeArray0 = (FileAttribute<Integer>[]) Array.newInstance(FileAttribute.class, 9), assignment statement: fileAttributeArray0[0] = (FileAttribute<Integer>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:19:16.475 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<String>[] fileAttributeArray0 = (FileAttribute<String>[]) Array.newInstance(FileAttribute.class, 8), assignment statement: fileAttributeArray0[0] = (FileAttribute<String>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:19:19.851 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<MockThaiBuddhistDate>[] fileAttributeArray0 = (FileAttribute<MockThaiBuddhistDate>[]) Array.newInstance(FileAttribute.class, 2), assignment statement: fileAttributeArray0[0] = (FileAttribute<MockThaiBuddhistDate>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:19:27.483 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<MockMinguoDate>[] fileAttributeArray0 = (FileAttribute<MockMinguoDate>[]) Array.newInstance(FileAttribute.class, 5), assignment statement: fileAttributeArray0[0] = (FileAttribute<MockMinguoDate>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:19:31.654 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<String>[] fileAttributeArray0 = (FileAttribute<String>[]) Array.newInstance(FileAttribute.class, 5), assignment statement: fileAttributeArray0[0] = (FileAttribute<String>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:19:33.757 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<Answers>[] fileAttributeArray0 = (FileAttribute<Answers>[]) Array.newInstance(FileAttribute.class, 7), assignment statement: fileAttributeArray0[0] = (FileAttribute<Answers>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:19:39.884 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 23:19:44.641 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<MockJapaneseDate>[] fileAttributeArray0 = (FileAttribute<MockJapaneseDate>[]) Array.newInstance(FileAttribute.class, 3), assignment statement: fileAttributeArray0[0] = (FileAttribute<MockJapaneseDate>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:19:57.952 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<UnpooledDirectByteBuf>[] fileAttributeArray0 = (FileAttribute<UnpooledDirectByteBuf>[]) Array.newInstance(FileAttribute.class, 4), assignment statement: fileAttributeArray0[0] = (FileAttribute<UnpooledDirectByteBuf>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[MASTER] 23:20:40.280 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledDirectByteBuf: io/netty/buffer/PooledDirectByteBuf$1
+[MASTER] 23:20:40.291 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue: Lio/netty/util/internal/shaded/org/jctools/queues/LinkedQueueNode;
+[MASTER] 23:20:40.295 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.SpscLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue
+[MASTER] 23:20:40.304 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledSlicedByteBuf: io/netty/buffer/PooledSlicedByteBuf$1
+[MASTER] 23:20:40.484 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 23:20:40.541 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef
+[MASTER] 23:20:40.546 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalDirectByteBuf: io/netty/buffer/ByteBufUtil$ThreadLocalDirectByteBuf$1
+[MASTER] 23:20:40.587 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledDuplicatedByteBuf: io/netty/buffer/PooledDuplicatedByteBuf$1
+[MASTER] 23:20:40.587 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2
+[MASTER] 23:20:40.587 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1
+[MASTER] 23:20:40.611 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalUnsafeDirectByteBuf: io/netty/buffer/ByteBufUtil$ThreadLocalUnsafeDirectByteBuf$1

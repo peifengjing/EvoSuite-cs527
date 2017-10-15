@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1507537256718
+Bnd-LastModified: 1508003216275
 Build-Jdk: 1.8.0_77
 Built-By: Peifeng
 Bundle-Description: Library for making HTTP requests
@@ -13,4 +13,5 @@ Created-By: Apache Maven Bundle Plugin
 Export-Package: com.github.kevinsawicki.http;uses:="javax.net.ssl";versi
  on="6.1.0.SNAPSHOT"
 Import-Package: javax.net.ssl
+Originally-Created-By: Apache Maven Bundle Plugin
 Tool: Bnd-1.50.0

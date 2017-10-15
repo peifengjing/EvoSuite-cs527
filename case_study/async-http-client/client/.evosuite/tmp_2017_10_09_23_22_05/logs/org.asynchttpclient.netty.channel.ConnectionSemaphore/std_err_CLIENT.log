@@ -1,0 +1,9 @@
+[MASTER] 00:38:36.690 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 00:39:01.872 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$1
+[MASTER] 00:39:01.928 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/JdkSslServerContext
+[MASTER] 00:39:01.979 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.proxy.ProxyServerSelector: java.lang.NoClassDefFoundError: org/asynchttpclient/uri/Uri
+[MASTER] 00:39:02.023 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/buffer/ByteBufUtil
+[MASTER] 00:39:02.274 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$2
+[MASTER] 00:39:02.336 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/OpenSslServerContext
+[MASTER] 00:39:02.364 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.proxy.ProxyServerSelector: java.lang.NoClassDefFoundError: org/asynchttpclient/proxy/ProxyServer
+[MASTER] 00:39:02.408 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/util/concurrent/FastThreadLocal

@@ -1,0 +1,24 @@
+[MASTER] 00:29:25.577 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.AsyncHandler<T>.State : Type points to itself
+[MASTER] 00:29:29.574 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.reactivestreams.Publisher<T> : Type points to itself
+[MASTER] 00:29:32.650 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Collection<E> : Type points to itself
+[MASTER] 00:29:51.539 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 00:30:23.604 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 00:30:57.378 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilderBase: io/netty/util/internal/logging/InternalLoggerFactory
+[MASTER] 00:30:57.893 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpVersion: io/netty/util/CharsetUtil
+[MASTER] 00:30:57.944 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilderBase: io/netty/util/internal/logging/Slf4JLoggerFactory
+[MASTER] 00:30:57.945 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.AbstractEventExecutor: Could not initialize class io.netty.util.concurrent.AbstractEventExecutor
+[MASTER] 00:30:57.948 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1
+[MASTER] 00:30:57.948 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ImmediateEventExecutor: Could not initialize class io.netty.util.concurrent.ImmediateEventExecutor
+[MASTER] 00:30:57.965 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.FastThreadLocal: io/netty/util/internal/InternalThreadLocalMap
+[MASTER] 00:30:57.966 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ImmediateEventExecutor$2: io.netty.util.concurrent.FastThreadLocal
+[MASTER] 00:30:57.966 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ImmediateEventExecutor$1: io.netty.util.concurrent.FastThreadLocal
+[MASTER] 00:30:57.969 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.DefaultHeaders$NameValidator: io/netty/handler/codec/DefaultHeaders$NameValidator$1
+[MASTER] 00:30:57.972 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilder: org.asynchttpclient.RequestBuilderBase
+[MASTER] 00:30:57.978 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$1
+[MASTER] 00:30:58.440 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilderBase: io/netty/util/concurrent/FailedFuture
+[MASTER] 00:30:58.474 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.FastThreadLocal: io/netty/util/internal/SystemPropertyUtil
+[MASTER] 00:30:58.483 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$2
+[MASTER] 00:30:58.984 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilderBase: io/netty/util/internal/SystemPropertyUtil$1
+[MASTER] 00:30:58.992 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.InternalThreadLocalMap: io/netty/util/internal/SystemPropertyUtil$1
+[MASTER] 00:30:58.997 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.FastThreadLocal: Could not initialize class io.netty.util.internal.InternalThreadLocalMap
+[MASTER] 00:30:59.006 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$3

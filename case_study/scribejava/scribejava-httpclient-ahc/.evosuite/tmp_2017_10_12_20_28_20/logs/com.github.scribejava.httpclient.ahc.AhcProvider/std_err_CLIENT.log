@@ -1,0 +1,20 @@
+[MASTER] 20:34:05.846 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ScheduledFutureTask: null
+[MASTER] 20:34:05.906 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue: Lio/netty/util/internal/shaded/org/jctools/queues/LinkedQueueNode;
+[MASTER] 20:34:05.988 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.SpscLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue
+[MASTER] 20:34:06.084 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslServerContext: io/netty/handler/ssl/OpenSslSessionContext
+[MASTER] 20:34:06.176 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 20:34:06.211 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.PromiseTask: Could not initialize class io.netty.util.concurrent.PromiseTask
+[MASTER] 20:34:06.261 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef
+[MASTER] 20:34:06.295 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.GlobalEventExecutor: Could not initialize class io.netty.util.concurrent.ScheduledFutureTask
+[MASTER] 20:34:06.313 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.netty.handler.WebSocketHandler: org/asynchttpclient/exception/ChannelClosedException
+[MASTER] 20:34:06.317 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.DefaultPromise: Could not initialize class io.netty.util.concurrent.DefaultPromise
+[MASTER] 20:34:06.323 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslServerContext: io/netty/handler/ssl/OpenSslKeyMaterialManager
+[MASTER] 20:34:06.323 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1
+[MASTER] 20:34:06.335 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.netty.handler.HttpHandler: org/asynchttpclient/HttpResponseStatus
+[MASTER] 20:34:06.344 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpContentDecoder: io/netty/handler/codec/http/DefaultHttpMessage
+[MASTER] 20:34:06.351 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.ChannelFutureListener: io/netty/channel/ChannelFutureListener$1
+[MASTER] 20:34:06.364 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.netty.channel.ChannelManager$4: io/netty/handler/codec/http/DefaultHttpRequest
+[MASTER] 20:34:06.375 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslClientContext: io/netty/handler/ssl/OpenSslExtendedKeyMaterialManager
+[MASTER] 20:34:06.390 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpContentDecompressor: io/netty/handler/codec/http/DefaultHttpResponse
+[MASTER] 20:34:06.565 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.DefaultPromise
+[MASTER] 20:34:06.566 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.GlobalEventExecutor

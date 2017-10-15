@@ -1,0 +1,64 @@
+Peifengs-MacBook-Air:starts Peifeng$ mvn evosuite:export
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-core:jar:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ edu.illinois:starts:1.4-SNAPSHOT, /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/pom.xml, line 191, column 15
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-maven-plugin:maven-plugin:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ edu.illinois:starts:1.4-SNAPSHOT, /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/pom.xml, line 191, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 33, column 14
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts:pom:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 191, column 15
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO] Inspecting build with total of 3 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] STARTS
+[INFO] starts-core
+[INFO] STARTS Maven Plugin
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building STARTS 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ starts ---
+[INFO] Exporting tests
+[INFO] Nothing to export
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building starts-core 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ starts-core ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/evosuite/targetFolder
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building STARTS Maven Plugin 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ starts-maven-plugin ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/evosuite/targetFolder
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] STARTS ............................................. SUCCESS [  1.101 s]
+[INFO] starts-core ........................................ SUCCESS [  0.127 s]
+[INFO] STARTS Maven Plugin ................................ SUCCESS [  0.013 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.632 s
+[INFO] Finished at: 2017-10-15T15:02:30-07:00
+[INFO] Final Memory: 18M/181M
+[INFO] ------------------------------------------------------------------------
+Peifengs-MacBook-Air:starts Peifeng$

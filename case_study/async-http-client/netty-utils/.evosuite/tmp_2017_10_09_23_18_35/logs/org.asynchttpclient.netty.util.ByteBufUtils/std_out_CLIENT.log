@@ -1,0 +1,5 @@
+[MASTER] 23:20:49.436 [pool-2-thread-1] WARN  MethodCallReplacementClassAdapter - Failed to add serialId to class org/testng/TestNGAntTask: org/apache/tools/ant/Task
+[MASTER] 23:20:58.148 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.apache.tomcat.util.buf.Utf8Encoder canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 23:20:58.372 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class io.netty.buffer.EmptyByteBuf canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 23:21:46.976 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 23:21:51.948 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.6967142857142857% of time used, but only 7/16 tests minimized), falling back to using all assertions

@@ -1,0 +1,485 @@
+Peifengs-MacBook-Air:starts Peifeng$ mvn evosuite:generate
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-core:jar:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ edu.illinois:starts:1.4-SNAPSHOT, /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/pom.xml, line 190, column 15
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-maven-plugin:maven-plugin:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ edu.illinois:starts:1.4-SNAPSHOT, /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/pom.xml, line 190, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 33, column 14
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts:pom:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 190, column 15
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO] Inspecting build with total of 3 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] STARTS
+[INFO] starts-core
+[INFO] STARTS Maven Plugin
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building STARTS 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ starts >>>
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ starts ---
+[INFO] Starting audit...
+Audit done.
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.8:prepare-agent (pre-unit-test) @ starts ---
+[INFO] argLine set to -javaagent:/Users/Peifeng/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/target/jacoco.exec
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ starts <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ starts ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[INFO] Target: null
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts
+[INFO] Nothing to test
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building starts-core 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ starts-core >>>
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ starts-core ---
+[INFO] Starting audit...
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/data/ZLCData.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Cache.java:35:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/EkstaziHelper.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/EkstaziHelper.java:55:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/FileUtil.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:43:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:64:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:78:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:160:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:207:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:59:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:71:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:32:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:40:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:75:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:52:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:66:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:102:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:114:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:130:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:144:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:159:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:175:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:29:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:47:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:64:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:72:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:82:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:79:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:89:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:123:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:184:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:32:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/maven/MavenCFT.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/maven/SurefireMojoInterceptor.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:94:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:105:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:124:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/Logger.java:31:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/Logger.java:39:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:43:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:160:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:50:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:60:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.8:prepare-agent (pre-unit-test) @ starts-core ---
+[INFO] argLine set to -javaagent:/Users/Peifeng/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/target/jacoco.exec
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ starts-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ starts-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ starts-core <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ starts-core ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core
+[INFO] Started spawn process manager on port 64288
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:64289
+[INFO] [MASTER] 13:41:54.961 [main] ERROR MethodInstrumentation - Number of frames does not match number number of bytecode instructions: 0/101
+[INFO] [MASTER] 13:41:54.962 [main] ERROR MethodInstrumentation - Skipping mutation of method edu.illinois.starts.asm.ClassWriter.newHandleItem(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ledu/illinois/starts/asm/Item;
+[INFO] [MASTER] 13:41:55.665 [main] ERROR MethodInstrumentation - Number of frames does not match number number of bytecode instructions: 0/101
+[INFO] [MASTER] 13:41:55.665 [main] ERROR MethodInstrumentation - Skipping mutation of method edu.illinois.starts.asm.ClassWriter.newHandleItem(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ledu/illinois/starts/asm/Item;
+[INFO] Going to execute 39 jobs
+[INFO] Estimated completion time: 78 minutes, by 2017-10-15T15:00:04.169
+[INFO] Going to start job for: edu.illinois.starts.asm.ClassReader. Expected to end in 637 seconds, by 2017-10-15T13:52:41.229
+[INFO] Registered remote process from /127.0.0.1:64290
+[INFO] Registered remote process from /127.0.0.1:64297
+[INFO] Completed job. Left: 38
+[INFO] Going to start job for: edu.illinois.starts.asm.MethodWriter. Expected to end in 602 seconds, by 2017-10-15T14:01:46.767
+[INFO] Registered remote process from /127.0.0.1:64362
+[INFO] Registered remote process from /127.0.0.1:64368
+[INFO] Completed job. Left: 37
+[INFO] Going to start job for: edu.illinois.starts.asm.Frame. Expected to end in 476 seconds, by 2017-10-15T14:07:08.649
+[INFO] Registered remote process from /127.0.0.1:64400
+[INFO] Registered remote process from /127.0.0.1:64406
+[INFO] Completed job. Left: 36
+[INFO] Going to start job for: edu.illinois.starts.asm.ClassWriter. Expected to end in 183 seconds, by 2017-10-15T14:07:57.528
+[INFO] Registered remote process from /127.0.0.1:64473
+[INFO] Registered remote process from /127.0.0.1:64479
+[INFO] Completed job. Left: 35
+[INFO] Going to start job for: edu.illinois.starts.asm.Type. Expected to end in 180 seconds, by 2017-10-15T14:10:30.362
+[INFO] Registered remote process from /127.0.0.1:64496
+[INFO] Registered remote process from /127.0.0.1:64502
+[INFO] Completed job. Left: 34
+[INFO] Going to start job for: edu.illinois.starts.asm.Item. Expected to end in 119 seconds, by 2017-10-15T14:09:31.291
+[INFO] Registered remote process from /127.0.0.1:64503
+[INFO] Registered remote process from /127.0.0.1:64509
+[INFO] Completed job. Left: 33
+[INFO] Going to start job for: edu.illinois.starts.helpers.Writer. Expected to end in 119 seconds, by 2017-10-15T14:11:01.691
+[INFO] Registered remote process from /127.0.0.1:64521
+[INFO] Registered remote process from /127.0.0.1:64527
+[INFO] Completed job. Left: 32
+[INFO] Going to start job for: edu.illinois.starts.asm.AnnotationWriter. Expected to end in 117 seconds, by 2017-10-15T14:12:21.957
+[INFO] Registered remote process from /127.0.0.1:64536
+[INFO] Registered remote process from /127.0.0.1:64542
+[INFO] Completed job. Left: 31
+[INFO] Going to start job for: edu.illinois.starts.asm.MethodVisitor. Expected to end in 109 seconds, by 2017-10-15T14:13:52.689
+[INFO] Registered remote process from /127.0.0.1:64550
+[INFO] Registered remote process from /127.0.0.1:64556
+[INFO] Completed job. Left: 30
+[INFO] Going to start job for: edu.illinois.starts.asm.FieldWriter. Expected to end in 103 seconds, by 2017-10-15T14:15:06.862
+[INFO] Registered remote process from /127.0.0.1:64567
+[INFO] Registered remote process from /127.0.0.1:64573
+[INFO] Completed job. Left: 29
+[INFO] Going to start job for: edu.illinois.starts.asm.Label. Expected to end in 93 seconds, by 2017-10-15T14:16:15.411
+[INFO] Registered remote process from /127.0.0.1:64580
+[INFO] Registered remote process from /127.0.0.1:64586
+[INFO] Completed job. Left: 28
+[INFO] Going to start job for: edu.illinois.starts.helpers.Loadables. Expected to end in 88 seconds, by 2017-10-15T14:17:33.999
+[INFO] Registered remote process from /127.0.0.1:64594
+[INFO] Registered remote process from /127.0.0.1:64600
+[INFO] Completed job. Left: 27
+[INFO] Going to start job for: edu.illinois.starts.asm.ByteVector. Expected to end in 88 seconds, by 2017-10-15T14:18:38.313
+[INFO] Registered remote process from /127.0.0.1:64604
+[INFO] Registered remote process from /127.0.0.1:64610
+[INFO] Completed job. Left: 26
+[INFO] Going to start job for: edu.illinois.starts.helpers.ZLCHelper. Expected to end in 81 seconds, by 2017-10-15T14:19:37.967
+[INFO] Registered remote process from /127.0.0.1:64619
+[INFO] Registered remote process from /127.0.0.1:64625
+[INFO] Completed job. Left: 25
+[INFO] Going to start job for: edu.illinois.starts.asm.TypePath. Expected to end in 79 seconds, by 2017-10-15T14:20:34.799
+[INFO] Registered remote process from /127.0.0.1:64640
+[INFO] Registered remote process from /127.0.0.1:64646
+[INFO] Completed job. Left: 24
+[INFO] Going to start job for: edu.illinois.starts.asm.ClassVisitor. Expected to end in 74 seconds, by 2017-10-15T14:21:30.983
+[INFO] Registered remote process from /127.0.0.1:64653
+[INFO] Registered remote process from /127.0.0.1:64659
+[INFO] Completed job. Left: 23
+[INFO] Going to start job for: edu.illinois.starts.helpers.Cache. Expected to end in 74 seconds, by 2017-10-15T14:22:22.378
+[INFO] Registered remote process from /127.0.0.1:64664
+[INFO] Registered remote process from /127.0.0.1:64670
+[INFO] Completed job. Left: 22
+[INFO] Going to start job for: edu.illinois.starts.helpers.PomUtil. Expected to end in 74 seconds, by 2017-10-15T14:23:15.353
+[INFO] Registered remote process from /127.0.0.1:64674
+[INFO] Registered remote process from /127.0.0.1:64680
+[INFO] Completed job. Left: 21
+[INFO] Going to start job for: edu.illinois.starts.util.ChecksumUtil. Expected to end in 74 seconds, by 2017-10-15T14:24:09.649
+[INFO] Registered remote process from /127.0.0.1:64686
+[INFO] Registered remote process from /127.0.0.1:64692
+[INFO] Completed job. Left: 20
+[INFO] Going to start job for: edu.illinois.starts.helpers.EkstaziHelper. Expected to end in 72 seconds, by 2017-10-15T14:24:58.811
+[INFO] Registered remote process from /127.0.0.1:64698
+[INFO] Registered remote process from /127.0.0.1:64704
+[INFO] Completed job. Left: 19
+[INFO] Going to start job for: edu.illinois.starts.maven.AgentLoader. Expected to end in 71 seconds, by 2017-10-15T14:25:46.103
+[INFO] Registered remote process from /127.0.0.1:64709
+[INFO] Registered remote process from /127.0.0.1:64715
+[INFO] Completed job. Left: 18
+[INFO] Going to start job for: edu.illinois.starts.helpers.RTSUtil. Expected to end in 68 seconds, by 2017-10-15T14:26:35.040
+[INFO] Registered remote process from /127.0.0.1:64722
+[INFO] Registered remote process from /127.0.0.1:64728
+[INFO] Completed job. Left: 17
+[INFO] Going to start job for: edu.illinois.starts.asm.Handler. Expected to end in 68 seconds, by 2017-10-15T14:27:27.991
+[INFO] Registered remote process from /127.0.0.1:64734
+[INFO] Registered remote process from /127.0.0.1:64740
+[INFO] Completed job. Left: 16
+[INFO] Going to start job for: edu.illinois.starts.helpers.YasglHelper. Expected to end in 68 seconds, by 2017-10-15T14:28:19.101
+[INFO] Registered remote process from /127.0.0.1:64744
+[INFO] Registered remote process from /127.0.0.1:64750
+[INFO] Completed job. Left: 15
+[INFO] Going to start job for: edu.illinois.starts.asm.FieldVisitor. Expected to end in 68 seconds, by 2017-10-15T14:29:12.652
+[INFO] Registered remote process from /127.0.0.1:64755
+[INFO] Registered remote process from /127.0.0.1:64761
+[INFO] Completed job. Left: 14
+[INFO] Going to start job for: edu.illinois.starts.asm.AnnotationVisitor. Expected to end in 68 seconds, by 2017-10-15T14:30:04.007
+[INFO] Registered remote process from /127.0.0.1:64767
+[INFO] Registered remote process from /127.0.0.1:64773
+[INFO] Completed job. Left: 13
+[INFO] Going to start job for: edu.illinois.starts.asm.Handle. Expected to end in 66 seconds, by 2017-10-15T14:30:55.544
+[INFO] Registered remote process from /127.0.0.1:64777
+[INFO] Registered remote process from /127.0.0.1:64783
+[INFO] Completed job. Left: 12
+[INFO] Going to start job for: edu.illinois.starts.data.ZLCData. Expected to end in 66 seconds, by 2017-10-15T14:30:57.815
+[INFO] Registered remote process from /127.0.0.1:64784
+[INFO] Registered remote process from /127.0.0.1:64791
+[INFO] Completed job. Left: 11
+[INFO] Going to start job for: edu.illinois.starts.util.Pair. Expected to end in 64 seconds, by 2017-10-15T14:31:43.838
+[INFO] Registered remote process from /127.0.0.1:64795
+[INFO] Registered remote process from /127.0.0.1:64802
+[INFO] Completed job. Left: 10
+[INFO] Going to start job for: edu.illinois.starts.maven.SurefireMojoInterceptor. Expected to end in 64 seconds, by 2017-10-15T14:31:46.217
+[INFO] Registered remote process from /127.0.0.1:64803
+[INFO] Registered remote process from /127.0.0.1:64809
+[INFO] Completed job. Left: 9
+[INFO] Going to start job for: edu.illinois.starts.maven.JavaAgent. Expected to end in 63 seconds, by 2017-10-15T14:32:31.600
+[INFO] Registered remote process from /127.0.0.1:64815
+[INFO] Registered remote process from /127.0.0.1:64821
+[INFO] Completed job. Left: 8
+[INFO] Going to start job for: edu.illinois.starts.asm.Attribute. Expected to end in 63 seconds, by 2017-10-15T14:33:19.418
+[INFO] Registered remote process from /127.0.0.1:64824
+[INFO] Registered remote process from /127.0.0.1:64830
+[INFO] Completed job. Left: 7
+[INFO] Going to start job for: edu.illinois.starts.maven.MavenCFT. Expected to end in 62 seconds, by 2017-10-15T14:34:09.953
+[INFO] Registered remote process from /127.0.0.1:64839
+[INFO] Registered remote process from /127.0.0.1:64845
+[INFO] Completed job. Left: 6
+[INFO] Going to start job for: edu.illinois.starts.helpers.FileUtil. Expected to end in 62 seconds, by 2017-10-15T14:34:12.033
+[INFO] Registered remote process from /127.0.0.1:64846
+[INFO] Registered remote process from /127.0.0.1:64852
+[INFO] Completed job. Left: 5
+[INFO] Going to start job for: edu.illinois.starts.util.Logger. Expected to end in 62 seconds, by 2017-10-15T14:35:10.999
+[INFO] Registered remote process from /127.0.0.1:64886
+[INFO] Registered remote process from /127.0.0.1:64893
+[INFO] Completed job. Left: 4
+[INFO] Going to start job for: edu.illinois.starts.asm.Edge. Expected to end in 60 seconds, by 2017-10-15T14:35:52.895
+[INFO] Registered remote process from /127.0.0.1:64898
+[INFO] Registered remote process from /127.0.0.1:64904
+[INFO] Completed job. Left: 3
+[INFO] Going to start job for: edu.illinois.starts.asm.TypeReference. Expected to end in 60 seconds, by 2017-10-15T14:35:55.970
+[INFO] Registered remote process from /127.0.0.1:64905
+[INFO] Registered remote process from /127.0.0.1:64911
+[INFO] Completed job. Left: 2
+[INFO] Going to start job for: edu.illinois.starts.asm.Context. Expected to end in 60 seconds, by 2017-10-15T14:36:44.154
+[INFO] Registered remote process from /127.0.0.1:64917
+[INFO] Registered remote process from /127.0.0.1:64923
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: edu.illinois.starts.maven.AbstractMojoInterceptor. Expected to end in 60 seconds, by 2017-10-15T14:36:56.926
+[INFO] Registered remote process from /127.0.0.1:64925
+[INFO] Registered remote process from /127.0.0.1:64932
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to edu.illinois.starts.helpers.Loadables
+[INFO] * Updating database to edu.illinois.starts.helpers.RTSUtil
+[INFO] * Updating database to edu.illinois.starts.asm.Edge
+[INFO] * Updating database to edu.illinois.starts.asm.TypeReference
+[INFO] * Updating database to edu.illinois.starts.asm.ClassWriter
+[INFO] * Updating database to edu.illinois.starts.util.Pair
+[INFO] * Updating database to edu.illinois.starts.asm.FieldWriter
+[INFO] * Updating database to edu.illinois.starts.asm.Handle
+[INFO] * Updating database to edu.illinois.starts.asm.Handler
+[INFO] * Updating database to edu.illinois.starts.helpers.YasglHelper
+[INFO] * Updating database to edu.illinois.starts.asm.Frame
+[INFO] * Updating database to edu.illinois.starts.asm.MethodVisitor
+[INFO] * Updating database to edu.illinois.starts.asm.ClassVisitor
+[INFO] * Updating database to edu.illinois.starts.asm.Context
+[INFO] * Updating database to edu.illinois.starts.maven.MavenCFT
+[INFO] * Updating database to edu.illinois.starts.maven.AgentLoader
+[INFO] * Updating database to edu.illinois.starts.asm.Label
+[INFO] * Updating database to edu.illinois.starts.asm.ByteVector
+[INFO] * Updating database to edu.illinois.starts.asm.Item
+[INFO] * Updating database to edu.illinois.starts.data.ZLCData
+[INFO] * Updating database to edu.illinois.starts.asm.FieldVisitor
+[INFO] * Updating database to edu.illinois.starts.maven.JavaAgent
+[INFO] * Updating database to edu.illinois.starts.asm.Attribute
+[INFO] * Updating database to edu.illinois.starts.helpers.ZLCHelper
+[INFO] * Updating database to edu.illinois.starts.asm.AnnotationVisitor
+[INFO] * Updating database to edu.illinois.starts.asm.AnnotationWriter
+[INFO] * Updating database to edu.illinois.starts.asm.ClassReader
+[INFO] * Updating database to edu.illinois.starts.helpers.FileUtil
+[INFO] * Updating database to edu.illinois.starts.util.Logger
+[INFO] * Updating database to edu.illinois.starts.asm.MethodWriter
+[INFO] * Updating database to edu.illinois.starts.asm.TypePath
+[INFO] * Updating database to edu.illinois.starts.helpers.Writer
+[INFO] * Updating database to edu.illinois.starts.asm.Type
+[INFO] * Updating database to edu.illinois.starts.helpers.Cache
+[INFO] * Updating database to edu.illinois.starts.maven.SurefireMojoInterceptor
+[INFO] * Updating database to edu.illinois.starts.helpers.PomUtil
+[INFO] * Updating database to edu.illinois.starts.helpers.EkstaziHelper
+[INFO] * Updating database to edu.illinois.starts.util.ChecksumUtil
+[INFO] * Updating database to edu.illinois.starts.maven.AbstractMojoInterceptor
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 33
+[INFO] Missing classes:
+[INFO] edu.illinois.starts.asm.Edge
+[INFO] edu.illinois.starts.util.Pair
+[INFO] edu.illinois.starts.asm.Handle
+[INFO] edu.illinois.starts.maven.MavenCFT
+[INFO] edu.illinois.starts.asm.Type
+[INFO] edu.illinois.starts.maven.AbstractMojoInterceptor
+[INFO] WARN: failed to generate tests for 6 classes out of 39
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building STARTS Maven Plugin 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ starts-maven-plugin >>>
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ starts-maven-plugin ---
+[INFO] Starting audit...
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/CleanMojo.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/DiffMojo.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/DiffMojo.java:130:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/ImpactedMojo.java:47:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/RunMojo.java:52:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/SelectMojo.java:37:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/StartsMojo.java:25:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/java/edu/illinois/starts/jdeps/SetupUtil.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/java/edu/illinois/starts/jdeps/VerifyUtil.java:25:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/java/edu/illinois/starts/jdeps/VerifyUtil.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.8:prepare-agent (pre-unit-test) @ starts-maven-plugin ---
+[INFO] argLine set to -javaagent:/Users/Peifeng/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/target/jacoco.exec
+[INFO]
+[INFO] --- maven-plugin-plugin:3.3:helpmojo (help-goal) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[INFO] Mojo extractor for language: java-annotations found 0 mojo descriptors.
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ starts-maven-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/target/classes
+[WARNING] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Some input files use unchecked or unsafe operations.
+[WARNING] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ starts-maven-plugin <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ starts-maven-plugin ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin
+[INFO] Started spawn process manager on port 64934
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:64935
+[INFO] Going to execute 8 jobs
+[INFO] Estimated completion time: 16 minutes, by 2017-10-15T14:52:17.603
+[INFO] Going to start job for: HelpMojo. Expected to end in 348 seconds, by 2017-10-15T14:42:05.654
+[INFO] Registered remote process from /127.0.0.1:64937
+[INFO] Registered remote process from /127.0.0.1:64944
+[INFO] Completed job. Left: 7
+[INFO] Going to start job for: edu.illinois.starts.jdeps.DiffMojo. Expected to end in 130 seconds, by 2017-10-15T14:38:30.723
+[INFO] Registered remote process from /127.0.0.1:64945
+[INFO] Registered remote process from /127.0.0.1:64951
+[INFO] Completed job. Left: 6
+[INFO] Going to start job for: edu.illinois.starts.jdeps.ImpactedMojo. Expected to end in 100 seconds, by 2017-10-15T14:39:34.021
+[INFO] Registered remote process from /127.0.0.1:64962
+[INFO] Registered remote process from /127.0.0.1:64968
+[INFO] Completed job. Left: 5
+[INFO] Going to start job for: edu.illinois.starts.jdeps.RunMojo. Expected to end in 95 seconds, by 2017-10-15T14:40:40.779
+[INFO] Registered remote process from /127.0.0.1:64979
+[INFO] Registered remote process from /127.0.0.1:64986
+[INFO] Completed job. Left: 4
+[INFO] Going to start job for: edu.illinois.starts.jdeps.BaseMojo. Expected to end in 85 seconds, by 2017-10-15T14:41:43.050
+[INFO] Registered remote process from /127.0.0.1:65009
+[INFO] Registered remote process from /127.0.0.1:65017
+[INFO] Completed job. Left: 3
+[INFO] Going to start job for: edu.illinois.starts.jdeps.SelectMojo. Expected to end in 75 seconds, by 2017-10-15T14:41:36.627
+[INFO] Registered remote process from /127.0.0.1:65019
+[INFO] Registered remote process from /127.0.0.1:65026
+[INFO] Completed job. Left: 2
+[INFO] Going to start job for: edu.illinois.starts.jdeps.CleanMojo. Expected to end in 65 seconds, by 2017-10-15T14:42:21.687
+[INFO] Registered remote process from /127.0.0.1:65065
+[INFO] Registered remote process from /127.0.0.1:65073
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: edu.illinois.starts.jdeps.StartsMojo. Expected to end in 60 seconds, by 2017-10-15T14:42:19.158
+[INFO] Registered remote process from /127.0.0.1:65074
+[INFO] Registered remote process from /127.0.0.1:65080
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to edu.illinois.starts.jdeps.CleanMojo
+[INFO] * Updating database to edu.illinois.starts.jdeps.ImpactedMojo
+[INFO] * Updating database to edu.illinois.starts.jdeps.StartsMojo
+[INFO] * Updating database to edu.illinois.starts.jdeps.RunMojo
+[INFO] * Updating database to edu.illinois.starts.jdeps.DiffMojo
+[INFO] * Updating database to edu.illinois.starts.jdeps.SelectMojo
+[INFO] * Updating database to HelpMojo
+[INFO] * Updating database to edu.illinois.starts.jdeps.BaseMojo
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 4
+[INFO] Missing classes:
+[INFO] edu.illinois.starts.jdeps.CleanMojo
+[INFO] edu.illinois.starts.jdeps.StartsMojo
+[INFO] HelpMojo
+[INFO] edu.illinois.starts.jdeps.BaseMojo
+[INFO] WARN: failed to generate tests for 4 classes out of 8
+[INFO] Stopping spawn process manager
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] STARTS ............................................. SUCCESS [  3.891 s]
+[INFO] starts-core ........................................ SUCCESS [54:22 min]
+[INFO] STARTS Maven Plugin ................................ SUCCESS [05:20 min]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 59:48 min
+[INFO] Finished at: 2017-10-15T14:41:22-07:00
+[INFO] Final Memory: 38M/406M
+[INFO] ------------------------------------------------------------------------
+Peifengs-MacBook-Air:starts Peifeng$

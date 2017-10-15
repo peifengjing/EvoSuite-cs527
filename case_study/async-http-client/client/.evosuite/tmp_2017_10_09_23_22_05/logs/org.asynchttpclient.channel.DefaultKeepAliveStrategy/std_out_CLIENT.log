@@ -1,0 +1,4 @@
+[MASTER] 00:56:40.999 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.channel.DefaultKeepAliveStrategy.seed
+[MASTER] 00:56:41.388 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 12 seconds more than allowed.
+[MASTER] 00:57:32.364 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 00:57:40.596 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 7s, but only 5s are left

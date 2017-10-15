@@ -1,0 +1,2 @@
+[MASTER] 00:02:54.040 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.util.MiscUtils.seed
+[MASTER] 00:03:53.832 [TEST_EXECUTION_THREAD_0] WARN  TestUsageChecker - class java.util.function.Function$$Lambda$40/1364469872 looks like an anonymous class, ignoring it (although reflection says false) Function$$Lambda$40/1364469872

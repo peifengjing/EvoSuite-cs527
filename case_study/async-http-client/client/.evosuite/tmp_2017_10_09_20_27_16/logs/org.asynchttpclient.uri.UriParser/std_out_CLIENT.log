@@ -1,2 +1,0 @@
-[MASTER] 20:27:45.596 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.uri.UriParser.seed
-[MASTER] 20:34:37.393 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation

@@ -1,0 +1,126 @@
+* Starting client
+* Connecting to master process on port 4769
+* Analyzing classpath: 
+  - /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/scribejava/scribejava-httpclient-ning/target/classes
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/charsets.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/deploy.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/jaccess.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/jfxrt.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/localedata.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/sunec.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/javaws.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jce.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jfr.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jfxswt.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jsse.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/management-agent.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/plugin.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/resources.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/rt.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/lib/ant-javafx.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/lib/dt.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/lib/javafx-mx.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/lib/jconsole.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/lib/packager.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/lib/sa-jdi.jar
+  - /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/lib/tools.jar
+  - /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/scribejava/scribejava-httpclient-ning/target/classes
+  - /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/scribejava/scribejava-core/target/classes
+  - /Users/Peifeng/.m2/repository/com/ning/async-http-client/1.9.40/async-http-client-1.9.40.jar
+  - /Users/Peifeng/.m2/repository/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
+  - /Users/Peifeng/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+  - /Users/Peifeng/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /Users/Peifeng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+  - /Users/Peifeng/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar
+  - /Users/Peifeng/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[MASTER] 20:35:09.618 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.glassfish.grizzly.nio.transport.TCPNIOTransport was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 20:35:09.622 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: org.glassfish.grizzly.nio.transport.TCPNIOTransport
+[MASTER] 20:35:10.022 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.glassfish.grizzly.http.HttpContent was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 20:35:10.023 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: org.glassfish.grizzly.http.HttpContent
+[MASTER] 20:35:10.024 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.glassfish.grizzly.http.HttpContent was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 20:35:10.024 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.glassfish.grizzly.http.HttpContent was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 20:35:10.057 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.glassfish.grizzly.http.HttpResponsePacket was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 20:35:10.057 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: org.glassfish.grizzly.http.HttpResponsePacket
+[MASTER] 20:35:10.073 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.glassfish.grizzly.http.Protocol was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 20:35:10.073 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: org.glassfish.grizzly.http.Protocol
+[MASTER] 20:35:10.073 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.glassfish.grizzly.http.Protocol was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 20:35:10.073 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.glassfish.grizzly.http.HttpResponsePacket was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 20:35:10.073 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.glassfish.grizzly.http.HttpResponsePacket was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+* Finished analyzing classpath
+* Generating tests for class com.github.scribejava.httpclient.ning.NingHttpClient
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 20:35:12.036 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/scribejava/scribejava-httpclient-ning/.evosuite/evosuite-seeds/com.github.scribejava.httpclient.ning.NingHttpClient.seed
+* Loaded 0 tests from /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/scribejava/scribejava-httpclient-ning/.evosuite/evosuite-seeds/com.github.scribejava.httpclient.ning.NingHttpClient.seed
+* Total number of test goals: 
+  - Line 40
+  - Branch 37
+  - Exception 0
+  - MutationFactory 59
+  - Output 6
+  - Method 7
+  - MethodNoException 7
+  - CBranchFitnessFactory 37
+* Using seed 1507865702037
+* Starting evolution
+[MASTER] 20:39:06.569 [pool-2-thread-1] WARN  TimeController - Operation 'update from archive' took too long: 13145ms
+* Search finished after 234s and 0 generations, 576 statements, best individual has fitness: 212.1
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 20:39:55.560 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 57%
+* Total number of goals: 40
+* Number of covered goals: 23
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 54%
+* Total number of goals: 37
+* Number of covered goals: 20
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 81%
+* Total number of goals: 59
+* Number of covered goals: 48
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 0%
+* Total number of goals: 6
+* Number of covered goals: 0
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 86%
+* Total number of goals: 7
+* Number of covered goals: 6
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 43%
+* Total number of goals: 7
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 54%
+* Total number of goals: 37
+* Number of covered goals: 20
+* Generated 13 tests with total length 216
+* Resulting test suite's coverage: 40% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 20:40:31.937 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 1%
+* Compiling and checking tests
+* Writing JUnit test case 'NingHttpClient_ESTest' to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/scribejava/scribejava-httpclient-ning/.evosuite/tmp_2017_10_12_20_34_58/tests
+* Done!
+

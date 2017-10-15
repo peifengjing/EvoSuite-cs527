@@ -1,0 +1,61 @@
+[MASTER] 20:41:27.817 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Problem for com.github.scribejava.httpclient.ning.OAuthAsyncCompletionHandler. Class not found: com.sun.deploy.uitoolkit.impl.fx.FXPreloader$FXDispatcher
+java.lang.NoClassDefFoundError: com/sun/applet2/preloader/Preloader
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_77]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_77]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[na:1.8.0_77]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[na:1.8.0_77]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[na:1.8.0_77]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[na:1.8.0_77]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[na:1.8.0_77]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_77]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[na:1.8.0_77]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_77]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_77]
+	at java.lang.Class.getDeclaringClass0(Native Method) ~[na:1.8.0_77]
+	at java.lang.Class.getDeclaringClass(Class.java:1235) ~[na:1.8.0_77]
+	at java.lang.Class.getEnclosingClass(Class.java:1277) ~[na:1.8.0_77]
+	at java.lang.Class.getSimpleBinaryName(Class.java:1443) ~[na:1.8.0_77]
+	at java.lang.Class.getSimpleName(Class.java:1309) ~[na:1.8.0_77]
+	at java.lang.Class.isAnonymousClass(Class.java:1411) ~[na:1.8.0_77]
+	at org.evosuite.setup.TestUsageChecker.canUse(TestUsageChecker.java:155) ~[evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:129) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:876) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:787) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:983) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_77]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+Caused by: java.lang.ClassNotFoundException: com.sun.applet2.preloader.Preloader
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_77]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_77]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_77]
+	... 35 common frames omitted
+[MASTER] 20:41:27.818 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 20:41:28.695 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 20:41:28.696 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashMap<K, V> : Type points to itself
+[MASTER] 20:41:28.697 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.concurrent.ForkJoinTask<V> : Type points to itself
+[MASTER] 20:42:58.737 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.jboss.netty.channel.ChannelFutureListener: org/jboss/netty/channel/ChannelFutureListener$1
+[MASTER] 20:42:58.848 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.jboss.netty.handler.ssl.SslHandler: org/jboss/netty/handler/ssl/SslHandler$PendingWrite
+[MASTER] 20:42:58.959 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.ning.http.client.providers.netty.request.NettyRequestSender: com/ning/http/client/filter/FilterException
+[MASTER] 20:42:58.985 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.jboss.netty.channel.ChannelFutureProgressListener: org.jboss.netty.channel.ChannelFutureListener
+[MASTER] 20:42:59.008 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.ning.http.client.providers.netty.handler.Protocol: org/jboss/netty/handler/codec/http/HttpResponseStatus
+[MASTER] 20:42:59.108 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.ning.http.client.providers.netty.chmv8.ConcurrentHashMapV8: com/ning/http/client/providers/netty/chmv8/ConcurrentHashMapV8$Node
+[MASTER] 20:42:59.148 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.ning.http.client.providers.netty.handler.HttpProtocol: com.ning.http.client.providers.netty.handler.Protocol
+[MASTER] 20:42:59.161 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.jboss.netty.handler.codec.http.HttpClientCodec: org/jboss/netty/handler/codec/http/HttpRequestEncoder
+[MASTER] 20:42:59.200 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.ning.http.client.providers.netty.handler.WebSocketProtocol: com.ning.http.client.providers.netty.handler.Protocol
+[MASTER] 20:43:00.034 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.jboss.netty.channel.ChannelFutureListener: org/jboss/netty/channel/ChannelFutureListener$2
+[MASTER] 20:43:00.134 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.jboss.netty.handler.ssl.SslHandler: Lorg/jboss/netty/handler/ssl/SslBufferPool;
+[MASTER] 20:43:00.352 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.ning.http.client.providers.netty.chmv8.ConcurrentHashMapV8: com/ning/http/client/providers/netty/chmv8/ConcurrentHashMapV8$TreeNode
+[MASTER] 20:43:00.386 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.ning.http.client.providers.netty.handler.HttpProtocol: com/ning/http/client/providers/netty/response/NettyResponseBodyPart
+[MASTER] 20:43:00.406 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.jboss.netty.handler.codec.http.HttpClientCodec: org/jboss/netty/handler/codec/http/HttpClientCodec$Encoder
+[MASTER] 20:43:00.440 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.ning.http.client.providers.netty.handler.WebSocketProtocol: com/ning/http/client/providers/netty/response/NettyResponseHeaders

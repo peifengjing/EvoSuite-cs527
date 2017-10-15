@@ -1,0 +1,276 @@
+Last login: Sun Oct 15 15:16:59 on ttys001
+Peifengs-MacBook-Air:starts Peifeng$ mvn test
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-core:jar:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ edu.illinois:starts:1.4-SNAPSHOT, /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/pom.xml, line 197, column 15
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-maven-plugin:maven-plugin:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ edu.illinois:starts:1.4-SNAPSHOT, /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/pom.xml, line 197, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 33, column 14
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts:pom:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 197, column 15
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO] Inspecting build with total of 3 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] STARTS
+[INFO] starts-core
+[INFO] STARTS Maven Plugin
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building STARTS 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ starts ---
+[INFO] Starting audit...
+Audit done.
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.8:prepare-agent (pre-unit-test) @ starts ---
+[INFO] argLine set to -javaagent:/Users/Peifeng/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/target/jacoco.exec
+[INFO]
+[INFO] --- build-helper-maven-plugin:1.8:add-test-source (add-test-source) @ starts ---
+[INFO] Test Source directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/targetFolder added.
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.8:report (post-unit-test) @ starts ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building starts-core 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ starts-core ---
+[INFO] Starting audit...
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/data/ZLCData.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Cache.java:35:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/EkstaziHelper.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/EkstaziHelper.java:55:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/FileUtil.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:43:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:64:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:78:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:160:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Loadables.java:207:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:59:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:71:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:32:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:40:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:75:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/RTSUtil.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:52:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:66:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:102:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:114:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:130:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:144:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:159:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/Writer.java:175:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:29:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:47:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:64:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:72:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/YasglHelper.java:82:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:79:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:89:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:123:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/helpers/ZLCHelper.java:184:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/maven/AgentLoader.java:32:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/maven/MavenCFT.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/maven/SurefireMojoInterceptor.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:94:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:105:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/ChecksumUtil.java:124:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/Logger.java:31:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/java/edu/illinois/starts/util/Logger.java:39:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:43:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java:160:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:50:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java:60:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.8:prepare-agent (pre-unit-test) @ starts-core ---
+[INFO] argLine set to -javaagent:/Users/Peifeng/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/target/jacoco.exec
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ starts-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ starts-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- build-helper-maven-plugin:1.8:add-test-source (add-test-source) @ starts-core ---
+[INFO] Test Source directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/targetFolder added.
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ starts-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ starts-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/target/test-classes
+[WARNING] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ starts-core ---
+[INFO] Surefire report directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+objc[86845]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java (0x10b05c4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10b1564e0). One of the two will be used. Which one is undefined.
+Running edu.illinois.starts.helpers.WriterTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.5 sec
+Running edu.illinois.starts.helpers.YasglHelperTest
+...Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+
+Results :
+
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.8:report (post-unit-test) @ starts-core ---
+[INFO] Loading execution data file /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/target/jacoco.exec
+[INFO] Analyzed bundle 'starts-core' with 47 classes
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building STARTS Maven Plugin 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ starts-maven-plugin ---
+[INFO] Starting audit...
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/CleanMojo.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/DiffMojo.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/DiffMojo.java:130:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/ImpactedMojo.java:47:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/RunMojo.java:52:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/SelectMojo.java:37:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/StartsMojo.java:25:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/java/edu/illinois/starts/jdeps/SetupUtil.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/java/edu/illinois/starts/jdeps/VerifyUtil.java:25:5: Missing a Javadoc comment. [JavadocMethod]
+[WARN] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/java/edu/illinois/starts/jdeps/VerifyUtil.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.8:prepare-agent (pre-unit-test) @ starts-maven-plugin ---
+[INFO] argLine set to -javaagent:/Users/Peifeng/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/target/jacoco.exec
+[INFO]
+[INFO] --- maven-plugin-plugin:3.3:helpmojo (help-goal) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[WARNING]
+
+A help goal (HelpMojo) already exists in this plugin. SKIPPED THE edu.illinois.starts.jdeps.HelpMojo GENERATION.
+
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ starts-maven-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-plugin-plugin:3.3:descriptor (default-descriptor) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[INFO]
+[INFO] --- maven-plugin-plugin:3.3:descriptor (mojo-descriptor) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[INFO]
+[INFO] --- build-helper-maven-plugin:1.8:add-test-source (add-test-source) @ starts-maven-plugin ---
+[INFO] Test Source directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/targetFolder added.
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ starts-maven-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ starts-maven-plugin ---
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.8:report (post-unit-test) @ starts-maven-plugin ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] STARTS ............................................. SUCCESS [  3.978 s]
+[INFO] starts-core ........................................ SUCCESS [  7.312 s]
+[INFO] STARTS Maven Plugin ................................ SUCCESS [  9.148 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 21.654 s
+[INFO] Finished at: 2017-10-15T15:29:34-07:00
+[INFO] Final Memory: 41M/391M
+[INFO] ------------------------------------------------------------------------
+Peifengs-MacBook-Air:starts Peifeng$

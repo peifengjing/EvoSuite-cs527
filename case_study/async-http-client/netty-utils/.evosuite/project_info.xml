@@ -61,6 +61,63 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>1</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>150</timeBudgetInSeconds>
+            <memoryInMB>800</memoryInMB>
+            <std_err_CLIENT>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/logs/org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/logs/org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/logs/org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/logs/org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/tests/org/asynchttpclient/netty/util/Utf8ByteBufCharsetDecoder_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>29</numberOfTests>
+                <totalNumberOfStatements>290</totalNumberOfStatements>
+                <totalEffortInSeconds>119</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.66</coverageValue>
+                    <coverageBitString>1111111111111111111111111111111111111111011110111111111111110000000000000000000000011111110000000001</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.57</coverageValue>
+                    <coverageBitString>111111110111111100000000000000000000000000100011111011111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.4</coverageValue>
+                    <coverageBitString>1111101111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111100111111111111110111111111111111111111110111111111111111111111111101111111111111111111111111111110</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.21</coverageValue>
+                    <coverageBitString>000000000000000000000000000110110110110</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.51</coverageValue>
+                    <coverageBitString>111111111011111100000000000000000000000000001011111000001111111111111111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>org.asynchttpclient.netty.util.ByteBufUtils</fullNameOfTargetClass>
@@ -119,6 +176,63 @@
                     <criterion>CBranchCoverage</criterion>
                     <coverageValue>0.7</coverageValue>
                     <coverageBitString>00011111101011111011</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>1</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>89</timeBudgetInSeconds>
+            <memoryInMB>800</memoryInMB>
+            <std_err_CLIENT>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/logs/org.asynchttpclient.netty.util.ByteBufUtils/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/logs/org.asynchttpclient.netty.util.ByteBufUtils/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/logs/org.asynchttpclient.netty.util.ByteBufUtils/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/logs/org.asynchttpclient.netty.util.ByteBufUtils/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/.evosuite/tmp_2017_10_09_23_18_35/tests/org/asynchttpclient/netty/util/ByteBufUtils_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>16</numberOfTests>
+                <totalNumberOfStatements>186</totalNumberOfStatements>
+                <totalEffortInSeconds>72</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.9</coverageValue>
+                    <coverageBitString>001111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.75</coverageValue>
+                    <coverageBitString>10001111010111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.87</coverageValue>
+                    <coverageBitString>101011111101111111111111011111011111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.79</coverageValue>
+                    <coverageBitString>11011111011101</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.75</coverageValue>
+                    <coverageBitString>00011111101011111111</coverageBitString>
                 </coverage>
             </suite>
         </generation>

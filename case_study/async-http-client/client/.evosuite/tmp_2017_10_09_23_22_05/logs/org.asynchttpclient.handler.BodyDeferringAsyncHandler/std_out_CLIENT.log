@@ -1,0 +1,4 @@
+[MASTER] 00:53:29.320 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.handler.BodyDeferringAsyncHandler.seed
+[MASTER] 00:53:29.798 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 12 seconds more than allowed.
+[MASTER] 00:54:31.776 [pool-2-thread-1] WARN  TimeController - Operation 'update from archive' took too long: 5605ms
+[MASTER] 00:54:32.691 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 11 seconds more than allowed.

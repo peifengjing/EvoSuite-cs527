@@ -1,0 +1,19 @@
+[MASTER] 00:20:38.831 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 00:20:42.228 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 00:22:06.241 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledDirectByteBuf: io/netty/buffer/PooledDirectByteBuf$1
+[MASTER] 00:22:06.250 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue: Lio/netty/util/internal/shaded/org/jctools/queues/LinkedQueueNode;
+[MASTER] 00:22:06.254 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.SpscLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue
+[MASTER] 00:22:06.502 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 00:22:06.528 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef
+[MASTER] 00:22:06.534 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalDirectByteBuf: io/netty/buffer/ByteBufUtil$ThreadLocalDirectByteBuf$1
+[MASTER] 00:22:06.644 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2
+[MASTER] 00:22:06.645 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1
+[MASTER] 00:22:06.658 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalUnsafeDirectByteBuf: io/netty/buffer/ByteBufUtil$ThreadLocalUnsafeDirectByteBuf$1
+[MASTER] 00:22:07.327 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.AsciiString: io/netty/util/AsciiString$1
+[MASTER] 00:22:07.381 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.ThreadLocalRandom: io/netty/util/internal/ThreadLocalRandom$1
+[MASTER] 00:22:07.487 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledSlicedByteBuf: io/netty/buffer/PooledSlicedByteBuf$1
+[MASTER] 00:22:07.870 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledDuplicatedByteBuf: io/netty/buffer/PooledDuplicatedByteBuf$1
+[MASTER] 00:22:08.704 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledHeapByteBuf: io/netty/buffer/PooledHeapByteBuf$1
+[MASTER] 00:22:08.748 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledUnsafeHeapByteBuf: io/netty/buffer/PooledUnsafeHeapByteBuf$1
+[MASTER] 00:22:08.755 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1
+[MASTER] 00:22:08.785 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.AsciiString: io.netty.util.HashingStrategy

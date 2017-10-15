@@ -1,0 +1,12 @@
+=== CTG run results ===
+Removed test suites: 0
+New test suites: 106
+
+Missing classes:
+com.github.scribejava.apis.examples.TumblrExample
+com.github.scribejava.apis.examples.TwitterExample
+
+WARN: failed to generate tests for 2 classes out of 108
+Going to execute command:
+  compile  evosuite:generate  -Dcores=1  -DmemoryInMB=2000  -DtimeInMinutesPerClass=3  -DspawnManagerPort=58116  -Dcuts=com.github.scribejava.httpclient.okhttp.OkHttpHttpClientTest,com.github.scribejava.httpclient.okhttp.OAuthAsyncCompletionHandler,com.github.scribejava.httpclient.okhttp.OkHttpFuture,com.github.scribejava.httpclient.okhttp.OkHttpHttpClient,com.github.scribejava.httpclient.okhttp.OkHttpHttpClientConfig,com.github.scribejava.httpclient.okhttp.OkHttpProvider  evosuite:export  -DtargetFolder=src/evo
+in folder: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/scribejava/scribejava-httpclient-okhttp
