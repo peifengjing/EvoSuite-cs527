@@ -1,0 +1,4 @@
+[MASTER] 16:27:38.667 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.util.AuthenticatorUtils.seed
+[MASTER] 16:30:46.836 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class io.netty.handler.ssl.SslContext canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 16:32:32.500 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 66 seconds more than allowed.
+[MASTER] 16:32:44.020 [pool-2-thread-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown while loading method  __STATIC_RESET() for class org.testng.TestRunner

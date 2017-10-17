@@ -1,0 +1,21 @@
+[MASTER] 19:00:37.015 [main] ERROR ExternalProcessHandler - Class org.asynchttpclient.netty.request.body.NettyMultipartBody. Lost connection with clients.
+ClientNode: INITIALIZATION
+
+java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:229) ~[na:1.8.0_77]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162) ~[na:1.8.0_77]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_77]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_77]
+	at com.sun.proxy.$Proxy7.waitUntilFinished(Unknown Source) ~[na:na]
+	at org.evosuite.utils.ExternalProcessHandler.waitForResult(ExternalProcessHandler.java:608) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.executionmode.TestGeneration.generateTests(TestGeneration.java:472) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.executionmode.TestGeneration.executeTestGeneration(TestGeneration.java:78) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:267) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.EvoSuite.main(EvoSuite.java:300) [evosuite-master-1.0.5.jar:1.0.5]
+Caused by: java.io.EOFException: null
+	at java.io.DataInputStream.readByte(DataInputStream.java:267) ~[na:1.8.0_77]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:215) ~[na:1.8.0_77]
+	... 9 common frames omitted
+[MASTER] 19:00:37.133 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 19:00:37.238 [main] ERROR TestGeneration - failed to write statistics data

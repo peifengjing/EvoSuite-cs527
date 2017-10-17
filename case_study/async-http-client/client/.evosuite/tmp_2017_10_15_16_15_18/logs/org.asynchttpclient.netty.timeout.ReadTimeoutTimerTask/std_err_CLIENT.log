@@ -1,0 +1,13 @@
+[MASTER] 17:48:25.172 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.netty.NettyResponseFuture<V> : Type points to itself
+[MASTER] 17:48:46.612 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/buffer/ByteBufUtil
+[MASTER] 17:48:46.686 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpClientCodec: io/netty/channel/CombinedChannelDuplexHandler$DelegatingChannelHandlerContext
+[MASTER] 17:48:46.785 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.netty.handler.WebSocketHandler: org/asynchttpclient/exception/ChannelClosedException
+[MASTER] 17:48:46.888 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslHandler: io/netty/handler/codec/ByteToMessageDecoder$1
+[MASTER] 17:48:46.897 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$1
+[MASTER] 17:48:46.935 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpContentDecoder: io/netty/handler/codec/http/DefaultHttpResponse
+[MASTER] 17:48:46.946 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1
+[MASTER] 17:48:46.957 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.ByteToMessageDecoder: Could not initialize class io.netty.handler.codec.ByteToMessageDecoder
+[MASTER] 17:48:46.987 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/JdkSslServerContext
+[MASTER] 17:48:46.999 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.CombinedChannelDuplexHandler: io/netty/channel/CombinedChannelDuplexHandler$1
+[MASTER] 17:48:47.003 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$IndexOfProcessor
+[MASTER] 17:48:47.023 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.bootstrap.Bootstrap: io/netty/resolver/AddressResolverGroup

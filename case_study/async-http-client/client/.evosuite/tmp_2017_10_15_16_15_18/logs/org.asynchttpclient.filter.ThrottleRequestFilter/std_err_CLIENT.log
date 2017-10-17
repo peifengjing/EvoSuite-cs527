@@ -1,0 +1,2 @@
+[MASTER] 18:07:48.932 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.filter.FilterContext<T> : Type points to itself
+[MASTER] 18:08:49.960 [pool-2-thread-1] ERROR JUnitAnalyzer - Ran out of time while checking tests

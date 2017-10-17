@@ -1,0 +1,4 @@
+[MASTER] 18:34:32.170 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.request.body.generator.ByteArrayBodyGenerator.seed
+[MASTER] 18:34:32.313 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 0 seconds more than allowed.
+[MASTER] 18:35:09.009 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 18:35:14.939 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation

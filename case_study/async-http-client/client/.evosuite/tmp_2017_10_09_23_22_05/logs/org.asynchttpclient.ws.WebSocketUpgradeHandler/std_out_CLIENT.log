@@ -1,5 +1,0 @@
-[MASTER] 00:51:49.865 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.ws.WebSocketUpgradeHandler.seed
-[MASTER] 00:51:50.482 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 13 seconds more than allowed.
-[MASTER] 00:52:51.008 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
-[MASTER] 00:52:56.659 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.6981428571428572% of time used, but only 5/13 tests minimized), falling back to using all assertions
-[MASTER] 00:52:57.536 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 7s, but only 5s are left

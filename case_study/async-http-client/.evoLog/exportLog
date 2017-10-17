@@ -1,0 +1,178 @@
+Last login: Sun Oct 15 22:03:38 on ttys001
+Peifengs-MacBook-Air:starts Peifeng$ cd ../async-http-client/
+Peifengs-MacBook-Air:async-http-client Peifeng$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peifengs-MacBook-Air:async-http-client Peifeng$ mvn evosuite:export
+[INFO] Scanning for projects...
+[WARNING] The project org.asynchttpclient:async-http-client-project:pom:2.1.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] Asynchronous Http Client Project
+[INFO] Asynchronous Http Client Netty Utils
+[INFO] Asynchronous Http Client
+[INFO] Asynchronous Http Client Extras Parent
+[INFO] Asynchronous Http Client Guava Extras
+[INFO] Asynchronous Http Client JDeferred Extras
+[INFO] Asynchronous Http Client Registry Extras
+[INFO] Asynchronous Http Client RxJava Extras
+[INFO] Asynchronous Http Client RxJava2 Extras
+[INFO] Asynchronous Http Simple Client
+[INFO] Asynchronous Http Client Retrofit2 Extras
+[INFO] Asynchronous Http Client Example
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Project 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-project ---
+[INFO] Exporting tests
+[INFO] Nothing to export
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Netty Utils 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-netty-utils ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/src/test/evosuite
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/src/test/evosuite
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Extras Parent 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-extras-parent ---
+[INFO] Exporting tests
+[INFO] Nothing to export
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Guava Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-extras-guava ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/guava/src/test/evosuite
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client JDeferred Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-extras-jdeferred ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/jdeferred/src/test/evosuite
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Registry Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-extras-registry ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/registry/src/test/evosuite
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client RxJava Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-extras-rxjava ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava/src/test/evosuite
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client RxJava2 Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-extras-rxjava2 ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava2/src/test/evosuite
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Simple Client 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-extras-simple ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/simple/src/test/evosuite
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Retrofit2 Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-extras-retrofit2 ---
+[INFO] Exporting tests
+[INFO] Nothing to export
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Example 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ async-http-client-example ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/example/src/test/evosuite
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] Asynchronous Http Client Project ................... SUCCESS [  1.267 s]
+[INFO] Asynchronous Http Client Netty Utils ............... SUCCESS [  0.031 s]
+[INFO] Asynchronous Http Client ........................... SUCCESS [  0.286 s]
+[INFO] Asynchronous Http Client Extras Parent ............. SUCCESS [  0.008 s]
+[INFO] Asynchronous Http Client Guava Extras .............. SUCCESS [  0.018 s]
+[INFO] Asynchronous Http Client JDeferred Extras .......... SUCCESS [  0.019 s]
+[INFO] Asynchronous Http Client Registry Extras ........... SUCCESS [  0.020 s]
+[INFO] Asynchronous Http Client RxJava Extras ............. SUCCESS [  0.018 s]
+[INFO] Asynchronous Http Client RxJava2 Extras ............ SUCCESS [  0.020 s]
+[INFO] Asynchronous Http Simple Client .................... SUCCESS [  0.015 s]
+[INFO] Asynchronous Http Client Retrofit2 Extras .......... SUCCESS [  0.004 s]
+[INFO] Asynchronous Http Client Example ................... SUCCESS [  0.007 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.622 s
+[INFO] Finished at: 2017-10-15T22:07:48-07:00
+[INFO] Final Memory: 14M/176M
+[INFO] ------------------------------------------------------------------------
+Peifengs-MacBook-Air:async-http-client Peifeng$

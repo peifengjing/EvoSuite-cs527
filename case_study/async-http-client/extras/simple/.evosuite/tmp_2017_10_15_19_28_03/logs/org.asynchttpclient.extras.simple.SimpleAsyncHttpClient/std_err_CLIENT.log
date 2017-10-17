@@ -1,0 +1,212 @@
+[MASTER] 19:28:29.713 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Problem for org.asynchttpclient.extras.simple.SimpleAsyncHttpClient. Class not found: org.asynchttpclient.reactivestreams.ReactiveStreamsTest$CancellingSubscriber
+java.lang.NoClassDefFoundError: org/asynchttpclient/reactivestreams/ReactiveStreamsTest
+	at java.lang.Class.getDeclaringClass0(Native Method)
+	at java.lang.Class.getDeclaringClass(Class.java:1235)
+	at java.lang.Class.getEnclosingClass(Class.java:1277)
+	at java.lang.Class.getSimpleBinaryName(Class.java:1443)
+	at java.lang.Class.getSimpleName(Class.java:1309)
+	at java.lang.Class.isAnonymousClass(Class.java:1411)
+	at org.evosuite.setup.TestUsageChecker.canUse(TestUsageChecker.java:155)
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:129)
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61)
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:876)
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:787)
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:983)
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358)
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137)
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117)
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131)
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110)
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130)
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: Class not found: io/reactivex/Flowable: java.lang.NullPointerException: Class not found io/reactivex/Flowable
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168)
+	... 24 common frames omitted
+Caused by: java.lang.RuntimeException: Class not found: io/reactivex/Flowable: java.lang.NullPointerException: Class not found io/reactivex/Flowable
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:58)
+	at org.evosuite.shaded.org.objectweb.asm.ClassWriter.a(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.Frame.a(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.Frame.a(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodWriter.visitMaxs(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source)
+	at org.evosuite.runtime.instrumentation.LoopCounterMethodAdapter.visitMaxs(LoopCounterMethodAdapter.java:48)
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.commons.JSRInlinerAdapter.visitEnd(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.tree.ClassNode.accept(Unknown Source)
+	at org.evosuite.instrumentation.BytecodeInstrumentation.transformBytes(BytecodeInstrumentation.java:275)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.getTransformedBytes(InstrumentingClassLoader.java:175)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:192)
+	... 25 common frames omitted
+Caused by: java.lang.NullPointerException: Class not found io/reactivex/Flowable
+	at org.evosuite.runtime.util.ComputeClassWriter.typeInfo(ComputeClassWriter.java:186)
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:55)
+	... 44 common frames omitted
+[MASTER] 19:28:29.730 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 19:28:29.750 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Problem for org.asynchttpclient.extras.simple.SimpleAsyncHttpClient. Class not found: org.asynchttpclient.reactivestreams.ReactiveStreamsTest$SimpleSubscriber
+java.lang.NoClassDefFoundError: org/asynchttpclient/reactivestreams/ReactiveStreamsTest
+	at java.lang.Class.getDeclaringClass0(Native Method)
+	at java.lang.Class.getDeclaringClass(Class.java:1235)
+	at java.lang.Class.getEnclosingClass(Class.java:1277)
+	at java.lang.Class.getSimpleBinaryName(Class.java:1443)
+	at java.lang.Class.getSimpleName(Class.java:1309)
+	at java.lang.Class.isAnonymousClass(Class.java:1411)
+	at org.evosuite.setup.TestUsageChecker.canUse(TestUsageChecker.java:155)
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:129)
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61)
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:876)
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:787)
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:983)
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358)
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137)
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117)
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131)
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110)
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130)
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: Class not found: io/reactivex/Flowable: java.lang.NullPointerException: Class not found io/reactivex/Flowable
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168)
+	... 24 common frames omitted
+Caused by: java.lang.RuntimeException: Class not found: io/reactivex/Flowable: java.lang.NullPointerException: Class not found io/reactivex/Flowable
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:58)
+	at org.evosuite.shaded.org.objectweb.asm.ClassWriter.a(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.Frame.a(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.Frame.a(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodWriter.visitMaxs(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source)
+	at org.evosuite.runtime.instrumentation.LoopCounterMethodAdapter.visitMaxs(LoopCounterMethodAdapter.java:48)
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.commons.JSRInlinerAdapter.visitEnd(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(Unknown Source)
+	at org.evosuite.shaded.org.objectweb.asm.tree.ClassNode.accept(Unknown Source)
+	at org.evosuite.instrumentation.BytecodeInstrumentation.transformBytes(BytecodeInstrumentation.java:275)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.getTransformedBytes(InstrumentingClassLoader.java:175)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:192)
+	... 25 common frames omitted
+Caused by: java.lang.NullPointerException: Class not found io/reactivex/Flowable
+	at org.evosuite.runtime.util.ComputeClassWriter.typeInfo(ComputeClassWriter.java:186)
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:55)
+	... 44 common frames omitted
+[MASTER] 19:28:29.751 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 19:28:34.396 [pool-2-thread-1] ERROR TestClusterGenerator - Problem for org.asynchttpclient.extras.simple.SimpleAsyncHttpClient. Failed to add dependencies for class org.testng.TestRunner: java.lang.TypeNotPresentException: Type com.google.inject.Module not present
+[sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.repository.FieldRepository.getGenericType(FieldRepository.java:85), java.lang.reflect.Field.getGenericType(Field.java:247), java.lang.reflect.Field.toGenericString(Field.java:329), org.evosuite.setup.TestClusterUtils.getFields(TestClusterUtils.java:224), org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:1007), org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358), org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137), org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117), org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131), org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110), org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130), org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145), java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511), java.util.concurrent.FutureTask.run(FutureTask.java:266), java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617), java.lang.Thread.run(Thread.java:745)]
+[MASTER] 19:28:42.975 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.channel.CombinedChannelDuplexHandler<I, O> : Type points to itself
+[MASTER] 19:28:42.979 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.DefaultProgressivePromise<V> : Type points to itself
+[MASTER] 19:28:42.982 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.DefaultPromise<V> : Type points to itself
+[MASTER] 19:28:42.985 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.FailedFuture<V> : Type points to itself
+[MASTER] 19:28:42.987 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.SucceededFuture<V> : Type points to itself
+[MASTER] 19:28:42.991 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.lang.reflect.Constructor<T> : Type points to itself
+[MASTER] 19:28:46.090 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Collection<E> : Type points to itself
+[MASTER] 19:28:50.155 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 19:28:52.218 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 19:28:53.836 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 19:29:42.939 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 19:30:31.893 [pool-2-thread-1] ERROR TestClusterGenerator - Problem for org.asynchttpclient.extras.simple.SimpleAsyncHttpClient. Failed to add dependencies for class org.testng.TestRunner: java.lang.TypeNotPresentException: Type com.google.inject.Module not present
+[sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.repository.FieldRepository.getGenericType(FieldRepository.java:85), java.lang.reflect.Field.getGenericType(Field.java:247), java.lang.reflect.Field.toGenericString(Field.java:329), org.evosuite.setup.TestClusterUtils.getFields(TestClusterUtils.java:224), org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:1007), org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358), org.evosuite.setup.TestClusterGenerator.addNewDependencies(TestClusterGenerator.java:164), org.evosuite.testcase.TestFactory.createObject(TestFactory.java:1257), org.evosuite.testcase.TestFactory.attemptGeneration(TestFactory.java:814), org.evosuite.testcase.TestFactory.createVariable(TestFactory.java:1401), org.evosuite.testcase.TestFactory.createOrReuseVariable(TestFactory.java:1346), org.evosuite.testcase.TestFactory.addMethod(TestFactory.java:513), org.evosuite.testcase.TestFactory.createObject(TestFactory.java:1276), org.evosuite.testcase.TestFactory.attemptGeneration(TestFactory.java:814), org.evosuite.testcase.TestFactory.createVariable(TestFactory.java:1401), org.evosuite.testcase.TestFactory.createOrReuseVariable(TestFactory.java:1346), org.evosuite.testcase.TestFactory.addMethod(TestFactory.java:513), org.evosuite.testcase.TestFactory.createObject(TestFactory.java:1276), org.evosuite.testcase.TestFactory.attemptGeneration(TestFactory.java:814), org.evosuite.testcase.TestFactory.createVariable(TestFactory.java:1401), org.evosuite.testcase.TestFactory.createOrReuseVariable(TestFactory.java:1346), org.evosuite.testcase.TestFactory.satisfyParameters(TestFactory.java:2320), org.evosuite.testcase.TestFactory.addConstructor(TestFactory.java:224), org.evosuite.testcase.TestFactory.createObject(TestFactory.java:1290), org.evosuite.testcase.TestFactory.attemptGeneration(TestFactory.java:814), org.evosuite.testcase.TestFactory.createVariable(TestFactory.java:1401), org.evosuite.testcase.TestFactory.createOrReuseVariable(TestFactory.java:1346), org.evosuite.testcase.TestFactory.satisfyParameters(TestFactory.java:2320), org.evosuite.testcase.TestFactory.addMethodFor(TestFactory.java:579), org.evosuite.testcase.TestFactory.insertRandomCall(TestFactory.java:2182), org.evosuite.testcase.mutation.RandomInsertion.insertStatement(RandomInsertion.java:83), org.evosuite.testcase.TestFactory.insertRandomStatement(TestFactory.java:2276), org.evosuite.testcase.TestChromosome.mutationInsert(TestChromosome.java:549), org.evosuite.testcase.TestChromosome.mutate(TestChromosome.java:324), org.evosuite.testsuite.AbstractTestSuiteChromosome.mutate(AbstractTestSuiteChromosome.java:208), org.evosuite.testsuite.TestSuiteChromosome.mutate(TestSuiteChromosome.java:264), org.evosuite.ga.metaheuristics.MonotonicGA.evolve(MonotonicGA.java:125), org.evosuite.ga.metaheuristics.MonotonicGA.generateSolution(MonotonicGA.java:245), org.evosuite.strategy.WholeTestSuiteStrategy.generateTests(WholeTestSuiteStrategy.java:113), org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:653), org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:236), org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145), java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511), java.util.concurrent.FutureTask.run(FutureTask.java:266), java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617), java.lang.Thread.run(Thread.java:745)]
+[MASTER] 19:31:54.895 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ScheduledFutureTask: null
+[MASTER] 19:31:55.084 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue: Lio/netty/util/internal/shaded/org/jctools/queues/LinkedQueueNode;
+[MASTER] 19:31:55.088 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.SpscLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue
+[MASTER] 19:31:55.186 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 19:31:55.189 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.PromiseTask: Could not initialize class io.netty.util.concurrent.PromiseTask
+[MASTER] 19:31:55.228 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ImmediateEventExecutor: Could not initialize class io.netty.util.concurrent.ScheduledFutureTask
+[MASTER] 19:31:55.246 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad: io/netty/util/internal/shaded/org/jctools/util/UnsafeAccess
+[MASTER] 19:31:55.276 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 19:31:55.328 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilder: Could not initialize class io.netty.util.concurrent.ImmediateEventExecutor
+[MASTER] 19:31:55.329 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL2Pad: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 19:31:55.351 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef
+[MASTER] 19:31:55.363 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.GlobalEventExecutor: Could not initialize class io.netty.util.concurrent.GlobalEventExecutor
+[MASTER] 19:31:55.364 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueue: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 19:31:55.364 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.DefaultPromise: Could not initialize class io.netty.util.concurrent.DefaultPromise
+[MASTER] 19:31:55.367 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2
+[MASTER] 19:31:55.552 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1
+[MASTER] 19:31:55.571 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField
+[MASTER] 19:31:55.572 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL3Pad: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 19:31:55.572 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilderBase: Could not initialize class org.asynchttpclient.RequestBuilderBase
+[MASTER] 19:31:55.574 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 19:31:55.675 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.DefaultPromise
+[MASTER] 19:31:55.675 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.GlobalEventExecutor
+[MASTER] 19:31:55.675 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.ImmediateEventExecutor
+[MASTER] 19:31:55.706 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class org.asynchttpclient.RequestBuilderBase
+[MASTER] 19:31:59.834 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.server.handler.AbstractHandlerContainer: org/eclipse/jetty/util/component/AbstractLifeCycle$1
+[MASTER] 19:32:00.249 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.ThreadLocalRandom: io/netty/util/internal/ThreadLocalRandom$1
+[MASTER] 19:32:00.265 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.Callback: org/eclipse/jetty/util/Callback$1
+[MASTER] 19:32:00.294 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe: io/netty/channel/socket/ChannelOutputShutdownException
+[MASTER] 19:32:00.459 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.apache.catalina.connector.Request: org/apache/catalina/connector/Request$1
+[MASTER] 19:32:01.066 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslServerContext: io/netty/handler/ssl/ReferenceCountedOpenSslContext$1
+[MASTER] 19:32:01.143 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.server.HttpConfiguration: org/eclipse/jetty/util/Jetty
+[MASTER] 19:32:01.236 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.DefaultHeaders$NameValidator: io/netty/handler/codec/DefaultHeaders$NameValidator$1
+[MASTER] 19:32:01.370 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilder: null
+[MASTER] 19:32:01.436 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.Realm$Builder: org/asynchttpclient/Realm$Builder$1
+[MASTER] 19:32:01.705 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslClientContext: io.netty.handler.ssl.OpenSslContext
+[MASTER] 19:32:01.738 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.DefaultHttpHeaders: io.netty.handler.codec.DefaultHeaders$NameValidator
+[MASTER] 19:32:01.798 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.http.HttpGenerator: org/eclipse/jetty/http/HttpGenerator$1
+[MASTER] 19:32:01.803 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1
+[MASTER] 19:32:01.807 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.ChannelFutureListener: io/netty/channel/ChannelFutureListener$1
+[MASTER] 19:32:01.829 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.CombinedHttpHeaders: io.netty.handler.codec.http.DefaultHttpHeaders
+[MASTER] 19:32:01.886 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.server.HttpInput: org.eclipse.jetty.util.Callback
+[MASTER] 19:32:01.936 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.server.Server: org.eclipse.jetty.server.handler.AbstractHandlerContainer
+[MASTER] 19:32:01.943 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.server.HttpInput$Content: org.eclipse.jetty.util.Callback
+[MASTER] 19:32:02.150 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.http.HttpParser: org/eclipse/jetty/http/HttpParser$CharState
+[MASTER] 19:32:02.203 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$1
+[MASTER] 19:32:02.205 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslContext: Could not initialize class io.netty.handler.ssl.ReferenceCountedOpenSslContext
+[MASTER] 19:32:02.226 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.DefaultChannelConfig: io/netty/channel/DefaultMessageSizeEstimator$HandleImpl
+[MASTER] 19:32:02.282 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.WrappedCompositeByteBuf: io/netty/buffer/Unpooled
+[MASTER] 19:32:02.324 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.ChannelOutboundBuffer: io/netty/channel/ChannelOutboundBuffer$1
+[MASTER] 19:32:02.398 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.server.HttpChannelOverHttp: org/eclipse/jetty/server/HttpInputOverHTTP
+[MASTER] 19:32:02.521 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.SimpleLeakAwareCompositeByteBuf: io.netty.buffer.WrappedCompositeByteBuf
+[MASTER] 19:32:02.522 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslClientContext: io.netty.handler.ssl.ReferenceCountedOpenSslContext
+[MASTER] 19:32:02.522 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.server.handler.HandlerWrapper: org.eclipse.jetty.server.handler.AbstractHandlerContainer
+[MASTER] 19:32:02.552 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalUnsafeDirectByteBuf: io/netty/util/Recycler
+[MASTER] 19:32:02.644 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslHandler: io/netty/handler/codec/ByteToMessageDecoder$1
+[MASTER] 19:32:02.648 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.server.HttpConnection$Content: org.eclipse.jetty.util.Callback
+[MASTER] 19:32:02.648 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ImmediateEventExecutor: Could not initialize class io.netty.util.concurrent.ImmediateEventExecutor
+[MASTER] 19:32:02.653 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.ByteToMessageDecoder: Could not initialize class io.netty.handler.codec.ByteToMessageDecoder
+[MASTER] 19:32:02.666 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.PathWatcher: org.eclipse.jetty.util.component.AbstractLifeCycle
+[MASTER] 19:32:02.752 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.apache.catalina.connector.Response: org/apache/tomcat/util/collections/ConcurrentCache
+[MASTER] 19:32:02.761 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalDirectByteBuf: io/netty/buffer/ByteBufUtil$ThreadLocalDirectByteBuf$1
+[MASTER] 19:32:02.782 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.Socket: io.netty.channel.unix.ErrorsStaticallyReferencedJniMethods.errnoENOTCONN()I
+[MASTER] 19:32:02.784 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.AbstractEpollStreamChannel$SpliceInChannelTask: io.netty.channel.ChannelFutureListener
+[MASTER] 19:32:02.803 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.EpollChannelConfig: io.netty.channel.DefaultChannelConfig
+[MASTER] 19:32:02.819 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslServerContext: io.netty.handler.ssl.ReferenceCountedOpenSslContext
+[MASTER] 19:32:02.837 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.server.handler.AbstractHandler: Could not initialize class org.eclipse.jetty.server.handler.AbstractHandler
+[MASTER] 19:32:02.838 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.LinuxSocket: io.netty.channel.unix.Socket
+[MASTER] 19:32:02.876 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.IovArray: io/netty/channel/unix/Limits
+[MASTER] 19:32:02.876 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslContext: Could not initialize class io.netty.handler.ssl.OpenSslContext
+[MASTER] 19:32:02.936 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.testng.xml.Parser: org/testng/xml/SuiteXmlParser
+[MASTER] 19:32:02.938 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.ScheduledFutureTask: Could not initialize class io.netty.util.concurrent.ScheduledFutureTask
+[MASTER] 19:32:02.947 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.ContainerLifeCycle: Could not initialize class org.eclipse.jetty.util.component.ContainerLifeCycle
+[MASTER] 19:32:02.959 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.DefaultHttpHeaders$2: io.netty.handler.codec.DefaultHeaders$NameValidator
+[MASTER] 19:32:02.959 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: Could not initialize class org.eclipse.jetty.util.component.AbstractLifeCycle
+[MASTER] 19:32:02.977 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.Errors: Could not initialize class io.netty.channel.unix.Errors
+[MASTER] 19:32:03.065 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.FileDescriptor: Could not initialize class io.netty.channel.unix.FileDescriptor
+[MASTER] 19:32:03.069 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.AdvancedLeakAwareCompositeByteBuf: io.netty.buffer.WrappedCompositeByteBuf
+[MASTER] 19:32:03.078 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.DefaultChannelPromise: io.netty.util.concurrent.DefaultPromise
+[MASTER] 19:32:03.079 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.CompositeByteBuf: Could not initialize class io.netty.buffer.CompositeByteBuf
+[MASTER] 19:32:03.149 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.AbstractChannel$CloseFuture: io.netty.util.concurrent.DefaultPromise
+[MASTER] 19:32:03.227 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.handler.codec.http.DefaultHttpHeaders
+[MASTER] 19:32:03.263 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.channel.unix.Errors
+[MASTER] 19:32:03.264 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.channel.unix.FileDescriptor

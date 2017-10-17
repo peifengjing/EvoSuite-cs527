@@ -1,4 +1,4 @@
-Last login: Sun Oct 15 15:16:59 on ttys001
+Last login: Sun Oct 15 22:13:48 on ttys001
 Peifengs-MacBook-Air:starts Peifeng$ mvn test
 [INFO] Scanning for projects...
 [WARNING]
@@ -38,7 +38,7 @@ Audit done.
 [INFO] argLine set to -javaagent:/Users/Peifeng/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/target/jacoco.exec
 [INFO]
 [INFO] --- build-helper-maven-plugin:1.8:add-test-source (add-test-source) @ starts ---
-[INFO] Test Source directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/targetFolder added.
+[INFO] Test Source directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/src/test/evosuite} added.
 [INFO]
 [INFO] --- jacoco-maven-plugin:0.7.8:report (post-unit-test) @ starts ---
 [INFO] Skipping JaCoCo execution due to missing execution data file.
@@ -117,17 +117,14 @@ Audit done.
 [INFO] Nothing to compile - all classes are up to date
 [INFO]
 [INFO] --- build-helper-maven-plugin:1.8:add-test-source (add-test-source) @ starts-core ---
-[INFO] Test Source directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/targetFolder added.
+[INFO] Test Source directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/evosuite} added.
 [INFO]
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ starts-core ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/resources
 [INFO]
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ starts-core ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 2 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/target/test-classes
-[WARNING] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java: Some input files use unchecked or unsafe operations.
-[WARNING] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/src/test/java/edu/illinois/starts/helpers/YasglHelperTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] Nothing to compile - all classes are up to date
 [INFO]
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ starts-core ---
 [INFO] Surefire report directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/target/surefire-reports
@@ -135,11 +132,11 @@ Audit done.
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
-objc[86845]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java (0x10b05c4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10b1564e0). One of the two will be used. Which one is undefined.
+objc[92126]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java (0x10b6174c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x10b7114e0). One of the two will be used. Which one is undefined.
 Running edu.illinois.starts.helpers.WriterTest
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.5 sec
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.544 sec
 Running edu.illinois.starts.helpers.YasglHelperTest
-...Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+...Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
 
 Results :
 
@@ -191,17 +188,16 @@ Audit done.
 [WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
 [WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
 [INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
-[WARNING]
-
-A help goal (HelpMojo) already exists in this plugin. SKIPPED THE edu.illinois.starts.jdeps.HelpMojo GENERATION.
-
 [INFO]
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ starts-maven-plugin ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO]
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ starts-maven-plugin ---
-[INFO] Nothing to compile - all classes are up to date
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/target/classes
+[WARNING] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Some input files use unchecked or unsafe operations.
+[WARNING] /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Recompile with -Xlint:unchecked for details.
 [INFO]
 [INFO] --- maven-plugin-plugin:3.3:descriptor (default-descriptor) @ starts-maven-plugin ---
 [INFO] Using 'UTF-8' encoding to read mojo metadata.
@@ -246,15 +242,14 @@ A help goal (HelpMojo) already exists in this plugin. SKIPPED THE edu.illinois.s
 [INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
 [INFO]
 [INFO] --- build-helper-maven-plugin:1.8:add-test-source (add-test-source) @ starts-maven-plugin ---
-[INFO] Test Source directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/targetFolder added.
+[INFO] Test Source directory: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/evosuite} added.
 [INFO]
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ starts-maven-plugin ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/src/test/resources
 [INFO]
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ starts-maven-plugin ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 2 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-plugin/target/test-classes
+[INFO] Nothing to compile - all classes are up to date
 [INFO]
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ starts-maven-plugin ---
 [INFO]
@@ -263,14 +258,14 @@ A help goal (HelpMojo) already exists in this plugin. SKIPPED THE edu.illinois.s
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
 [INFO]
-[INFO] STARTS ............................................. SUCCESS [  3.978 s]
-[INFO] starts-core ........................................ SUCCESS [  7.312 s]
-[INFO] STARTS Maven Plugin ................................ SUCCESS [  9.148 s]
+[INFO] STARTS ............................................. SUCCESS [  3.133 s]
+[INFO] starts-core ........................................ SUCCESS [  6.313 s]
+[INFO] STARTS Maven Plugin ................................ SUCCESS [ 10.969 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 21.654 s
-[INFO] Finished at: 2017-10-15T15:29:34-07:00
-[INFO] Final Memory: 41M/391M
+[INFO] Total time: 21.501 s
+[INFO] Finished at: 2017-10-15T22:14:23-07:00
+[INFO] Final Memory: 38M/373M
 [INFO] ------------------------------------------------------------------------
 Peifengs-MacBook-Air:starts Peifeng$

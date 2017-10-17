@@ -1,3 +1,0 @@
-[MASTER] 00:44:08.771 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.netty.request.body.NettyBodyBody.seed
-[MASTER] 00:45:11.654 [pool-2-thread-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown while loading method  __STATIC_RESET() for class io.netty.buffer.AbstractByteBufAllocator
-[MASTER] 00:45:11.715 [pool-2-thread-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown while loading method  __STATIC_RESET() for class io.netty.buffer.UnpooledByteBufAllocator

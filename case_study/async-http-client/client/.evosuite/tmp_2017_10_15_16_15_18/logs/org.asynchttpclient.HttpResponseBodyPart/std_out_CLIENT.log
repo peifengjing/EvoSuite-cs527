@@ -1,0 +1,4 @@
+[MASTER] 18:51:42.488 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.HttpResponseBodyPart.seed
+[MASTER] 18:51:42.641 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 0 seconds more than allowed.
+[MASTER] 18:51:58.426 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.asynchttpclient.netty.LazyResponseBodyPart canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 18:52:06.396 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.asynchttpclient.netty.EagerResponseBodyPart canUseFunctionalMocks=false, canBeMocked: true

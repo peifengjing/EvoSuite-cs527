@@ -1,5 +1,0 @@
-[MASTER] 00:02:54.936 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
-[MASTER] 00:02:57.778 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
-[MASTER] 00:02:59.150 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
-[MASTER] 00:03:03.072 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
-[MASTER] 00:03:56.888 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself

@@ -1,0 +1,2 @@
+[MASTER] 19:03:51.902 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/jdeferred/.evosuite/evosuite-seeds/org.asynchttpclient.extras.jdeferred.AsyncHttpDeferredObject.seed
+[MASTER] 19:04:06.711 [pool-2-thread-1] WARN  FunctionalMockStatement - Failed to check if can mock class org.asynchttpclient.RequestBuilder: org.asynchttpclient.RequestBuilderBase

@@ -1,0 +1,88 @@
+Last login: Sun Oct 15 21:37:39 on ttys000
+Peifengs-MacBook-Air:http-request Peifeng$ mvn evosuite:generate
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for com.github.kevinsawicki:http-request:jar:6.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM com.github.kevinsawicki:http-request:6.1-SNAPSHOT (/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/http-request/lib/pom.xml) points at com.github.kevinsawicki:http-request-parent instead of org.sonatype.oss:oss-parent, please verify your project structure @ line 5, column 11
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 139, column 24
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] http-request
+[INFO] http-request-parent
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building http-request 6.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ http-request >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ http-request ---
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ http-request ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/http-request/lib/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ http-request ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ http-request <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ http-request ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/http-request/lib/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/http-request/lib
+[INFO] Started spawn process manager on port 59576
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:59577
+[INFO] Going to execute 1 jobs
+[INFO] Estimated completion time: 2 minutes, by 2017-10-15T21:43:31.839
+[INFO] Going to start job for: com.github.kevinsawicki.http.HttpRequest. Expected to end in 120 seconds, by 2017-10-15T21:43:31.885
+[INFO] Registered remote process from /127.0.0.1:59578
+[INFO] Registered remote process from /127.0.0.1:59585
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to com.github.kevinsawicki.http.HttpRequest
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 1
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building http-request-parent 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.3:generate (default-cli) @ http-request-parent ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[INFO] Target: null
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/http-request
+[INFO] Nothing to test
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] http-request ....................................... SUCCESS [02:05 min]
+[INFO] http-request-parent ................................ SUCCESS [  1.021 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:07 min
+[INFO] Finished at: 2017-10-15T21:43:31-07:00
+[INFO] Final Memory: 22M/260M
+[INFO] ------------------------------------------------------------------------
+Peifengs-MacBook-Air:http-request Peifeng$

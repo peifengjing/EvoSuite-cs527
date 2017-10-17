@@ -1,0 +1,1 @@
+[MASTER] 19:00:03.078 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.AsyncHandler<T> : Type points to itself

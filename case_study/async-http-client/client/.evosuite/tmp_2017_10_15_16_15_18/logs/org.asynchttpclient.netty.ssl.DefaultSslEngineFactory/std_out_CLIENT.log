@@ -1,0 +1,10 @@
+[MASTER] 17:41:46.705 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 17:41:46.716 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: io.netty.internal.tcnative.SSL
+[MASTER] 17:41:46.717 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 17:41:46.718 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 17:41:46.722 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 17:41:46.723 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 17:41:46.723 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 17:41:48.414 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.netty.ssl.DefaultSslEngineFactory.seed
+[MASTER] 17:41:58.044 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class io.netty.handler.ssl.SslContext canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 17:42:01.172 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class io.netty.handler.ssl.SslContextBuilder canUseFunctionalMocks=false, canBeMocked: true

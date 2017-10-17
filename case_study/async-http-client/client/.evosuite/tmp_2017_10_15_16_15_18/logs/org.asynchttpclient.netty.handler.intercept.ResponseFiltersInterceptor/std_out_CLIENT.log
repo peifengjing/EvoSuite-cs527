@@ -1,0 +1,4 @@
+[MASTER] 18:00:42.112 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.netty.handler.intercept.ResponseFiltersInterceptor.seed
+[MASTER] 18:00:42.257 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 0 seconds more than allowed.
+[MASTER] 18:01:03.696 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: No generators of type java.util.List<org.asynchttpclient.filter.ResponseFilter>
+[MASTER] 18:01:29.785 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite

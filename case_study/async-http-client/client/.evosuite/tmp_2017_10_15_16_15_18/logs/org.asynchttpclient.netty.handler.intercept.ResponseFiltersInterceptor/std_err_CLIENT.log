@@ -1,0 +1,8 @@
+[MASTER] 18:01:35.708 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.AttributeKey: io/netty/util/ConstantPool
+[MASTER] 18:01:35.879 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/buffer/ByteBufUtil
+[MASTER] 18:01:35.993 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.netty.channel.ChannelManager: org/asynchttpclient/netty/handler/AsyncHttpClientHandler
+[MASTER] 18:01:36.000 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$1
+[MASTER] 18:01:36.006 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1
+[MASTER] 18:01:36.018 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.netty.channel.ConnectionSemaphore: org/asynchttpclient/exception/TooManyConnectionsException
+[MASTER] 18:01:36.042 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/JdkSslServerContext
+[MASTER] 18:01:36.048 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$IndexOfProcessor

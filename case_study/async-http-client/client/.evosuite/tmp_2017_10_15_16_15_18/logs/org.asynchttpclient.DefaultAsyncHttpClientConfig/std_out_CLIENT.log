@@ -1,0 +1,14 @@
+[MASTER] 18:47:12.710 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.DefaultAsyncHttpClientConfig.seed
+[MASTER] 18:47:13.006 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 3 seconds more than allowed.
+[MASTER] 18:47:15.498 [TEST_EXECUTION_THREAD_0] WARN  TestUsageChecker - class org.asynchttpclient.proxy.ProxyServerSelector$$Lambda$26/62761793 looks like an anonymous class, ignoring it (although reflection says false) ProxyServerSelector$$Lambda$26/62761793
+[MASTER] 18:47:20.458 [TEST_EXECUTION_THREAD_0] WARN  TestUsageChecker - class org.asynchttpclient.DefaultAsyncHttpClientConfig$Builder$$Lambda$27/1391957366 looks like an anonymous class, ignoring it (although reflection says false) DefaultAsyncHttpClientConfig$Builder$$Lambda$27/1391957366
+[MASTER] 18:47:29.847 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.asynchttpclient.DefaultAsyncHttpClientConfig canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 18:47:47.756 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 4 seconds more than allowed.
+[MASTER] 18:47:53.559 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 18:47:59.454 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.9796% of time used, but only 1/76 tests minimized), falling back to using all assertions
+[MASTER] 18:48:00.093 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+[MASTER] 18:48:00.225 [pool-2-thread-1] WARN  TimeController - Phase ASSERTION_GENERATION lasted too long, 0 seconds more than allowed.
+[MASTER] 18:48:00.226 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 5s, but only 4s are left
+[MASTER] 18:48:02.169 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 5s, but only 2s are left
+[MASTER] 18:48:02.183 [TEST_EXECUTION_THREAD_1] WARN  TestUsageChecker - class org.asynchttpclient.proxy.ProxyServerSelector$$Lambda$33/2011012354 looks like an anonymous class, ignoring it (although reflection says false) ProxyServerSelector$$Lambda$33/2011012354
+[MASTER] 18:48:02.566 [TEST_EXECUTION_THREAD_1] WARN  TestUsageChecker - class org.asynchttpclient.DefaultAsyncHttpClientConfig$Builder$$Lambda$36/219422768 looks like an anonymous class, ignoring it (although reflection says false) DefaultAsyncHttpClientConfig$Builder$$Lambda$36/219422768

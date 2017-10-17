@@ -1,0 +1,13 @@
+[MASTER] 17:55:01.842 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.AsyncHandler<T> : Type points to itself
+[MASTER] 17:55:45.527 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue: Lio/netty/util/internal/shaded/org/jctools/queues/LinkedQueueNode;
+[MASTER] 17:55:45.561 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.SpscLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue
+[MASTER] 17:55:45.700 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$1
+[MASTER] 17:55:45.701 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 17:55:46.044 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$IndexOfProcessor
+[MASTER] 17:55:46.056 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef
+[MASTER] 17:55:46.108 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/buffer/ByteBufUtil
+[MASTER] 17:55:46.140 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.DecoderResult: null
+[MASTER] 17:55:46.141 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2
+[MASTER] 17:55:46.145 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1
+[MASTER] 17:55:46.163 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpVersion: io/netty/util/CharsetUtil
+[MASTER] 17:55:46.168 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1

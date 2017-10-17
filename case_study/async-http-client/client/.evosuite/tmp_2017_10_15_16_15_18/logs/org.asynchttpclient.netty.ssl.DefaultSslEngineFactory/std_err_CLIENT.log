@@ -1,0 +1,19 @@
+[MASTER] 17:41:53.945 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 17:42:53.499 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.proxy.ProxyServerSelector: java.lang.NoClassDefFoundError: org/asynchttpclient/uri/Uri
+[MASTER] 17:42:53.759 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledDirectByteBuf: io/netty/buffer/PooledDirectByteBuf$1
+[MASTER] 17:42:53.783 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue: Lio/netty/util/internal/shaded/org/jctools/queues/LinkedQueueNode;
+[MASTER] 17:42:53.832 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.SpscLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue
+[MASTER] 17:42:54.278 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslServerContext: io/netty/handler/ssl/OpenSslSessionContext
+[MASTER] 17:42:54.353 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$1
+[MASTER] 17:42:54.354 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 17:42:54.401 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$1
+[MASTER] 17:42:54.401 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef
+[MASTER] 17:42:54.414 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalDirectByteBuf: io/netty/buffer/ByteBufUtil$ThreadLocalDirectByteBuf$1
+[MASTER] 17:42:54.519 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslEngine: io/netty/util/internal/ThrowableUtil
+[MASTER] 17:42:54.530 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2
+[MASTER] 17:42:54.543 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslServerContext: io/netty/handler/ssl/OpenSslServerSessionContext
+[MASTER] 17:42:54.543 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1
+[MASTER] 17:42:54.546 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslEngine: io.netty.handler.ssl.ReferenceCountedOpenSslEngine
+[MASTER] 17:42:54.551 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledUnsafeDirectByteBuf: io/netty/buffer/PooledUnsafeDirectByteBuf$1
+[MASTER] 17:42:54.560 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslClientContext: io/netty/handler/ssl/OpenSslExtendedKeyMaterialManager
+[MASTER] 17:42:54.564 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalUnsafeDirectByteBuf: io/netty/buffer/ByteBufUtil$ThreadLocalUnsafeDirectByteBuf$1

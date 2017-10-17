@@ -1,0 +1,2 @@
+[MASTER] 19:06:56.747 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/registry/.evosuite/evosuite-seeds/org.asynchttpclient.extras.registry.AsyncHttpClientRegistryImpl.seed
+[MASTER] 19:07:09.928 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class io.netty.handler.ssl.SslContext canUseFunctionalMocks=true, canBeMocked: false

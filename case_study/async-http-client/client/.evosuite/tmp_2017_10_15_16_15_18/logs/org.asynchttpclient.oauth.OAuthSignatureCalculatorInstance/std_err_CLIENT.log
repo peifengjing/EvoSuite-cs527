@@ -1,0 +1,5 @@
+[MASTER] 17:30:22.365 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.AsyncHandler<T>.State : Type points to itself
+[MASTER] 17:30:22.372 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+[MASTER] 17:30:43.398 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.reactivestreams.Publisher<T> : Type points to itself
+[MASTER] 17:31:09.236 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 17:32:12.050 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.RequestBuilderBase: io/netty/util/concurrent/FailedFuture

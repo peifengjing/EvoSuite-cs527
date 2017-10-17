@@ -1,0 +1,389 @@
+Last login: Sun Oct 15 22:04:43 on ttys001
+Peifengs-MacBook-Air:async-http-client Peifeng$ mvn test
+[INFO] Scanning for projects...
+[WARNING] The project org.asynchttpclient:async-http-client-project:pom:2.1.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] Asynchronous Http Client Project
+[INFO] Asynchronous Http Client Netty Utils
+[INFO] Asynchronous Http Client
+[INFO] Asynchronous Http Client Extras Parent
+[INFO] Asynchronous Http Client Guava Extras
+[INFO] Asynchronous Http Client JDeferred Extras
+[INFO] Asynchronous Http Client Registry Extras
+[INFO] Asynchronous Http Client RxJava Extras
+[INFO] Asynchronous Http Client RxJava2 Extras
+[INFO] Asynchronous Http Simple Client
+[INFO] Asynchronous Http Client Retrofit2 Extras
+[INFO] Asynchronous Http Client Example
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Project 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-project ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-project ---
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Netty Utils 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-netty-utils ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-netty-utils ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-netty-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-netty-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client-netty-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client-netty-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client-netty-utils ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.789 sec - in org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoderTest
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 12 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Tests run: 512, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 204.625 sec - in TestSuite
+
+Results :
+
+Tests run: 512, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Extras Parent 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-parent ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-parent ---
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Guava Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-guava ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-guava ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-guava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/guava/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-guava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client-extras-guava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/guava/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client-extras-guava ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client-extras-guava ---
+[INFO] No tests to run.
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client JDeferred Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-jdeferred ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-jdeferred ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-jdeferred ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/jdeferred/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-jdeferred ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client-extras-jdeferred ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/jdeferred/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client-extras-jdeferred ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client-extras-jdeferred ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.asynchttpclient.extra.AsyncHttpTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.394 sec - in org.asynchttpclient.extra.AsyncHttpTest
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Registry Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-registry ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-registry ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-registry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/registry/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-registry ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client-extras-registry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client-extras-registry ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client-extras-registry ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.891 sec - in TestSuite
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client RxJava Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-rxjava ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-rxjava ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-rxjava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-rxjava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client-extras-rxjava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client-extras-rxjava ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client-extras-rxjava ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.asynchttpclient.extras.rxjava.single.AsyncHttpSingleTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.577 sec - in org.asynchttpclient.extras.rxjava.single.AsyncHttpSingleTest
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client RxJava2 Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-rxjava2 ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-rxjava2 ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-rxjava2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava2/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-rxjava2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client-extras-rxjava2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava2/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client-extras-rxjava2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client-extras-rxjava2 ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.369 sec - in TestSuite
+
+Results :
+
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Simple Client 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-simple ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-simple ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-simple ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/simple/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-simple ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client-extras-simple ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/simple/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client-extras-simple ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client-extras-simple ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.502 sec - in TestSuite
+
+Results :
+
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Retrofit2 Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-retrofit2 ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-retrofit2 ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-retrofit2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/retrofit2/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-retrofit2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client-extras-retrofit2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/retrofit2/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client-extras-retrofit2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client-extras-retrofit2 ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.159 sec - in TestSuite
+
+Results :
+
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Example 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-example ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-example ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/example/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ async-http-client-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/example/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ async-http-client-example ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ async-http-client-example ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] Asynchronous Http Client Project ................... SUCCESS [  1.058 s]
+[INFO] Asynchronous Http Client Netty Utils ............... SUCCESS [  2.940 s]
+[INFO] Asynchronous Http Client ........................... SUCCESS [03:25 min]
+[INFO] Asynchronous Http Client Extras Parent ............. SUCCESS [  0.028 s]
+[INFO] Asynchronous Http Client Guava Extras .............. SUCCESS [  0.126 s]
+[INFO] Asynchronous Http Client JDeferred Extras .......... SUCCESS [  1.187 s]
+[INFO] Asynchronous Http Client Registry Extras ........... SUCCESS [  1.652 s]
+[INFO] Asynchronous Http Client RxJava Extras ............. SUCCESS [  4.771 s]
+[INFO] Asynchronous Http Client RxJava2 Extras ............ SUCCESS [  2.058 s]
+[INFO] Asynchronous Http Simple Client .................... SUCCESS [  3.250 s]
+[INFO] Asynchronous Http Client Retrofit2 Extras .......... SUCCESS [  4.002 s]
+[INFO] Asynchronous Http Client Example ................... SUCCESS [  0.039 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:47 min
+[INFO] Finished at: 2017-10-15T22:11:59-07:00
+[INFO] Final Memory: 25M/214M
+[INFO] ------------------------------------------------------------------------
+Peifengs-MacBook-Air:async-http-client Peifeng$

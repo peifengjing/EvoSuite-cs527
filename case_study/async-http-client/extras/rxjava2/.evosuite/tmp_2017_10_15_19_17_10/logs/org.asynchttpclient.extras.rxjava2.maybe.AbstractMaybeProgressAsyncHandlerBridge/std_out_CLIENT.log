@@ -1,0 +1,5 @@
+[MASTER] 19:22:07.057 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava2/.evosuite/evosuite-seeds/org.asynchttpclient.extras.rxjava2.maybe.AbstractMaybeProgressAsyncHandlerBridge.seed
+[MASTER] 19:22:33.895 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.evosuite.runtime.mock.java.time.chrono.MockHijrahDate canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 19:22:34.767 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class org.evosuite.runtime.mock.java.time.chrono.MockJapaneseDate canUseFunctionalMocks=true, canBeMocked: false
+[MASTER] 19:23:40.088 [pool-2-thread-1] WARN  TestSuiteGenerator - JUnit checking timed out
+[MASTER] 19:23:40.090 [pool-2-thread-1] WARN  TimeController - Phase JUNIT_CHECK lasted too long, 1 seconds more than allowed.

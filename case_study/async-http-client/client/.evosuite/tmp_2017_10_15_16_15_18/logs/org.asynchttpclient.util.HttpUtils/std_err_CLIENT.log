@@ -1,0 +1,130 @@
+[MASTER] 16:56:53.336 [pool-2-thread-1] ERROR TestClusterGenerator - Problem for org.asynchttpclient.util.HttpUtils. Failed to add dependencies for class org.testng.TestRunner: java.lang.TypeNotPresentException: Type com.google.inject.Module not present
+[sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.repository.FieldRepository.getGenericType(FieldRepository.java:85), java.lang.reflect.Field.getGenericType(Field.java:247), java.lang.reflect.Field.toGenericString(Field.java:329), org.evosuite.setup.TestClusterUtils.getFields(TestClusterUtils.java:224), org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:1007), org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358), org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137), org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117), org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131), org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110), org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130), org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145), java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511), java.util.concurrent.FutureTask.run(FutureTask.java:266), java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617), java.lang.Thread.run(Thread.java:745)]
+[MASTER] 16:56:57.890 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.DefaultProgressivePromise<V> : Type points to itself
+[MASTER] 16:56:57.891 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.DefaultPromise<V> : Type points to itself
+[MASTER] 16:56:57.893 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.FailedFuture<V> : Type points to itself
+[MASTER] 16:56:57.895 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.SucceededFuture<V> : Type points to itself
+[MASTER] 16:56:57.908 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.channel.CombinedChannelDuplexHandler<I, O> : Type points to itself
+[MASTER] 16:56:57.911 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.lang.reflect.Constructor<T> : Type points to itself
+[MASTER] 16:57:14.065 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.reactivestreams.Publisher<T> : Type points to itself
+[MASTER] 16:57:14.065 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 16:57:14.793 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Collection<E> : Type points to itself
+[MASTER] 16:58:20.352 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 16:58:22.214 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 16:58:23.897 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.AsyncHandler<T> : Type points to itself
+[MASTER] 16:58:50.167 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 16:59:11.620 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$1
+[MASTER] 16:59:11.648 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/JdkSslServerContext
+[MASTER] 16:59:11.696 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/buffer/ByteBufUtil$1
+[MASTER] 16:59:13.574 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe: io/netty/channel/socket/ChannelOutputShutdownException
+[MASTER] 16:59:13.606 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.EpollServerChannelConfig: io/netty/channel/DefaultMessageSizeEstimator$HandleImpl
+[MASTER] 16:59:13.690 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslHandler: io/netty/handler/codec/ByteToMessageDecoder$1
+[MASTER] 16:59:13.727 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$2
+[MASTER] 16:59:13.734 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef: Lio/netty/util/internal/shaded/org/jctools/queues/LinkedQueueNode;
+[MASTER] 16:59:14.024 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField: io/netty/util/internal/shaded/org/jctools/util/UnsafeAccess
+[MASTER] 16:59:14.028 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.ByteToMessageDecoder: Could not initialize class io.netty.handler.codec.ByteToMessageDecoder
+[MASTER] 16:59:14.030 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL2Pad: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL2Pad
+[MASTER] 16:59:14.176 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/util/internal/InternalThreadLocalMap
+[MASTER] 16:59:14.271 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.embedded.EmbeddedChannel$EmbeddedChannelPipeline: io.netty.util.concurrent.FastThreadLocal
+[MASTER] 16:59:14.282 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.Socket: io.netty.channel.unix.ErrorsStaticallyReferencedJniMethods.errnoENOTCONN()I
+[MASTER] 16:59:14.288 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpStatusClass: io/netty/handler/codec/http/HttpStatusClass$1
+[MASTER] 16:59:14.311 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.EpollChannelConfig: Could not initialize class io.netty.channel.epoll.EpollChannelConfig
+[MASTER] 16:59:14.323 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.DecoderResult: null
+[MASTER] 16:59:14.327 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad2: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 16:59:14.348 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueuePad1: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 16:59:14.374 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField
+[MASTER] 16:59:14.374 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL3Pad: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField
+[MASTER] 16:59:14.375 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.LinuxSocket: io.netty.channel.unix.Socket
+[MASTER] 16:59:14.378 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1
+[MASTER] 16:59:14.381 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.ChannelFutureListener: io/netty/channel/ChannelFutureListener$1
+[MASTER] 16:59:14.388 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField
+[MASTER] 16:59:14.394 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.IovArray: io/netty/channel/unix/Limits
+[MASTER] 16:59:14.414 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.testng.xml.Parser: org/testng/xml/SuiteXmlParser
+[MASTER] 16:59:14.433 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 16:59:14.460 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.SpscLinkedQueue: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 16:59:14.519 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.Errors: Could not initialize class io.netty.channel.unix.Errors
+[MASTER] 16:59:14.523 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad: Could not initialize class io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad
+[MASTER] 16:59:14.569 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/OpenSslServerContext
+[MASTER] 16:59:14.575 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$1
+[MASTER] 16:59:14.577 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.FileDescriptor: Could not initialize class io.netty.channel.unix.FileDescriptor
+[MASTER] 16:59:14.599 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.bootstrap.Bootstrap: io/netty/resolver/AddressResolverGroup
+[MASTER] 16:59:14.600 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueConsumerNodeRef: io.netty.util.internal.shaded.org.jctools.queues.BaseLinkedQueueProducerNodeRef
+[MASTER] 16:59:14.604 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.DefaultChannelConfig: Could not initialize class io.netty.channel.DefaultChannelConfig
+[MASTER] 16:59:14.607 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueue: io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField
+[MASTER] 16:59:14.626 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.DefaultChannelPromise: null
+[MASTER] 16:59:14.655 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.DefaultChannelId: null
+[MASTER] 16:59:14.661 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.netty.handler.WebSocketHandler: org/asynchttpclient/exception/ChannelClosedException
+[MASTER] 16:59:14.675 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.ChannelOutboundBuffer: io/netty/channel/ChannelOutboundBuffer$1
+[MASTER] 16:59:14.676 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.DefaultPromise: Could not initialize class io.netty.util.concurrent.DefaultPromise
+[MASTER] 16:59:14.684 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.DefaultChannelPipeline: Could not initialize class io.netty.channel.DefaultChannelPipeline
+[MASTER] 16:59:14.706 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.FastThreadLocal: Could not initialize class io.netty.util.concurrent.FastThreadLocal
+[MASTER] 16:59:14.719 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.NetUtil: Could not initialize class io.netty.util.NetUtil
+[MASTER] 16:59:14.721 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.AbstractChannel$CloseFuture: io.netty.channel.DefaultChannelPromise
+[MASTER] 16:59:14.721 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil: Could not initialize class io.netty.buffer.ByteBufUtil
+[MASTER] 16:59:14.737 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.channel.unix.Errors
+[MASTER] 16:59:14.738 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.channel.unix.FileDescriptor
+[MASTER] 16:59:14.741 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.handler.codec.DecoderResult
+[MASTER] 16:59:14.744 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.NetUtil
+[MASTER] 16:59:14.745 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.channel.DefaultChannelId
+[MASTER] 16:59:14.746 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.DefaultPromise
+[MASTER] 16:59:15.294 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe: io/netty/channel/epoll/EpollRecvByteAllocatorHandle
+[MASTER] 16:59:15.443 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledByteBufAllocator: io/netty/util/NettyRuntime
+[MASTER] 16:59:15.570 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.AbstractChannelHandlerContext: io/netty/channel/AbstractChannelHandlerContext$AbstractWriteTask
+[MASTER] 16:59:15.651 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: Could not initialize class io.netty.buffer.PooledByteBufAllocator
+[MASTER] 16:59:15.745 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.ChannelFutureListener: io/netty/channel/ChannelFutureListener$2
+[MASTER] 16:59:15.819 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.JdkSslContext: io/netty/handler/ssl/ReferenceCountedOpenSslServerContext
+[MASTER] 16:59:15.834 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$2
+[MASTER] 16:59:15.840 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.DefaultChannelPipeline$TailContext: io/netty/channel/AbstractChannelHandlerContext$WriteAndFlushTask
+[MASTER] 16:59:15.922 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.ChannelOutboundBuffer: Lio/netty/channel/ChannelOutboundBuffer$Entry;
+[MASTER] 16:59:15.973 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalUnsafeDirectByteBuf: io/netty/util/Recycler
+[MASTER] 16:59:15.988 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.JdkSslServerContext: io/netty/handler/ssl/JdkSslClientContext
+[MASTER] 16:59:16.031 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslHandler: io/netty/handler/codec/ByteToMessageDecoder$2
+[MASTER] 16:59:16.050 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalDirectByteBuf: io/netty/buffer/ByteBufUtil$ThreadLocalDirectByteBuf$1
+[MASTER] 16:59:16.064 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.AbstractEpollStreamChannel$SpliceInChannelTask: io.netty.channel.ChannelFutureListener
+[MASTER] 16:59:16.111 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.IovArray: io/netty/channel/unix/LimitsStaticallyReferencedJniMethods
+[MASTER] 16:59:16.137 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.testng.xml.Parser: org/testng/xml/TestNGContentHandler
+[MASTER] 16:59:16.155 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.DefaultChannelHandlerContext: io/netty/channel/AbstractChannelHandlerContext$WriteTask
+[MASTER] 16:59:16.200 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/OpenSslClientContext
+[MASTER] 16:59:16.216 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.bootstrap.Bootstrap: io/netty/resolver/DefaultAddressResolverGroup
+[MASTER] 16:59:16.735 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe: io/netty/channel/epoll/EpollRecvByteAllocatorStreamingHandle
+[MASTER] 16:59:16.854 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledByteBufAllocator: io/netty/util/NettyRuntime$AvailableProcessorsHolder
+[MASTER] 16:59:16.903 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslServerContext: io/netty/handler/ssl/ReferenceCountedOpenSslClientContext
+[MASTER] 16:59:16.918 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.JdkSslClientContext: io/netty/buffer/ByteBufInputStream
+[MASTER] 16:59:17.225 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.ChannelFutureListener: io/netty/channel/ChannelFutureListener$3
+[MASTER] 16:59:17.613 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.JdkSslContext: io/netty/handler/ssl/SslUtils
+[MASTER] 16:59:17.622 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$3
+[MASTER] 16:59:17.626 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslContext: io/netty/handler/ssl/ReferenceCountedOpenSslContext$3
+[MASTER] 16:59:17.651 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.testng.xml.XMLParser: org/testng/internal/ClassHelper
+[MASTER] 16:59:17.773 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalUnsafeDirectByteBuf: io/netty/buffer/ByteBufUtil$ThreadLocalUnsafeDirectByteBuf$1
+[MASTER] 16:59:17.776 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.testng.xml.SuiteXmlParser: org.testng.xml.XMLParser
+[MASTER] 16:59:17.776 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.JdkSslServerContext: io.netty.handler.ssl.JdkSslContext
+[MASTER] 16:59:17.784 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.AbstractChannelHandlerContext$WriteTask: io/netty/channel/AbstractChannelHandlerContext$WriteTask$1
+[MASTER] 16:59:17.823 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask: io/netty/channel/AbstractChannelHandlerContext$WriteAndFlushTask$1
+[MASTER] 16:59:17.828 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalDirectByteBuf: io/netty/util/Recycler$2
+[MASTER] 16:59:17.891 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslServerContext: io/netty/handler/ssl/ReferenceCountedOpenSslEngine
+[MASTER] 16:59:17.906 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.IovArray: io.netty.channel.unix.LimitsStaticallyReferencedJniMethods.iovMax()I
+[MASTER] 16:59:17.943 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslContext: io/netty/handler/ssl/OpenSslEngine
+[MASTER] 16:59:17.948 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.testng.xml.Parser: org.testng.xml.XMLParser
+[MASTER] 16:59:17.968 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.Recycler: io/netty/util/Recycler$3
+[MASTER] 16:59:18.003 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.bootstrap.Bootstrap: io/netty/bootstrap/AbstractBootstrapConfig
+[MASTER] 16:59:18.022 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.unix.Limits: Could not initialize class io.netty.channel.unix.Limits
+[MASTER] 16:59:18.621 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledByteBufAllocator: io/netty/buffer/PoolArena$DirectArena
+[MASTER] 16:59:18.686 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslServerContext: io/netty/handler/ssl/OpenSslSessionContext
+[MASTER] 16:59:18.922 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslClientContext: io/netty/handler/ssl/ReferenceCountedOpenSslContext$1
+[MASTER] 16:59:18.934 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledDuplicatedByteBuf: io/netty/buffer/PooledDuplicatedByteBuf$1
+[MASTER] 16:59:18.972 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.PooledSlicedByteBuf: io/netty/buffer/PooledSlicedByteBuf$1
+[MASTER] 16:59:18.982 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$4
+[MASTER] 16:59:18.985 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslContext: Could not initialize class io.netty.handler.ssl.ReferenceCountedOpenSslContext
+[MASTER] 16:59:19.065 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalDirectByteBuf$1: io/netty/util/Recycler$1
+[MASTER] 16:59:19.110 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslClientContext: io.netty.handler.ssl.ReferenceCountedOpenSslContext
+[MASTER] 16:59:19.116 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalUnsafeDirectByteBuf: io.netty.util.Recycler
+[MASTER] 16:59:19.152 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.AbstractChannelHandlerContext$WriteTask: io.netty.util.Recycler
+[MASTER] 16:59:19.182 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask: io.netty.util.Recycler
+[MASTER] 16:59:19.184 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufUtil$ThreadLocalDirectByteBuf: Could not initialize class io.netty.buffer.ByteBufUtil$ThreadLocalDirectByteBuf$1
+[MASTER] 16:59:19.191 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslEngine: io/netty/handler/ssl/ReferenceCountedOpenSslEngine$1
+[MASTER] 16:59:19.225 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.ReferenceCountedOpenSslServerContext: io.netty.handler.ssl.ReferenceCountedOpenSslContext
+[MASTER] 16:59:19.243 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.OpenSslContext: Could not initialize class io.netty.handler.ssl.OpenSslContext
+[MASTER] 16:59:19.251 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.testng.xml.Parser: org.testng.xml.ISuiteParser: Provider org.testng.internal.YamlParser not found
+[MASTER] 16:59:19.269 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.Recycler: Could not initialize class io.netty.util.Recycler
+[MASTER] 16:59:19.295 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.bootstrap.Bootstrap: io/netty/bootstrap/BootstrapConfig
+[MASTER] 16:59:19.315 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.ChannelOutboundBuffer$Entry: io/netty/channel/ChannelOutboundBuffer$Entry$1

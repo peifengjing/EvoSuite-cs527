@@ -1,0 +1,17 @@
+[MASTER] 21:41:44.019 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 21:41:44.037 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.ArrayDeque<E> : Type points to itself
+[MASTER] 21:41:44.037 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.ArrayList<E> : Type points to itself
+[MASTER] 21:41:44.037 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+[MASTER] 21:41:44.038 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.HashSet<E> : Type points to itself
+[MASTER] 21:41:44.039 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 21:41:44.041 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.PriorityQueue<E> : Type points to itself
+[MASTER] 21:41:44.042 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.ServiceLoader<S> : Type points to itself
+[MASTER] 21:41:44.043 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Stack<E> : Type points to itself
+[MASTER] 21:41:44.044 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.TreeSet<E> : Type points to itself
+[MASTER] 21:41:44.045 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Vector<E> : Type points to itself
+[MASTER] 21:41:44.046 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 21:41:44.046 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 21:41:48.647 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 21:41:52.807 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.BiFunction<T, U, R> : Type points to itself
+[MASTER] 21:41:55.035 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 21:42:32.980 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself

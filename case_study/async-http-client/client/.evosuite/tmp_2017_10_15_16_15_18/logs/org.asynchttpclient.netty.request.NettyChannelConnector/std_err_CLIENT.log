@@ -1,0 +1,56 @@
+[MASTER] 17:50:09.191 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 17:50:11.106 [pool-2-thread-1] ERROR TestClusterGenerator - Problem for org.asynchttpclient.netty.request.NettyChannelConnector. Failed to add dependencies for class org.testng.TestRunner: java.lang.TypeNotPresentException: Type com.google.inject.Module not present
+[sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68), sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138), sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49), sun.reflect.generics.repository.FieldRepository.getGenericType(FieldRepository.java:85), java.lang.reflect.Field.getGenericType(Field.java:247), java.lang.reflect.Field.toGenericString(Field.java:329), org.evosuite.setup.TestClusterUtils.getFields(TestClusterUtils.java:224), org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:1007), org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358), org.evosuite.setup.TestClusterGenerator.addNewDependencies(TestClusterGenerator.java:164), org.evosuite.testcase.TestFactory.createObject(TestFactory.java:1257), org.evosuite.testcase.TestFactory.attemptGeneration(TestFactory.java:814), org.evosuite.testcase.TestFactory.createVariable(TestFactory.java:1401), org.evosuite.testcase.TestFactory.createOrReuseVariable(TestFactory.java:1346), org.evosuite.testcase.TestFactory.satisfyParameters(TestFactory.java:2320), org.evosuite.testcase.TestFactory.addMethodFor(TestFactory.java:579), org.evosuite.testcase.TestFactory.addCallFor(TestFactory.java:132), org.evosuite.testcase.TestFactory.insertRandomCallOnObjectAt(TestFactory.java:2264), org.evosuite.testcase.mutation.RandomInsertion.insertStatement(RandomInsertion.java:128), org.evosuite.testcase.TestFactory.insertRandomStatement(TestFactory.java:2276), org.evosuite.testcase.factories.RandomLengthTestFactory.getRandomTestCase(RandomLengthTestFactory.java:69), org.evosuite.testcase.factories.RandomLengthTestFactory.getChromosome(RandomLengthTestFactory.java:89), org.evosuite.testcase.factories.RandomLengthTestFactory.getChromosome(RandomLengthTestFactory.java:40), org.evosuite.coverage.archive.ArchiveTestChromosomeFactory.getChromosome(ArchiveTestChromosomeFactory.java:88), org.evosuite.coverage.archive.ArchiveTestChromosomeFactory.getChromosome(ArchiveTestChromosomeFactory.java:35), org.evosuite.testsuite.factories.TestSuiteChromosomeFactory.getChromosome(TestSuiteChromosomeFactory.java:84), org.evosuite.testsuite.factories.TestSuiteChromosomeFactory.getChromosome(TestSuiteChromosomeFactory.java:35), org.evosuite.ga.metaheuristics.GeneticAlgorithm.generateRandomPopulation(GeneticAlgorithm.java:425), org.evosuite.ga.metaheuristics.GeneticAlgorithm.generateInitialPopulation(GeneticAlgorithm.java:368), org.evosuite.ga.metaheuristics.MonotonicGA.initializePopulation(MonotonicGA.java:204), org.evosuite.ga.metaheuristics.MonotonicGA.generateSolution(MonotonicGA.java:223), org.evosuite.strategy.WholeTestSuiteStrategy.generateTests(WholeTestSuiteStrategy.java:113), org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:653), org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:236), org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145), java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511), java.util.concurrent.FutureTask.run(FutureTask.java:266), java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617), java.lang.Thread.run(Thread.java:745)]
+[MASTER] 17:50:11.731 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.DefaultProgressivePromise<V> : Type points to itself
+[MASTER] 17:50:11.733 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.DefaultPromise<V> : Type points to itself
+[MASTER] 17:50:11.735 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.FailedFuture<V> : Type points to itself
+[MASTER] 17:50:11.736 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.concurrent.SucceededFuture<V> : Type points to itself
+[MASTER] 17:50:11.745 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.channel.CombinedChannelDuplexHandler<I, O> : Type points to itself
+[MASTER] 17:50:11.749 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.lang.reflect.Constructor<T> : Type points to itself
+[MASTER] 17:50:15.483 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.channel.ChannelOption<T> : Type points to itself
+[MASTER] 17:50:19.158 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.util.AttributeKey<T> : Type points to itself
+[MASTER] 17:50:35.478 [pool-2-thread-1] ERROR ClientNodeImpl - Error when generating tests for: org.asynchttpclient.netty.request.NettyChannelConnector with seed 1508114997690. Configuration id : default
+java.lang.RuntimeException: not implemented: class sun.reflect.generics.reflectiveObjects.TypeVariableImpl
+	at com.googlecode.gentyref.GenericTypeReflector.isSuperType(GenericTypeReflector.java:218)
+	at com.googlecode.gentyref.GenericTypeReflector.contains(GenericTypeReflector.java:258)
+	at com.googlecode.gentyref.GenericTypeReflector.isSuperType(GenericTypeReflector.java:199)
+	at org.evosuite.utils.generic.GenericClass.isGenericSuperTypeOf(GenericClass.java:1363)
+	at org.evosuite.utils.generic.GenericClass.canBeInstantiatedTo(GenericClass.java:289)
+	at org.evosuite.setup.TestCluster.cacheGenerators(TestCluster.java:420)
+	at org.evosuite.setup.TestCluster.hasGenerator(TestCluster.java:1354)
+	at org.evosuite.testcase.TestFactory.lambda$attemptObjectGeneration$0(TestFactory.java:840)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.evosuite.testcase.TestFactory.attemptObjectGeneration(TestFactory.java:841)
+	at org.evosuite.testcase.TestFactory.createOrReuseObjectVariable(TestFactory.java:1557)
+	at org.evosuite.testcase.TestFactory.createOrReuseVariable(TestFactory.java:1320)
+	at org.evosuite.testcase.TestFactory.satisfyParameters(TestFactory.java:2320)
+	at org.evosuite.testcase.TestFactory.addMethodFor(TestFactory.java:579)
+	at org.evosuite.testcase.TestFactory.addCallFor(TestFactory.java:132)
+	at org.evosuite.testcase.TestFactory.insertRandomCallOnObjectAt(TestFactory.java:2264)
+	at org.evosuite.testcase.mutation.RandomInsertion.insertStatement(RandomInsertion.java:128)
+	at org.evosuite.testcase.TestFactory.insertRandomStatement(TestFactory.java:2276)
+	at org.evosuite.testcase.factories.RandomLengthTestFactory.getRandomTestCase(RandomLengthTestFactory.java:69)
+	at org.evosuite.testcase.factories.RandomLengthTestFactory.getChromosome(RandomLengthTestFactory.java:89)
+	at org.evosuite.testcase.factories.RandomLengthTestFactory.getChromosome(RandomLengthTestFactory.java:40)
+	at org.evosuite.coverage.archive.ArchiveTestChromosomeFactory.getChromosome(ArchiveTestChromosomeFactory.java:88)
+	at org.evosuite.coverage.archive.ArchiveTestChromosomeFactory.getChromosome(ArchiveTestChromosomeFactory.java:35)
+	at org.evosuite.testsuite.AbstractTestSuiteChromosome.mutate(AbstractTestSuiteChromosome.java:219)
+	at org.evosuite.testsuite.TestSuiteChromosome.mutate(TestSuiteChromosome.java:264)
+	at org.evosuite.ga.metaheuristics.MonotonicGA.evolve(MonotonicGA.java:127)
+	at org.evosuite.ga.metaheuristics.MonotonicGA.generateSolution(MonotonicGA.java:245)
+	at org.evosuite.strategy.WholeTestSuiteStrategy.generateTests(WholeTestSuiteStrategy.java:113)
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:653)
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:236)
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

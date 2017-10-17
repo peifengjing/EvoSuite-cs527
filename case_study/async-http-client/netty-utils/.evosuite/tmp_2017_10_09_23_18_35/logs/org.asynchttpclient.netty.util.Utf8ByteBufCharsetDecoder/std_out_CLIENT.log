@@ -1,4 +1,0 @@
-[MASTER] 23:18:44.337 [pool-2-thread-1] WARN  MethodCallReplacementClassAdapter - Failed to add serialId to class org/testng/TestNGAntTask: org/apache/tools/ant/Task
-[MASTER] 23:19:19.329 [pool-2-thread-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class io.netty.buffer.PooledByteBufAllocator, java.lang.NullPointerException
-[MASTER] 23:20:18.559 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
-[MASTER] 23:20:29.095 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.83925% of time used, but only 1/29 tests minimized), falling back to using all assertions

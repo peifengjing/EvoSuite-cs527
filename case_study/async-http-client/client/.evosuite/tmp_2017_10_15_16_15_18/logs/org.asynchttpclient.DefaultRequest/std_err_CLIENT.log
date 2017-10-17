@@ -1,0 +1,6 @@
+[MASTER] 17:28:02.873 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 17:28:02.874 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 17:28:17.451 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.reactivestreams.Publisher<T> : Type points to itself
+[MASTER] 17:28:17.452 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.EnumSet<E> : Type points to itself
+[MASTER] 17:28:39.410 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 17:28:40.896 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.lang.Iterable<T> : Type points to itself

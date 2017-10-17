@@ -1,0 +1,5 @@
+[MASTER] 18:09:01.445 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.filter.FilterContext<T> : Type points to itself
+[MASTER] 18:09:12.826 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.AsyncHandler<T> : Type points to itself
+[MASTER] 18:09:46.066 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaders: io/netty/handler/codec/http/HttpUtil
+[MASTER] 18:09:46.087 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.handler.resumable.ResumableAsyncHandler: org/asynchttpclient/handler/TransferCompletionHandler
+[MASTER] 18:09:46.138 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AbstractBasicTest: org/eclipse/jetty/server/handler/AbstractHandler

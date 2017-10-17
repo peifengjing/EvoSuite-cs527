@@ -1,0 +1,10 @@
+[MASTER] 17:14:18.677 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 17:14:18.678 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 17:14:18.678 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 17:14:18.729 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.List<E> : Type points to itself
+[MASTER] 17:14:20.105 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 17:14:22.559 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 17:14:23.930 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 17:16:01.814 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.PathWatcher: org/eclipse/jetty/util/component/AbstractLifeCycle$1
+[MASTER] 17:16:01.819 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: Could not initialize class org.eclipse.jetty.util.component.AbstractLifeCycle
+[MASTER] 17:16:04.471 [pool-2-thread-1] ERROR JUnitAnalyzer - Ran out of time while checking tests

@@ -1,0 +1,5 @@
+[MASTER] 18:40:55.400 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.netty.request.body.NettyBody.seed
+[MASTER] 18:40:55.545 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 2 seconds more than allowed.
+[MASTER] 18:41:07.145 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Max recursion depth reached
+[MASTER] 18:41:07.714 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for interface io.netty.channel.ChannelProgressivePromise canUseFunctionalMocks=false, canBeMocked: false
+[MASTER] 18:41:07.715 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for interface io.netty.channel.ChannelProgressivePromise canUseFunctionalMocks=true, canBeMocked: false

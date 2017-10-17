@@ -1,0 +1,9 @@
+[MASTER] 17:24:51.737 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.request.body.multipart.MultipartUtils.seed
+[MASTER] 17:26:11.932 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: expected:<37> but was:<43>
+[MASTER] 17:26:11.933 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test:
+ EmptyHttpHeaders emptyHttpHeaders0 = EmptyHttpHeaders.INSTANCE;
+ArrayList<Part> arrayList0 = new ArrayList<Part>();
+MultipartBody multipartBody0 = MultipartUtils.newMultipartBody(arrayList0, emptyHttpHeaders0);
+assertEquals(37L, multipartBody0.getContentLength());
+
+

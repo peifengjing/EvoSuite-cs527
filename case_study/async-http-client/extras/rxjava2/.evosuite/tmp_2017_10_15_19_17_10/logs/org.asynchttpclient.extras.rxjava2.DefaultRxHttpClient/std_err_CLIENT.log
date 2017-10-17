@@ -1,0 +1,2 @@
+[MASTER] 19:24:02.466 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.AsyncHandler<T> : Type points to itself
+[MASTER] 19:24:20.758 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.reactivex.Maybe<T> : Type points to itself

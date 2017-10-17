@@ -1,0 +1,4 @@
+[MASTER] 17:49:54.957 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.DefaultProgressivePromise: null
+[MASTER] 17:49:54.964 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.channel.DefaultChannelProgressivePromise: io.netty.util.concurrent.DefaultProgressivePromise
+[MASTER] 17:49:54.964 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.concurrent.DefaultPromise: Could not initialize class io.netty.util.concurrent.DefaultPromise
+[MASTER] 17:49:54.993 [pool-2-thread-1] ERROR ClassResetter - java.lang.NoClassDefFoundError: Could not initialize class io.netty.util.concurrent.DefaultPromise

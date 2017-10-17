@@ -1,0 +1,45 @@
+[MASTER] 16:14:12.687 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Problem for org.asynchttpclient.netty.util.ByteBufUtils. Class not found: org.testng.TestNGAntTask$Mode
+java.lang.NoClassDefFoundError: org/testng/TestNGAntTask
+	at java.lang.Class.getDeclaringClass0(Native Method)
+	at java.lang.Class.getDeclaringClass(Class.java:1235)
+	at java.lang.Class.getEnclosingClass(Class.java:1277)
+	at java.lang.Class.getSimpleBinaryName(Class.java:1443)
+	at java.lang.Class.getSimpleName(Class.java:1309)
+	at java.lang.Class.isAnonymousClass(Class.java:1411)
+	at org.evosuite.setup.TestUsageChecker.canUse(TestUsageChecker.java:155)
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:129)
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61)
+	at org.evosuite.seeding.CastClassManager.addCastClass(CastClassManager.java:127)
+	at org.evosuite.setup.TestCluster.cacheGenerators(TestCluster.java:489)
+	at org.evosuite.setup.TestCluster.removeUnusableGenerators(TestCluster.java:147)
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:146)
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117)
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131)
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110)
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130)
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org/apache/tools/ant/Task
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/tools/ant/Task
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:194)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.tools.ant.Task
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:159)
+	... 28 common frames omitted
+[MASTER] 16:14:12.688 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 16:14:28.981 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 16:14:48.714 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type FileAttribute[] defined at statement FileAttribute<ByteBuf>[] fileAttributeArray0 = (FileAttribute<ByteBuf>[]) Array.newInstance(FileAttribute.class, 7), assignment statement: fileAttributeArray0[0] = (FileAttribute<ByteBuf>) fileAttributeArray0; SUT=org.asynchttpclient.netty.util.ByteBufUtils

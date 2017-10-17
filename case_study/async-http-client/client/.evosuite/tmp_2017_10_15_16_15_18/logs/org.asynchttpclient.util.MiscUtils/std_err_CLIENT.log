@@ -1,0 +1,16 @@
+[MASTER] 17:06:13.187 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 17:06:13.609 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 17:06:13.959 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 17:06:36.372 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Enumeration<E> : Type points to itself
+[MASTER] 17:07:25.537 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedHashSet<E> : Type points to itself
+[MASTER] 17:08:05.448 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: org/eclipse/jetty/util/log/Log
+[MASTER] 17:08:05.481 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.PathWatcher: org.eclipse.jetty.util.component.AbstractLifeCycle
+[MASTER] 17:08:05.665 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: org/eclipse/jetty/util/log/Log$1
+[MASTER] 17:08:05.874 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: org/eclipse/jetty/util/Loader
+[MASTER] 17:08:05.882 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.log.Log: Could not initialize class org.eclipse.jetty.util.log.Log
+[MASTER] 17:08:06.123 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: org/eclipse/jetty/util/log/StdErrLog
+[MASTER] 17:08:06.400 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: org/eclipse/jetty/util/DateCache
+[MASTER] 17:08:06.687 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: org/eclipse/jetty/util/Uptime
+[MASTER] 17:08:06.972 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: org/eclipse/jetty/util/Uptime$DefaultImpl
+[MASTER] 17:08:07.292 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.PathWatcher: org/eclipse/jetty/util/component/AbstractLifeCycle$1
+[MASTER] 17:08:07.300 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.eclipse.jetty.util.component.AbstractLifeCycle: Could not initialize class org.eclipse.jetty.util.component.AbstractLifeCycle

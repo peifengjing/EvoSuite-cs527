@@ -1,0 +1,3 @@
+[MASTER] 19:34:41.791 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/retrofit2/.evosuite/evosuite-seeds/org.asynchttpclient.extras.retrofit.AsyncHttpClientCall.seed
+[MASTER] 19:34:42.664 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 4 seconds more than allowed.
+[MASTER] 19:36:22.098 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite

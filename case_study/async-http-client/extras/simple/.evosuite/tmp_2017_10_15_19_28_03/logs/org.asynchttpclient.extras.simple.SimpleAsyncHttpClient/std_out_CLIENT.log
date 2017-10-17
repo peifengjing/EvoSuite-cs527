@@ -1,0 +1,9 @@
+[MASTER] 19:28:33.571 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 19:28:33.575 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: io.netty.internal.tcnative.SSL
+[MASTER] 19:28:33.576 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 19:28:33.576 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 19:28:33.597 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 19:28:33.598 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 19:28:33.599 [pool-2-thread-1] WARN  CheapPurityAnalyzer - io.netty.internal.tcnative.SSL was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 19:28:41.597 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/simple/.evosuite/evosuite-seeds/org.asynchttpclient.extras.simple.SimpleAsyncHttpClient.seed
+[MASTER] 19:28:42.127 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 4 seconds more than allowed.

@@ -1,0 +1,4 @@
+[MASTER] 18:50:57.309 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.request.body.multipart.part.ByteArrayMultipartPart.seed
+[MASTER] 18:50:57.441 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 1 seconds more than allowed.
+[MASTER] 18:51:01.927 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: No generators of type java.util.List<org.asynchttpclient.Param>
+[MASTER] 18:51:04.685 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for class java.nio.charset.Charset canUseFunctionalMocks=true, canBeMocked: false

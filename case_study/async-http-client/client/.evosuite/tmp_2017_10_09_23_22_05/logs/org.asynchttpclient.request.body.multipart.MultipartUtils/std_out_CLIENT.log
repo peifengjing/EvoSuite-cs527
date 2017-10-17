@@ -1,9 +1,0 @@
-[MASTER] 00:22:20.243 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/evosuite-seeds/org.asynchttpclient.request.body.multipart.MultipartUtils.seed
-[MASTER] 00:23:39.546 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class org.junit.ComparisonFailure: expected:<...form-data; boundary=[wo24HcFkdmgvjl5Oh0BAH4wEDDXn3B43Am2B]> but was:<...form-data; boundary=[jy_VmBaYeUiBbpG4CND0dZGkNoC7TXSYfWW]>
-[MASTER] 00:23:39.547 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test:
- LinkedList<Part> linkedList0 = new LinkedList<Part>();
-EmptyHttpHeaders emptyHttpHeaders0 = EmptyHttpHeaders.INSTANCE;
-MultipartBody multipartBody0 = MultipartUtils.newMultipartBody(linkedList0, emptyHttpHeaders0);
-assertEquals("multipart/form-data; boundary=wo24HcFkdmgvjl5Oh0BAH4wEDDXn3B43Am2B", multipartBody0.getContentType());
-
-

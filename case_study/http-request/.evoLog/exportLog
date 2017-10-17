@@ -1,0 +1,46 @@
+Last login: Sun Oct 15 22:21:56 on ttys001
+Peifengs-MacBook-Air:http-request Peifeng$ mvn evosuite:export
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for com.github.kevinsawicki:http-request:jar:6.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM com.github.kevinsawicki:http-request:6.1-SNAPSHOT (/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/http-request/lib/pom.xml) points at com.github.kevinsawicki:http-request-parent instead of org.sonatype.oss:oss-parent, please verify your project structure @ line 5, column 11
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 140, column 24
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] http-request
+[INFO] http-request-parent
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building http-request 6.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:export (default-cli) @ http-request ---
+[INFO] Exporting tests
+[INFO] Exported tests to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/http-request/lib/src/test/evosuite
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building http-request-parent 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.3:export (default-cli) @ http-request-parent ---
+[INFO] Exporting tests
+[INFO] Nothing to export
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] http-request ....................................... SUCCESS [  1.009 s]
+[INFO] http-request-parent ................................ SUCCESS [  0.513 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.611 s
+[INFO] Finished at: 2017-10-15T22:22:37-07:00
+[INFO] Final Memory: 18M/179M
+[INFO] ------------------------------------------------------------------------
+Peifengs-MacBook-Air:http-request Peifeng$

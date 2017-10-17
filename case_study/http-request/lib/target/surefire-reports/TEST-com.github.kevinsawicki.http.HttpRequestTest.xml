@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="161" failures="0" name="com.github.kevinsawicki.http.HttpRequestTest" time="0.46" errors="0" skipped="0">
+<testsuite tests="161" failures="9" name="com.github.kevinsawicki.http.HttpRequestTest" time="0.743" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.77-b03"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/http-request"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/http-request"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/cs527/evosuite/case_study/http-request"/>
+    <property name="user.dir" value="/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/http-request"/>
     <property name="java.runtime.version" value="1.8.0_77-b03"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -61,165 +61,591 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getBytes" time="0.15"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getParameters" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putEmpty" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getEmpty" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="malformedStringUrl" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="malformedStringUrlCause" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="negativeBufferSize" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getUrlEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getNoContent" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getUrlEncodedWithSpace" time="0.004"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getUrlEncodedWithUnicode" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getUrlEncodedWithPercent" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteEmpty" time="0.003"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteUrlEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="optionsEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="optionsUrlEmpty" time="0.003"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headUrlEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putUrlEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="traceEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="traceUrlEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postUrlEmpty" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postNonEmptyString" time="0.015"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postNonEmptyFile" time="0.005"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postMultipleFiles" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postNonEmptyReader" time="0.004"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postNonEmptyByteArray" time="0.003"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithLength" time="0.003"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postForm" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postFormWithNoCharset" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postEmptyForm" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="chunkPost" time="0.003"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getNonEmptyString" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithResponseCharset" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithResponseCharsetAsSecondParam" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="basicAuthentication" time="0.003"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="basicProxyAuthentication" time="0.061"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getReader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendWithWriter" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getBufferedReader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getReaderWithCharset" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getError" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="noError" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="serverHeader" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="expiresHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="lastModifiedHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="dateHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="eTagHeader" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="locationHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="contentEncodingHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="contentTypeHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="requestContentType" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="requestContentTypeNullCharset" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="requestContentTypeEmptyCharset" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="cacheControlHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headers" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="emptyHeaders" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getAllHeaders" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="numberHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="userAgentHeader" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="acceptHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="acceptJson" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="ifNoneMatchHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="acceptCharsetHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="acceptEncodingHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="ifModifiedSinceHeader" time="0.005"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="refererHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postMultipart" time="0.003"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postMultipartWithContentType" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="receiveAppendable" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="receiveWriter" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="receivePrintStream" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="receiveFile" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="httpsTrust" time="0.055"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="httpTrust" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="verifierAccepts" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="singleVerifier" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="singleSslSocketFactory" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendErrorReadStream" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendErrorCloseStream" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getToOutputCode" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getToOutputBody" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getToOutputBodyWithCharset" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getGzipped" time="0.004"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getNonGzippedWithUncompressEnabled" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getEmptyHeaders" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getSingleParameter" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getMultipleParameters" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getSingleParameterQuoted" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getMultipleParametersQuoted" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getMissingParameter" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getParameterFromMissingHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getEmptyParameter" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getEmptyParameters" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getQuotedParameters" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getMixQuotedParameters" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="missingDateHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="malformedDateHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="missingIntHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="malformedIntHeader" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postFormAsEntries" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postFormEntryWithNullValue" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithMappedQueryParams" time="0.004"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithVaragsQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithEscapedMappedQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithEscapedVarargsQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithNumericQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithMappedQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithVarargsQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithEscapedMappedQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithEscapedVarargsQueryParams" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteWithMappedQueryParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteWithVarargsQueryParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteWithEscapedMappedQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteWithEscapedVarargsQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putWithMappedQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putWithVarargsQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putWithEscapedMappedQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putWithEscapedVarargsQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headWithMappedQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headWithVaragsQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headWithEscapedMappedQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headWithEscapedVarargsQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMappedQueryParamsWithNoPath" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendVarargsQueryParmasWithNoPath" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMappedQueryParamsWithPath" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendVarargsQueryParamsWithPath" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMultipleMappedQueryParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMultipleVarargsQueryParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendNullMappedQueryParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendNullVaragsQueryParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendEmptyMappedQueryParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendEmptyVarargsQueryParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendWithNullMappedQueryParamValues" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendWithNullVaragsQueryParamValues" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendOddNumberOfParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMappedQueryParamsWithExistingQueryStart" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendVarargsQueryParamsWithExistingQueryStart" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMappedQueryParamsWithExistingParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendWithVarargsQueryParamsWithExistingParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendArrayQueryParams" time="0"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendListQueryParams" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="serverErrorCode" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="badRequestCode" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getMissingParameter" time="0.089"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="receiveFile" time="0.03"/>
   <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="notModifiedCode" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendReceiveWithoutCode" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendHeadersWithoutCode" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendDateHeaderWithoutCode" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendIntHeaderWithoutCode" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="customConnectionFactory" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="nullConnectionFactory" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="malformedStringUrlCause" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMappedQueryParamsWithPath" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="optionsEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getEmptyHeaders" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="uploadProgressSendByteArray" time="0.014"/>
   <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="streamOfEmptyOkResponse" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getMixQuotedParameters" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendVarargsQueryParmasWithNoPath" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="basicAuthentication" time="0.005"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMappedQueryParamsWithNoPath" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getToOutputBody" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getToOutputCode" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithResponseCharsetAsSecondParam" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getSingleParameter" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="acceptCharsetHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="singleVerifier" time="0.186"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="basicProxyAuthentication" time="0.208">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.github.kevinsawicki.http.HttpRequestTest.basicProxyAuthentication(HttpRequestTest.java:975)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-err>2017-10-16 05:23:07.787:WARN:oejs.ServletHandler:
+java.lang.ClassCastException: org.eclipse.jetty.server.AsyncContinuation cannot be cast to org.eclipse.jetty.continuation.Continuation
+	at org.eclipse.jetty.continuation.ContinuationSupport.getContinuation(ContinuationSupport.java:110)
+	at org.eclipse.jetty.servlets.ProxyServlet.service(ProxyServlet.java:422)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:457)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:386)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:488)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:932)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:994)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+</system-err>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postUrlEmpty" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteWithVarargsQueryParams" time="0.008"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithEscapedMappedQueryParams" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendNullMappedQueryParams" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendHeadersWithoutCode" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendEmptyMappedQueryParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendWithNullVaragsQueryParamValues" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="traceUrlEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMultipleMappedQueryParams" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="acceptJson" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendErrorReadStream" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteEmpty" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMappedQueryParamsWithExistingParams" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="cacheControlHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getNonGzippedWithUncompressEnabled" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="userAgentHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putUrlEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithMappedQueryParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="malformedDateHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="contentEncodingHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headWithVaragsQueryParams" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getReaderWithCharset" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithEscapedVarargsQueryParams" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithVarargsQueryParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="nullUploadProgress" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getEmptyParameter" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMultipleVarargsQueryParams" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendErrorCloseStream" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postMultipleFiles" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithResponseCharset" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="ifModifiedSinceHeader" time="0.009"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="uploadProgressSendReader" time="0.005"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="receiveAppendable" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getParameterFromMissingHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="locationHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putWithEscapedVarargsQueryParams" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getMultipleParametersQuoted" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="contentTypeHeader" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendArrayQueryParams" time="0.003"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendWithNullMappedQueryParamValues" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithEscapedMappedQueryParams" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="requestContentTypeNullCharset" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="optionsUrlEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getUrlEncodedWithSpace" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headEmpty" time="0.002"/>
   <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="bodyOfEmptyErrorResponse" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="receivePrintStream" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getWithMappedQueryParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postFormAsEntries" time="0.004"/>
   <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="bodyOfNonEmptyErrorResponse" time="0.001"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="uploadProgressSend" time="0.003"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="uploadProgressSendInputStream" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="uploadProgressSendByteArray" time="0.002"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="uploadProgressSendReader" time="0.004"/>
-  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="nullUploadProgress" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="refererHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendWithWriter" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="requestContentType" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="customConnectionFactory" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getParameters" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="httpTrust" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="dateHeader" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getSingleParameterQuoted" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithNumericQueryParams" time="0.002">
+    <failure message="expected:&lt;2&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.github.kevinsawicki.http.HttpRequestTest.postWithNumericQueryParams(HttpRequestTest.java:2584)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getMultipleParameters" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getQuotedParameters" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteWithEscapedMappedQueryParams" time="0.002">
+    <failure message="expected:&lt;us er&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;us er&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedMappedQueryParams(HttpRequestTest.java:2778)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithLength" time="0.006"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendWithVarargsQueryParamsWithExistingParams" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendIntHeaderWithoutCode" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="acceptEncodingHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendVarargsQueryParamsWithExistingQueryStart" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postNonEmptyByteArray" time="0.003"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headUrlEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendVarargsQueryParamsWithPath" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postFormWithNoCharset" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headWithMappedQueryParams" time="0.001">
+    <failure message="expected:&lt;user&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;user&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.github.kevinsawicki.http.HttpRequestTest.headWithMappedQueryParams(HttpRequestTest.java:2943)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="emptyHeaders" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postFormEntryWithNullValue" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="numberHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="eTagHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postForm" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendEmptyVarargsQueryParams" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getReader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headers" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putWithVarargsQueryParams" time="0.003">
+    <failure message="expected:&lt;user&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;user&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.github.kevinsawicki.http.HttpRequestTest.putWithVarargsQueryParams(HttpRequestTest.java:2859)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postNonEmptyFile" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="malformedIntHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headWithEscapedMappedQueryParams" time="0.002">
+    <failure message="expected:&lt;us er&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;us er&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.github.kevinsawicki.http.HttpRequestTest.headWithEscapedMappedQueryParams(HttpRequestTest.java:2998)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="uploadProgressSend" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postNonEmptyReader" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="traceEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postNonEmptyString" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="malformedStringUrl" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithEscapedVarargsQueryParams" time="0.003">
+    <failure message="expected:&lt;us er&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;us er&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.github.kevinsawicki.http.HttpRequestTest.postWithEscapedVarargsQueryParams(HttpRequestTest.java:2555)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="missingDateHeader" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="uploadProgressSendInputStream" time="0.004"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getUrlEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="requestContentTypeEmptyCharset" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendNullVaragsQueryParams" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="lastModifiedHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendReceiveWithoutCode" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="verifierAccepts" time="0.001">
+    <error message="sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection" type="java.lang.ClassCastException">java.lang.ClassCastException: sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+	at com.github.kevinsawicki.http.HttpRequestTest.verifierAccepts(HttpRequestTest.java:1797)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteWithEscapedVarargsQueryParams" time="0.002">
+    <failure message="expected:&lt;us er&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;us er&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedVarargsQueryParams(HttpRequestTest.java:2804)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteUrlEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getEmptyParameters" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getUrlEncodedWithPercent" time="0.005">
+    <failure message="expected:&lt;/[%]&gt; but was:&lt;/[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;/[%]&gt; but was:&lt;/[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithPercent(HttpRequestTest.java:329)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="serverErrorCode" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendMappedQueryParamsWithExistingQueryStart" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="missingIntHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="expiresHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendOddNumberOfParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="nullConnectionFactory" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getNoContent" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getGzipped" time="0.006"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="serverHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getNonEmptyString" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="deleteWithMappedQueryParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postWithVaragsQueryParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="receiveWriter" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postMultipartWithContentType" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="acceptHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getUrlEncodedWithUnicode" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postEmptyForm" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getBufferedReader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putWithEscapedMappedQueryParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="httpsTrust" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getToOutputBodyWithCharset" time="0.002"/>
   <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getHeaders" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="appendListQueryParams" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getAllHeaders" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postMultipart" time="0.003"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getBytes" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getEmpty" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="getError" time="0.002"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="postEmpty" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="negativeBufferSize" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="singleSslSocketFactory" time="0"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="chunkPost" time="0.005"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="headWithEscapedVarargsQueryParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="noError" time="0.003"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="ifNoneMatchHeader" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="putWithMappedQueryParams" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="sendDateHeaderWithoutCode" time="0.001"/>
+  <testcase classname="com.github.kevinsawicki.http.HttpRequestTest" name="badRequestCode" time="0.001"/>
 </testsuite>

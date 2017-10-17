@@ -1,2 +1,0 @@
-[MASTER] 00:45:22.488 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for io.netty.channel.CombinedChannelDuplexHandler<I, O> : Type points to itself
-[MASTER] 00:45:57.657 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.AsyncHandler<T> : Type points to itself

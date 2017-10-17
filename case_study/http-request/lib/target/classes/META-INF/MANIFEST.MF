@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1508003216275
+Bnd-LastModified: 1508131381042
 Build-Jdk: 1.8.0_77
 Built-By: Peifeng
 Bundle-Description: Library for making HTTP requests

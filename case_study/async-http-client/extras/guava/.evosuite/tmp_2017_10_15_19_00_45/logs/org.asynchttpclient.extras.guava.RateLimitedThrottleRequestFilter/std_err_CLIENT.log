@@ -1,0 +1,35 @@
+[MASTER] 19:00:58.280 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.asynchttpclient.filter.FilterContext<T> : Type points to itself
+[MASTER] 19:02:45.821 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaders: io/netty/handler/codec/http/EmptyHttpHeaders
+[MASTER] 19:02:46.233 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaders: io/netty/handler/codec/http/HttpUtil
+[MASTER] 19:02:46.256 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher: com/google/common/base/CharMatcher$1
+[MASTER] 19:02:46.605 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaders: io/netty/handler/codec/http/HttpHeaderValues
+[MASTER] 19:02:46.653 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher: com/google/common/base/CharMatcher$RangesMatcher
+[MASTER] 19:02:46.654 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.EmptyHttpHeaders: Could not initialize class io.netty.handler.codec.http.EmptyHttpHeaders
+[MASTER] 19:02:47.032 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaders: io/netty/util/AsciiString
+[MASTER] 19:02:47.066 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher: com/google/common/base/CharMatcher$2
+[MASTER] 19:02:47.092 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$1: com/google/common/base/CharMatcher$3
+[MASTER] 19:02:47.094 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpUtil: Could not initialize class io.netty.handler.codec.http.HttpUtil
+[MASTER] 19:02:47.399 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaders: io/netty/util/internal/MathUtil
+[MASTER] 19:02:47.443 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$RangesMatcher: com/google/common/base/CharMatcher$4
+[MASTER] 19:02:47.446 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaderValues: Could not initialize class io.netty.handler.codec.http.HttpHeaderValues
+[MASTER] 19:02:47.467 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher: com/google/common/base/CharMatcher$5
+[MASTER] 19:02:47.473 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$2: com/google/common/base/CharMatcher$6
+[MASTER] 19:02:47.499 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$1: com/google/common/base/CharMatcher$7
+[MASTER] 19:02:47.829 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaders: io/netty/util/AsciiString$1
+[MASTER] 19:02:47.830 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.AsciiString: Could not initialize class io.netty.util.AsciiString
+[MASTER] 19:02:47.852 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.HashingStrategy: io/netty/util/HashingStrategy$1
+[MASTER] 19:02:47.891 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$RangesMatcher: com/google/common/base/CharMatcher$8
+[MASTER] 19:02:47.905 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher: com/google/common/base/CharMatcher$15
+[MASTER] 19:02:47.911 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$IndexOfProcessor
+[MASTER] 19:02:47.917 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$5: com/google/common/base/CharMatcher$And
+[MASTER] 19:02:47.922 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$4: com/google/common/base/CharMatcher$Or
+[MASTER] 19:02:47.933 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$3: com/google/common/base/CharMatcher$NegatedFastMatcher
+[MASTER] 19:02:47.945 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$2: com/google/common/base/CharMatcher$13
+[MASTER] 19:02:47.957 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$6: com/google/common/base/CharMatcher$9
+[MASTER] 19:02:47.990 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$1: com/google/common/base/CharMatcher$10
+[MASTER] 19:02:48.319 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$FastMatcher: com/google/common/base/CharMatcher$14
+[MASTER] 19:02:48.387 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.codec.http.HttpHeaders: io/netty/util/AsciiString$2
+[MASTER] 19:02:48.396 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$15: com/google/common/base/CharMatcher$BitSetMatcher
+[MASTER] 19:02:48.409 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$13: com/google/common/base/CharMatcher$11
+[MASTER] 19:02:48.426 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.common.base.CharMatcher$RangesMatcher: com/google/common/base/CharMatcher$12
+[MASTER] 19:02:48.458 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.util.ByteProcessor: io/netty/util/ByteProcessor$IndexNotOfProcessor

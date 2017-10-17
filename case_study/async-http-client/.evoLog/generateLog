@@ -1,0 +1,1526 @@
+Peifengs-MacBook-Air:async-http-client Peifeng$ mvn evosuite:generate
+[INFO] Scanning for projects...
+[WARNING] The project org.asynchttpclient:async-http-client-project:pom:2.1.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] Asynchronous Http Client Project
+[INFO] Asynchronous Http Client Netty Utils
+[INFO] Asynchronous Http Client
+[INFO] Asynchronous Http Client Extras Parent
+[INFO] Asynchronous Http Client Guava Extras
+[INFO] Asynchronous Http Client JDeferred Extras
+[INFO] Asynchronous Http Client Registry Extras
+[INFO] Asynchronous Http Client RxJava Extras
+[INFO] Asynchronous Http Client RxJava2 Extras
+[INFO] Asynchronous Http Simple Client
+[INFO] Asynchronous Http Client Retrofit2 Extras
+[INFO] Asynchronous Http Client Example
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Project 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-project >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-project ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-project ---
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-project <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-project ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: null
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client
+[INFO] Nothing to test
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Netty Utils 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-netty-utils >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-netty-utils ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-netty-utils ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-netty-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-netty-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-netty-utils <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-netty-utils ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/netty-utils
+[INFO] Started spawn process manager on port 50066
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:50067
+[INFO] Going to execute 2 jobs
+[INFO] Estimated completion time: 4 minutes, by 2017-10-15T16:16:02.324
+[INFO] Going to start job for: org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder. Expected to end in 150 seconds, by 2017-10-15T16:14:32.388
+[INFO] Registered remote process from /127.0.0.1:50068
+[INFO] Registered remote process from /127.0.0.1:50076
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: org.asynchttpclient.netty.util.ByteBufUtils. Expected to end in 89 seconds, by 2017-10-15T16:15:34.566
+[INFO] Registered remote process from /127.0.0.1:50088
+[INFO] Registered remote process from /127.0.0.1:50094
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to org.asynchttpclient.netty.util.Utf8ByteBufCharsetDecoder
+[INFO] * Updating database to org.asynchttpclient.netty.util.ByteBufUtils
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 2
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client
+[INFO] Started spawn process manager on port 50100
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:50101
+[INFO] Going to execute 149 jobs
+[INFO] Estimated completion time: 298 minutes, by 2017-10-15T21:13:30.042
+[INFO] Going to start job for: org.asynchttpclient.uri.UriParser. Expected to end in 676 seconds, by 2017-10-15T16:26:46.081
+[INFO] Registered remote process from /127.0.0.1:50104
+[INFO] Registered remote process from /127.0.0.1:50110
+[INFO] Completed job. Left: 148
+[INFO] Going to start job for: org.asynchttpclient.netty.request.NettyRequestSender. Expected to end in 668 seconds, by 2017-10-15T16:33:46.613
+[INFO] Registered remote process from /127.0.0.1:50164
+[INFO] Registered remote process from /127.0.0.1:50170
+[INFO] Completed job. Left: 147
+[INFO] Going to start job for: org.asynchttpclient.netty.request.NettyRequestFactory. Expected to end in 459 seconds, by 2017-10-15T16:31:28.425
+[INFO] Registered remote process from /127.0.0.1:50181
+[INFO] Registered remote process from /127.0.0.1:50187
+[INFO] Completed job. Left: 146
+[INFO] Going to start job for: org.asynchttpclient.util.AuthenticatorUtils. Expected to end in 443 seconds, by 2017-10-15T16:34:44.797
+[INFO] Registered remote process from /127.0.0.1:50201
+[INFO] Registered remote process from /127.0.0.1:50208
+[INFO] Completed job. Left: 145
+[INFO] Going to start job for: org.asynchttpclient.uri.Uri. Expected to end in 409 seconds, by 2017-10-15T16:39:58.202
+[INFO] Registered remote process from /127.0.0.1:50267
+[INFO] Registered remote process from /127.0.0.1:50273
+[INFO] Completed job. Left: 144
+[INFO] Going to start job for: org.asynchttpclient.netty.NettyResponseFuture. Expected to end in 384 seconds, by 2017-10-15T16:43:57.992
+[INFO] Registered remote process from /127.0.0.1:50293
+[INFO] Registered remote process from /127.0.0.1:50300
+[INFO] Completed job. Left: 143
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.DefaultChannelPool. Expected to end in 351 seconds, by 2017-10-15T16:49:50.964
+[INFO] Registered remote process from /127.0.0.1:50330
+[INFO] Registered remote process from /127.0.0.1:50336
+[INFO] Completed job. Left: 142
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.ChannelManager. Expected to end in 326 seconds, by 2017-10-15T16:49:45.474
+[INFO] Registered remote process from /127.0.0.1:50337
+[INFO] Registered remote process from /127.0.0.1:50343
+[INFO] Completed job. Left: 141
+[INFO] Going to start job for: org.asynchttpclient.RequestBuilderBase. Expected to end in 318 seconds, by 2017-10-15T16:50:06.621
+[INFO] Registered remote process from /127.0.0.1:50345
+[INFO] Registered remote process from /127.0.0.1:50351
+[INFO] Completed job. Left: 140
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.HttpHandler. Expected to end in 309 seconds, by 2017-10-15T16:50:02.794
+[INFO] Registered remote process from /127.0.0.1:50352
+[INFO] Completed job. Left: 139
+[INFO] Going to start job for: org.asynchttpclient.netty.NettyResponse. Expected to end in 293 seconds, by 2017-10-15T16:50:32.695
+[INFO] Registered remote process from /127.0.0.1:50361
+[INFO] Registered remote process from /127.0.0.1:50367
+[INFO] Completed job. Left: 138
+[INFO] Going to start job for: org.asynchttpclient.netty.ws.NettyWebSocket. Expected to end in 293 seconds, by 2017-10-15T16:50:50.853
+[INFO] Registered remote process from /127.0.0.1:50369
+[INFO] Completed job. Left: 137
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.AsyncHttpClientHandler. Expected to end in 293 seconds, by 2017-10-15T16:51:07.430
+[INFO] Registered remote process from /127.0.0.1:50376
+[INFO] Registered remote process from /127.0.0.1:50382
+[INFO] Completed job. Left: 136
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.intercept.Redirect30xInterceptor. Expected to end in 284 seconds, by 2017-10-15T16:55:07.931
+[INFO] Registered remote process from /127.0.0.1:50423
+[INFO] Registered remote process from /127.0.0.1:50430
+[INFO] Completed job. Left: 135
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.part.MultipartPart. Expected to end in 284 seconds, by 2017-10-15T16:57:27.306
+[INFO] Registered remote process from /127.0.0.1:50439
+[INFO] Registered remote process from /127.0.0.1:50447
+[INFO] Completed job. Left: 134
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.intercept.ProxyUnauthorized407Interceptor. Expected to end in 234 seconds, by 2017-10-15T16:59:57.959
+[INFO] Registered remote process from /127.0.0.1:50462
+[INFO] Registered remote process from /127.0.0.1:50468
+[INFO] Completed job. Left: 133
+[INFO] Going to start job for: org.asynchttpclient.util.HttpUtils. Expected to end in 234 seconds, by 2017-10-15T17:00:34.772
+[INFO] Registered remote process from /127.0.0.1:50469
+[INFO] Registered remote process from /127.0.0.1:50475
+[INFO] Completed job. Left: 132
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.intercept.Unauthorized401Interceptor. Expected to end in 226 seconds, by 2017-10-15T17:03:06.131
+[INFO] Registered remote process from /127.0.0.1:50486
+[INFO] Registered remote process from /127.0.0.1:50492
+[INFO] Completed job. Left: 131
+[INFO] Going to start job for: org.asynchttpclient.ntlm.NtlmEngine. Expected to end in 209 seconds, by 2017-10-15T17:03:14.765
+[INFO] Registered remote process from /127.0.0.1:50495
+[INFO] Registered remote process from /127.0.0.1:50501
+[INFO] Completed job. Left: 130
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.WebSocketHandler. Expected to end in 209 seconds, by 2017-10-15T17:06:12.364
+[INFO] Registered remote process from /127.0.0.1:50514
+[INFO] Registered remote process from /127.0.0.1:50520
+[INFO] Completed job. Left: 129
+[INFO] Going to start job for: org.asynchttpclient.netty.future.StackTraceInspector. Expected to end in 201 seconds, by 2017-10-15T17:07:04.890
+[INFO] Registered remote process from /127.0.0.1:50526
+[INFO] Registered remote process from /127.0.0.1:50533
+[INFO] Completed job. Left: 128
+[INFO] Going to start job for: org.asynchttpclient.util.MiscUtils. Expected to end in 201 seconds, by 2017-10-15T17:09:16.105
+[INFO] Registered remote process from /127.0.0.1:50543
+[INFO] Registered remote process from /127.0.0.1:50549
+[INFO] Completed job. Left: 127
+[INFO] Going to start job for: org.asynchttpclient.handler.resumable.ResumableAsyncHandler. Expected to end in 201 seconds, by 2017-10-15T17:11:31.351
+[INFO] Registered remote process from /127.0.0.1:50560
+[INFO] Registered remote process from /127.0.0.1:50566
+[INFO] Completed job. Left: 126
+[INFO] Going to start job for: org.asynchttpclient.util.Utf8UrlEncoder. Expected to end in 193 seconds, by 2017-10-15T17:11:54.216
+[INFO] Registered remote process from /127.0.0.1:50568
+[INFO] Registered remote process from /127.0.0.1:50574
+[INFO] Completed job. Left: 125
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.NettyConnectListener. Expected to end in 193 seconds, by 2017-10-15T17:14:54.066
+[INFO] Registered remote process from /127.0.0.1:50588
+[INFO] Completed job. Left: 124
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.MultipartBody. Expected to end in 184 seconds, by 2017-10-15T17:15:27.440
+[INFO] Registered remote process from /127.0.0.1:50597
+[INFO] Registered remote process from /127.0.0.1:50603
+[INFO] Completed job. Left: 123
+[INFO] Going to start job for: org.asynchttpclient.Param. Expected to end in 176 seconds, by 2017-10-15T17:17:06.078
+[INFO] Registered remote process from /127.0.0.1:50621
+[INFO] Registered remote process from /127.0.0.1:50627
+[INFO] Completed job. Left: 122
+[INFO] Going to start job for: org.asynchttpclient.spnego.SpnegoEngine. Expected to end in 168 seconds, by 2017-10-15T17:18:53.176
+[INFO] Registered remote process from /127.0.0.1:50643
+[INFO] Registered remote process from /127.0.0.1:50649
+[INFO] Completed job. Left: 121
+[INFO] Going to start job for: org.asynchttpclient.netty.timeout.TimeoutsHolder. Expected to end in 168 seconds, by 2017-10-15T17:20:34.066
+[INFO] Registered remote process from /127.0.0.1:50660
+[INFO] Registered remote process from /127.0.0.1:50667
+[INFO] Completed job. Left: 120
+[INFO] Going to start job for: org.asynchttpclient.netty.request.WriteListener. Expected to end in 159 seconds, by 2017-10-15T17:22:59.568
+[INFO] Registered remote process from /127.0.0.1:50678
+[INFO] Registered remote process from /127.0.0.1:50684
+[INFO] Completed job. Left: 119
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.intercept.Interceptors. Expected to end in 159 seconds, by 2017-10-15T17:23:30.210
+[INFO] Registered remote process from /127.0.0.1:50687
+[INFO] Registered remote process from /127.0.0.1:50693
+[INFO] Completed job. Left: 118
+[INFO] Going to start job for: org.asynchttpclient.handler.resumable.PropertiesBasedResumableProcessor. Expected to end in 159 seconds, by 2017-10-15T17:23:58.400
+[INFO] Registered remote process from /127.0.0.1:50694
+[INFO] Registered remote process from /127.0.0.1:50700
+[INFO] Completed job. Left: 117
+[INFO] Going to start job for: org.asynchttpclient.request.body.generator.PushBody. Expected to end in 143 seconds, by 2017-10-15T17:25:23.859
+[INFO] Registered remote process from /127.0.0.1:50710
+[INFO] Registered remote process from /127.0.0.1:50716
+[INFO] Completed job. Left: 116
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.MultipartUtils. Expected to end in 134 seconds, by 2017-10-15T17:26:55.586
+[INFO] Registered remote process from /127.0.0.1:50724
+[INFO] Registered remote process from /127.0.0.1:50730
+[INFO] Completed job. Left: 115
+[INFO] Going to start job for: org.asynchttpclient.DefaultAsyncHttpClient. Expected to end in 134 seconds, by 2017-10-15T17:28:26.691
+[INFO] Registered remote process from /127.0.0.1:50738
+[INFO] Registered remote process from /127.0.0.1:50744
+[INFO] Completed job. Left: 114
+[INFO] Going to start job for: org.asynchttpclient.DefaultRequest. Expected to end in 126 seconds, by 2017-10-15T17:29:55.045
+[INFO] Registered remote process from /127.0.0.1:50752
+[INFO] Registered remote process from /127.0.0.1:50758
+[INFO] Completed job. Left: 113
+[INFO] Going to start job for: org.asynchttpclient.handler.TransferCompletionHandler. Expected to end in 126 seconds, by 2017-10-15T17:31:53.859
+[INFO] Registered remote process from /127.0.0.1:50770
+[INFO] Registered remote process from /127.0.0.1:50776
+[INFO] Completed job. Left: 112
+[INFO] Going to start job for: org.asynchttpclient.oauth.OAuthSignatureCalculatorInstance. Expected to end in 126 seconds, by 2017-10-15T17:32:13.881
+[INFO] Registered remote process from /127.0.0.1:50779
+[INFO] Registered remote process from /127.0.0.1:50785
+[INFO] Completed job. Left: 111
+[INFO] Going to start job for: org.asynchttpclient.util.ProxyUtils. Expected to end in 118 seconds, by 2017-10-15T17:34:11.655
+[INFO] Registered remote process from /127.0.0.1:50792
+[INFO] Registered remote process from /127.0.0.1:50798
+[INFO] Completed job. Left: 110
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.Channels. Expected to end in 118 seconds, by 2017-10-15T17:35:04.063
+[INFO] Registered remote process from /127.0.0.1:50803
+[INFO] Registered remote process from /127.0.0.1:50810
+[INFO] Completed job. Left: 109
+[INFO] Going to start job for: org.asynchttpclient.util.Base64. Expected to end in 118 seconds, by 2017-10-15T17:35:16.783
+[INFO] Registered remote process from /127.0.0.1:50811
+[INFO] Registered remote process from /127.0.0.1:50818
+[INFO] Completed job. Left: 108
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.BodyChunkedInput. Expected to end in 109 seconds, by 2017-10-15T17:36:30.039
+[INFO] Registered remote process from /127.0.0.1:50826
+[INFO] Registered remote process from /127.0.0.1:50832
+[INFO] Completed job. Left: 107
+[INFO] Going to start job for: org.asynchttpclient.oauth.RequestToken. Expected to end in 109 seconds, by 2017-10-15T17:37:47.608
+[INFO] Registered remote process from /127.0.0.1:50841
+[INFO] Registered remote process from /127.0.0.1:50848
+[INFO] Completed job. Left: 106
+[INFO] Going to start job for: org.asynchttpclient.oauth.ConsumerKey. Expected to end in 109 seconds, by 2017-10-15T17:39:00.952
+[INFO] Registered remote process from /127.0.0.1:50853
+[INFO] Completed job. Left: 105
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.ConnectionSemaphore. Expected to end in 109 seconds, by 2017-10-15T17:40:13.692
+[INFO] Registered remote process from /127.0.0.1:50865
+[INFO] Completed job. Left: 104
+[INFO] Going to start job for: org.asynchttpclient.oauth.Parameter. Expected to end in 109 seconds, by 2017-10-15T17:40:59.404
+[INFO] Registered remote process from /127.0.0.1:50876
+[INFO] Completed job. Left: 103
+[INFO] Going to start job for: org.asynchttpclient.proxy.ProxyServer. Expected to end in 109 seconds, by 2017-10-15T17:42:11.794
+[INFO] Registered remote process from /127.0.0.1:50887
+[INFO] Registered remote process from /127.0.0.1:50894
+[INFO] Completed job. Left: 102
+[INFO] Going to start job for: org.asynchttpclient.netty.ssl.DefaultSslEngineFactory. Expected to end in 101 seconds, by 2017-10-15T17:43:18.951
+[INFO] Registered remote process from /127.0.0.1:50899
+[INFO] Registered remote process from /127.0.0.1:50905
+[INFO] Completed job. Left: 101
+[INFO] Going to start job for: org.asynchttpclient.HostStats. Expected to end in 101 seconds, by 2017-10-15T17:44:36.569
+[INFO] Registered remote process from /127.0.0.1:50913
+[INFO] Registered remote process from /127.0.0.1:50919
+[INFO] Completed job. Left: 100
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyBodyBody. Expected to end in 101 seconds, by 2017-10-15T17:45:45.653
+[INFO] Registered remote process from /127.0.0.1:50926
+[INFO] Registered remote process from /127.0.0.1:50932
+[INFO] Completed job. Left: 99
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyFileBody. Expected to end in 93 seconds, by 2017-10-15T17:46:51.932
+[INFO] Registered remote process from /127.0.0.1:50949
+[INFO] Registered remote process from /127.0.0.1:50955
+[INFO] Completed job. Left: 98
+[INFO] Going to start job for: org.asynchttpclient.util.StringUtils. Expected to end in 93 seconds, by 2017-10-15T17:48:02.349
+[INFO] Registered remote process from /127.0.0.1:50966
+[INFO] Registered remote process from /127.0.0.1:50972
+[INFO] Completed job. Left: 97
+[INFO] Going to start job for: org.asynchttpclient.netty.timeout.ReadTimeoutTimerTask. Expected to end in 93 seconds, by 2017-10-15T17:49:10.880
+[INFO] Registered remote process from /127.0.0.1:50978
+[INFO] Registered remote process from /127.0.0.1:50984
+[INFO] Completed job. Left: 96
+[INFO] Going to start job for: org.asynchttpclient.netty.request.WriteProgressListener. Expected to end in 93 seconds, by 2017-10-15T17:50:21.191
+[INFO] Registered remote process from /127.0.0.1:50993
+[INFO] Registered remote process from /127.0.0.1:50999
+[INFO] Completed job. Left: 95
+[INFO] Going to start job for: org.asynchttpclient.netty.request.NettyChannelConnector. Expected to end in 93 seconds, by 2017-10-15T17:51:28.994
+[INFO] Registered remote process from /127.0.0.1:51008
+[INFO] Registered remote process from /127.0.0.1:51014
+[INFO] Completed job. Left: 94
+[INFO] Going to start job for: org.asynchttpclient.util.UriEncoder. Expected to end in 93 seconds, by 2017-10-15T17:52:15.152
+[INFO] Registered remote process from /127.0.0.1:51019
+[INFO] Registered remote process from /127.0.0.1:51025
+[INFO] Completed job. Left: 93
+[INFO] Going to start job for: org.asynchttpclient.ws.WebSocketUpgradeHandler. Expected to end in 93 seconds, by 2017-10-15T17:53:22.451
+[INFO] Registered remote process from /127.0.0.1:51031
+[INFO] Registered remote process from /127.0.0.1:51037
+[INFO] Completed job. Left: 92
+[INFO] Going to start job for: org.asynchttpclient.handler.BodyDeferringAsyncHandler. Expected to end in 93 seconds, by 2017-10-15T17:54:39.308
+[INFO] Registered remote process from /127.0.0.1:51044
+[INFO] Registered remote process from /127.0.0.1:51050
+[INFO] Completed job. Left: 91
+[INFO] Going to start job for: org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask. Expected to end in 84 seconds, by 2017-10-15T17:56:05.972
+[INFO] Registered remote process from /127.0.0.1:51058
+[INFO] Registered remote process from /127.0.0.1:51064
+[INFO] Completed job. Left: 90
+[INFO] Going to start job for: org.asynchttpclient.channel.DefaultKeepAliveStrategy. Expected to end in 84 seconds, by 2017-10-15T17:57:11.471
+[INFO] Registered remote process from /127.0.0.1:51069
+[INFO] Registered remote process from /127.0.0.1:51076
+[INFO] Completed job. Left: 89
+[INFO] Going to start job for: org.asynchttpclient.ClientStats. Expected to end in 84 seconds, by 2017-10-15T17:58:10.183
+[INFO] Registered remote process from /127.0.0.1:51079
+[INFO] Registered remote process from /127.0.0.1:51086
+[INFO] Completed job. Left: 88
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.FilePart. Expected to end in 84 seconds, by 2017-10-15T17:59:06.796
+[INFO] Registered remote process from /127.0.0.1:51092
+[INFO] Registered remote process from /127.0.0.1:51098
+[INFO] Completed job. Left: 87
+[INFO] Going to start job for: org.asynchttpclient.webdav.WebDavCompletionHandlerBase. Expected to end in 84 seconds, by 2017-10-15T18:00:04.872
+[INFO] Registered remote process from /127.0.0.1:51104
+[INFO] Registered remote process from /127.0.0.1:51110
+[INFO] Completed job. Left: 86
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyInputStreamBody. Expected to end in 76 seconds, by 2017-10-15T18:00:54.654
+[INFO] Registered remote process from /127.0.0.1:51116
+[INFO] Registered remote process from /127.0.0.1:51122
+[INFO] Completed job. Left: 85
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.intercept.ResponseFiltersInterceptor. Expected to end in 76 seconds, by 2017-10-15T18:01:49.685
+[INFO] Registered remote process from /127.0.0.1:51127
+[INFO] Registered remote process from /127.0.0.1:51133
+[INFO] Completed job. Left: 84
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.NonBlockingSemaphore. Expected to end in 76 seconds, by 2017-10-15T18:02:52.980
+[INFO] Registered remote process from /127.0.0.1:51138
+[INFO] Registered remote process from /127.0.0.1:51144
+[INFO] Completed job. Left: 83
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.part.FileMultipartPart. Expected to end in 76 seconds, by 2017-10-15T18:03:49.838
+[INFO] Registered remote process from /127.0.0.1:51154
+[INFO] Registered remote process from /127.0.0.1:51160
+[INFO] Completed job. Left: 82
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.part.MessageEndMultipartPart. Expected to end in 76 seconds, by 2017-10-15T18:04:49.857
+[INFO] Registered remote process from /127.0.0.1:51168
+[INFO] Completed job. Left: 81
+[INFO] Going to start job for: org.asynchttpclient.oauth.Parameters. Expected to end in 76 seconds, by 2017-10-15T18:05:49.287
+[INFO] Registered remote process from /127.0.0.1:51183
+[INFO] Registered remote process from /127.0.0.1:51190
+[INFO] Completed job. Left: 80
+[INFO] Going to start job for: org.asynchttpclient.request.body.generator.QueueBasedFeedableBodyGenerator. Expected to end in 76 seconds, by 2017-10-15T18:06:45.689
+[INFO] Registered remote process from /127.0.0.1:51199
+[INFO] Completed job. Left: 79
+[INFO] Going to start job for: org.asynchttpclient.netty.timeout.TimeoutTimerTask. Expected to end in 76 seconds, by 2017-10-15T18:07:44.076
+[INFO] Registered remote process from /127.0.0.1:51217
+[INFO] Registered remote process from /127.0.0.1:51223
+[INFO] Completed job. Left: 78
+[INFO] Going to start job for: org.asynchttpclient.filter.ThrottleRequestFilter. Expected to end in 76 seconds, by 2017-10-15T18:08:53.898
+[INFO] Registered remote process from /127.0.0.1:51236
+[INFO] Registered remote process from /127.0.0.1:51243
+[INFO] Completed job. Left: 77
+[INFO] Going to start job for: org.asynchttpclient.handler.resumable.ResumableIOExceptionFilter. Expected to end in 76 seconds, by 2017-10-15T18:10:06.631
+[INFO] Registered remote process from /127.0.0.1:51251
+[INFO] Registered remote process from /127.0.0.1:51257
+[INFO] Completed job. Left: 76
+[INFO] Going to start job for: org.asynchttpclient.util.Assertions. Expected to end in 76 seconds, by 2017-10-15T18:11:02.881
+[INFO] Registered remote process from /127.0.0.1:51264
+[INFO] Registered remote process from /127.0.0.1:51271
+[INFO] Completed job. Left: 75
+[INFO] Going to start job for: org.asynchttpclient.config.AsyncHttpClientConfigHelper. Expected to end in 76 seconds, by 2017-10-15T18:11:55.606
+[INFO] Registered remote process from /127.0.0.1:51277
+[INFO] Registered remote process from /127.0.0.1:51283
+[INFO] Completed job. Left: 74
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.part.FileLikeMultipartPart. Expected to end in 76 seconds, by 2017-10-15T18:12:50.531
+[INFO] Registered remote process from /127.0.0.1:51287
+[INFO] Registered remote process from /127.0.0.1:51293
+[INFO] Completed job. Left: 73
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyReactiveStreamsBody. Expected to end in 68 seconds, by 2017-10-15T18:13:40.853
+[INFO] Registered remote process from /127.0.0.1:51302
+[INFO] Registered remote process from /127.0.0.1:51308
+[INFO] Completed job. Left: 72
+[INFO] Going to start job for: org.asynchttpclient.netty.NettyResponseStatus. Expected to end in 68 seconds, by 2017-10-15T18:14:36.807
+[INFO] Registered remote process from /127.0.0.1:51317
+[INFO] Registered remote process from /127.0.0.1:51324
+[INFO] Completed job. Left: 71
+[INFO] Going to start job for: org.asynchttpclient.ws.WebSocketUtils. Expected to end in 68 seconds, by 2017-10-15T18:15:33.745
+[INFO] Registered remote process from /127.0.0.1:51330
+[INFO] Registered remote process from /127.0.0.1:51336
+[INFO] Completed job. Left: 70
+[INFO] Going to start job for: org.asynchttpclient.handler.AsyncHandlerExtensionsUtils. Expected to end in 68 seconds, by 2017-10-15T18:16:26.169
+[INFO] Registered remote process from /127.0.0.1:51342
+[INFO] Registered remote process from /127.0.0.1:51348
+[INFO] Completed job. Left: 69
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyCompositeByteArrayBody. Expected to end in 68 seconds, by 2017-10-15T18:17:17.637
+[INFO] Registered remote process from /127.0.0.1:51354
+[INFO] Registered remote process from /127.0.0.1:51361
+[INFO] Completed job. Left: 68
+[INFO] Going to start job for: org.asynchttpclient.resolver.RequestHostnameResolver. Expected to end in 68 seconds, by 2017-10-15T18:18:08.305
+[INFO] Registered remote process from /127.0.0.1:51367
+[INFO] Registered remote process from /127.0.0.1:51373
+[INFO] Completed job. Left: 67
+[INFO] Going to start job for: org.asynchttpclient.filter.ReleasePermitOnComplete. Expected to end in 68 seconds, by 2017-10-15T18:18:59.726
+[INFO] Registered remote process from /127.0.0.1:51403
+[INFO] Registered remote process from /127.0.0.1:51409
+[INFO] Completed job. Left: 66
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.BodyFileRegion. Expected to end in 68 seconds, by 2017-10-15T18:19:50.625
+[INFO] Registered remote process from /127.0.0.1:51413
+[INFO] Registered remote process from /127.0.0.1:51420
+[INFO] Completed job. Left: 65
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.StringPart. Expected to end in 68 seconds, by 2017-10-15T18:20:45.816
+[INFO] Registered remote process from /127.0.0.1:51426
+[INFO] Registered remote process from /127.0.0.1:51432
+[INFO] Completed job. Left: 64
+[INFO] Going to start job for: org.asynchttpclient.handler.resumable.ResumableRandomAccessFileListener. Expected to end in 68 seconds, by 2017-10-15T18:21:36.113
+[INFO] Registered remote process from /127.0.0.1:51437
+[INFO] Registered remote process from /127.0.0.1:51443
+[INFO] Completed job. Left: 63
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.intercept.ConnectSuccessInterceptor. Expected to end in 68 seconds, by 2017-10-15T18:22:27.273
+[INFO] Registered remote process from /127.0.0.1:51448
+[INFO] Registered remote process from /127.0.0.1:51454
+[INFO] Completed job. Left: 62
+[INFO] Going to start job for: org.asynchttpclient.netty.SimpleFutureListener. Expected to end in 68 seconds, by 2017-10-15T18:23:20.904
+[INFO] Registered remote process from /127.0.0.1:51459
+[INFO] Registered remote process from /127.0.0.1:51465
+[INFO] Completed job. Left: 61
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.PartBase. Expected to end in 68 seconds, by 2017-10-15T18:24:12.245
+[INFO] Registered remote process from /127.0.0.1:51478
+[INFO] Registered remote process from /127.0.0.1:51484
+[INFO] Completed job. Left: 60
+[INFO] Going to start job for: org.asynchttpclient.netty.ssl.SslEngineFactoryBase. Expected to end in 68 seconds, by 2017-10-15T18:25:04.926
+[INFO] Registered remote process from /127.0.0.1:51493
+[INFO] Registered remote process from /127.0.0.1:51499
+[INFO] Completed job. Left: 59
+[INFO] Going to start job for: org.asynchttpclient.netty.SimpleChannelFutureListener. Expected to end in 68 seconds, by 2017-10-15T18:25:58.531
+[INFO] Registered remote process from /127.0.0.1:51506
+[INFO] Registered remote process from /127.0.0.1:51513
+[INFO] Completed job. Left: 58
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.FileLikePart. Expected to end in 68 seconds, by 2017-10-15T18:26:47.640
+[INFO] Registered remote process from /127.0.0.1:51518
+[INFO] Registered remote process from /127.0.0.1:51524
+[INFO] Completed job. Left: 57
+[INFO] Going to start job for: org.asynchttpclient.exception.TooManyConnectionsPerHostException. Expected to end in 60 seconds, by 2017-10-15T18:27:29.888
+[INFO] Registered remote process from /127.0.0.1:51528
+[INFO] Registered remote process from /127.0.0.1:51534
+[INFO] Completed job. Left: 56
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.NonBlockingSemaphoreInfinite. Expected to end in 60 seconds, by 2017-10-15T18:27:46.796
+[INFO] Registered remote process from /127.0.0.1:51536
+[INFO] Registered remote process from /127.0.0.1:51542
+[INFO] Completed job. Left: 55
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.StreamedResponsePublisher. Expected to end in 60 seconds, by 2017-10-15T18:28:28.597
+[INFO] Registered remote process from /127.0.0.1:51548
+[INFO] Registered remote process from /127.0.0.1:51554
+[INFO] Completed job. Left: 54
+[INFO] Going to start job for: org.asynchttpclient.config.AsyncHttpClientConfigDefaults. Expected to end in 60 seconds, by 2017-10-15T18:29:13.917
+[INFO] Registered remote process from /127.0.0.1:51561
+[INFO] Registered remote process from /127.0.0.1:51567
+[INFO] Completed job. Left: 53
+[INFO] Going to start job for: org.asynchttpclient.AsyncHttpClientState. Expected to end in 60 seconds, by 2017-10-15T18:29:58.872
+[INFO] Registered remote process from /127.0.0.1:51578
+[INFO] Registered remote process from /127.0.0.1:51584
+[INFO] Completed job. Left: 52
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyByteBufferBody. Expected to end in 60 seconds, by 2017-10-15T18:30:40.260
+[INFO] Registered remote process from /127.0.0.1:51590
+[INFO] Completed job. Left: 51
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyByteArrayBody. Expected to end in 60 seconds, by 2017-10-15T18:31:24.231
+[INFO] Registered remote process from /127.0.0.1:51603
+[INFO] Registered remote process from /127.0.0.1:51609
+[INFO] Completed job. Left: 50
+[INFO] Going to start job for: org.asynchttpclient.webdav.WebDavResponse. Expected to end in 60 seconds, by 2017-10-15T18:32:08.384
+[INFO] Registered remote process from /127.0.0.1:51615
+[INFO] Registered remote process from /127.0.0.1:51621
+[INFO] Completed job. Left: 49
+[INFO] Going to start job for: org.asynchttpclient.request.body.generator.InputStreamBodyGenerator. Expected to end in 60 seconds, by 2017-10-15T18:32:58.528
+[INFO] Registered remote process from /127.0.0.1:51627
+[INFO] Registered remote process from /127.0.0.1:51633
+[INFO] Completed job. Left: 48
+[INFO] Going to start job for: org.asynchttpclient.request.body.generator.ReactiveStreamsBodyGenerator. Expected to end in 60 seconds, by 2017-10-15T18:33:41.137
+[INFO] Registered remote process from /127.0.0.1:51638
+[INFO] Completed job. Left: 47
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.EpollSocketChannelFactory. Expected to end in 60 seconds, by 2017-10-15T18:34:25.586
+[INFO] Registered remote process from /127.0.0.1:51648
+[INFO] Completed job. Left: 46
+[INFO] Going to start job for: org.asynchttpclient.ntlm.NtlmEngineException. Expected to end in 60 seconds, by 2017-10-15T18:35:07.929
+[INFO] Registered remote process from /127.0.0.1:51659
+[INFO] Registered remote process from /127.0.0.1:51665
+[INFO] Completed job. Left: 45
+[INFO] Going to start job for: org.asynchttpclient.request.body.generator.ByteArrayBodyGenerator. Expected to end in 60 seconds, by 2017-10-15T18:35:24.514
+[INFO] Registered remote process from /127.0.0.1:51669
+[INFO] Registered remote process from /127.0.0.1:51675
+[INFO] Completed job. Left: 44
+[INFO] Going to start job for: org.asynchttpclient.handler.MaxRedirectException. Expected to end in 60 seconds, by 2017-10-15T18:36:18.093
+[INFO] Registered remote process from /127.0.0.1:51681
+[INFO] Completed job. Left: 43
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.NoopHandler. Expected to end in 60 seconds, by 2017-10-15T18:36:59.406
+[INFO] Registered remote process from /127.0.0.1:51691
+[INFO] Registered remote process from /127.0.0.1:51697
+[INFO] Completed job. Left: 42
+[INFO] Going to start job for: org.asynchttpclient.Realm. Expected to end in 60 seconds, by 2017-10-15T18:37:14.384
+[INFO] Registered remote process from /127.0.0.1:51699
+[INFO] Registered remote process from /127.0.0.1:51705
+[INFO] Completed job. Left: 41
+[INFO] Going to start job for: org.asynchttpclient.SslEngineFactory. Expected to end in 60 seconds, by 2017-10-15T18:38:07.651
+[INFO] Registered remote process from /127.0.0.1:51710
+[INFO] Registered remote process from /127.0.0.1:51716
+[INFO] Completed job. Left: 40
+[INFO] Going to start job for: org.asynchttpclient.request.body.generator.BoundedQueueFeedableBodyGenerator. Expected to end in 60 seconds, by 2017-10-15T18:38:50.518
+[INFO] Registered remote process from /127.0.0.1:51720
+[INFO] Registered remote process from /127.0.0.1:51726
+[INFO] Completed job. Left: 39
+[INFO] Going to start job for: org.asynchttpclient.RequestBuilder. Expected to end in 60 seconds, by 2017-10-15T18:39:11.196
+[INFO] Registered remote process from /127.0.0.1:51729
+[INFO] Registered remote process from /127.0.0.1:51737
+[INFO] Completed job. Left: 38
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.part.StringMultipartPart. Expected to end in 60 seconds, by 2017-10-15T18:39:15.465
+[INFO] Registered remote process from /127.0.0.1:51738
+[INFO] Registered remote process from /127.0.0.1:51744
+[INFO] Completed job. Left: 37
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.ByteArrayPart. Expected to end in 60 seconds, by 2017-10-15T18:40:02.375
+[INFO] Registered remote process from /127.0.0.1:51750
+[INFO] Registered remote process from /127.0.0.1:51756
+[INFO] Completed job. Left: 36
+[INFO] Going to start job for: org.asynchttpclient.handler.ExtendedAsyncHandler. Expected to end in 60 seconds, by 2017-10-15T18:40:45.507
+[INFO] Registered remote process from /127.0.0.1:51762
+[INFO] Registered remote process from /127.0.0.1:51768
+[INFO] Completed job. Left: 35
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.FileUploadStalledException. Expected to end in 60 seconds, by 2017-10-15T18:41:30.907
+[INFO] Registered remote process from /127.0.0.1:51774
+[INFO] Registered remote process from /127.0.0.1:51782
+[INFO] Completed job. Left: 34
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyBody. Expected to end in 60 seconds, by 2017-10-15T18:41:46.567
+[INFO] Registered remote process from /127.0.0.1:51785
+[INFO] Registered remote process from /127.0.0.1:51791
+[INFO] Completed job. Left: 33
+[INFO] Going to start job for: org.asynchttpclient.netty.request.WriteCompleteListener. Expected to end in 60 seconds, by 2017-10-15T18:42:32.424
+[INFO] Registered remote process from /127.0.0.1:51795
+[INFO] Completed job. Left: 32
+[INFO] Going to start job for: org.asynchttpclient.oauth.OAuthSignatureCalculator. Expected to end in 60 seconds, by 2017-10-15T18:43:00.407
+[INFO] Registered remote process from /127.0.0.1:51804
+[INFO] Registered remote process from /127.0.0.1:51810
+[INFO] Completed job. Left: 31
+[INFO] Going to start job for: org.asynchttpclient.request.body.generator.UnboundedQueueFeedableBodyGenerator. Expected to end in 60 seconds, by 2017-10-15T18:43:42.205
+[INFO] Registered remote process from /127.0.0.1:51816
+[INFO] Registered remote process from /127.0.0.1:51822
+[INFO] Completed job. Left: 30
+[INFO] Going to start job for: org.asynchttpclient.AsyncCompletionHandler. Expected to end in 60 seconds, by 2017-10-15T18:44:24.656
+[INFO] Registered remote process from /127.0.0.1:51827
+[INFO] Registered remote process from /127.0.0.1:51834
+[INFO] Completed job. Left: 29
+[INFO] Going to start job for: org.asynchttpclient.exception.TooManyConnectionsException. Expected to end in 60 seconds, by 2017-10-15T18:44:27.152
+[INFO] Registered remote process from /127.0.0.1:51835
+[INFO] Completed job. Left: 28
+[INFO] Going to start job for: org.asynchttpclient.netty.channel.NioSocketChannelFactory. Expected to end in 60 seconds, by 2017-10-15T18:44:41.692
+[INFO] Registered remote process from /127.0.0.1:51843
+[INFO] Registered remote process from /127.0.0.1:51849
+[INFO] Completed job. Left: 27
+[INFO] Going to start job for: org.asynchttpclient.util.ThrowableUtil. Expected to end in 60 seconds, by 2017-10-15T18:45:24.248
+[INFO] Registered remote process from /127.0.0.1:51855
+[INFO] Registered remote process from /127.0.0.1:51861
+[INFO] Completed job. Left: 26
+[INFO] Going to start job for: org.asynchttpclient.request.body.generator.BodyChunk. Expected to end in 60 seconds, by 2017-10-15T18:46:06.105
+[INFO] Registered remote process from /127.0.0.1:51867
+[INFO] Registered remote process from /127.0.0.1:51874
+[INFO] Completed job. Left: 25
+[INFO] Going to start job for: org.asynchttpclient.HttpResponseStatus. Expected to end in 60 seconds, by 2017-10-15T18:46:32.466
+[INFO] Registered remote process from /127.0.0.1:51878
+[INFO] Registered remote process from /127.0.0.1:51884
+[INFO] Completed job. Left: 24
+[INFO] Going to start job for: org.asynchttpclient.request.body.generator.FileBodyGenerator. Expected to end in 60 seconds, by 2017-10-15T18:47:19.609
+[INFO] Registered remote process from /127.0.0.1:51887
+[INFO] Registered remote process from /127.0.0.1:51893
+[INFO] Completed job. Left: 23
+[INFO] Going to start job for: org.asynchttpclient.DefaultAsyncHttpClientConfig. Expected to end in 60 seconds, by 2017-10-15T18:48:03.062
+[INFO] Registered remote process from /127.0.0.1:51897
+[INFO] Registered remote process from /127.0.0.1:51904
+[INFO] Completed job. Left: 22
+[INFO] Going to start job for: org.asynchttpclient.netty.ssl.JsseSslEngineFactory. Expected to end in 60 seconds, by 2017-10-15T18:49:05.230
+[INFO] Registered remote process from /127.0.0.1:51908
+[INFO] Registered remote process from /127.0.0.1:51915
+[INFO] Completed job. Left: 21
+[INFO] Going to start job for: org.asynchttpclient.spnego.SpnegoEngineException. Expected to end in 60 seconds, by 2017-10-15T18:49:49.524
+[INFO] Registered remote process from /127.0.0.1:51920
+[INFO] Completed job. Left: 20
+[INFO] Going to start job for: org.asynchttpclient.AsyncHandler. Expected to end in 60 seconds, by 2017-10-15T18:50:06.110
+[INFO] Registered remote process from /127.0.0.1:51928
+[INFO] Completed job. Left: 19
+[INFO] Going to start job for: org.asynchttpclient.netty.request.NettyRequest. Expected to end in 60 seconds, by 2017-10-15T18:50:43.215
+[INFO] Registered remote process from /127.0.0.1:51939
+[INFO] Registered remote process from /127.0.0.1:51945
+[INFO] Completed job. Left: 18
+[INFO] Going to start job for: org.asynchttpclient.Dsl. Expected to end in 60 seconds, by 2017-10-15T18:51:00.579
+[INFO] Registered remote process from /127.0.0.1:51951
+[INFO] Registered remote process from /127.0.0.1:51957
+[INFO] Completed job. Left: 17
+[INFO] Going to start job for: org.asynchttpclient.BoundRequestBuilder. Expected to end in 60 seconds, by 2017-10-15T18:51:44.646
+[INFO] Registered remote process from /127.0.0.1:51962
+[INFO] Registered remote process from /127.0.0.1:51968
+[INFO] Completed job. Left: 16
+[INFO] Going to start job for: org.asynchttpclient.request.body.multipart.part.ByteArrayMultipartPart. Expected to end in 60 seconds, by 2017-10-15T18:51:48.967
+[INFO] Registered remote process from /127.0.0.1:51969
+[INFO] Registered remote process from /127.0.0.1:51975
+[INFO] Completed job. Left: 15
+[INFO] Going to start job for: org.asynchttpclient.HttpResponseBodyPart. Expected to end in 60 seconds, by 2017-10-15T18:52:34.869
+[INFO] Registered remote process from /127.0.0.1:51979
+[INFO] Registered remote process from /127.0.0.1:51985
+[INFO] Completed job. Left: 14
+[INFO] Going to start job for: org.asynchttpclient.ws.WebSocketListener. Expected to end in 60 seconds, by 2017-10-15T18:53:21.769
+[INFO] Registered remote process from /127.0.0.1:51990
+[INFO] Completed job. Left: 13
+[INFO] Going to start job for: org.asynchttpclient.netty.LazyResponseBodyPart. Expected to end in 60 seconds, by 2017-10-15T18:53:44.238
+[INFO] Registered remote process from /127.0.0.1:51999
+[INFO] Completed job. Left: 12
+[INFO] Going to start job for: org.asynchttpclient.netty.handler.intercept.Continue100Interceptor. Expected to end in 60 seconds, by 2017-10-15T18:54:33.448
+[INFO] Registered remote process from /127.0.0.1:52010
+[INFO] Registered remote process from /127.0.0.1:52016
+[INFO] Completed job. Left: 11
+[INFO] Going to start job for: org.asynchttpclient.netty.EagerResponseBodyPart. Expected to end in 60 seconds, by 2017-10-15T18:55:16.910
+[INFO] Registered remote process from /127.0.0.1:52021
+[INFO] Registered remote process from /127.0.0.1:52027
+[INFO] Completed job. Left: 10
+[INFO] Going to start job for: org.asynchttpclient.filter.FilterException. Expected to end in 60 seconds, by 2017-10-15T18:56:01.819
+[INFO] Registered remote process from /127.0.0.1:52033
+[INFO] Registered remote process from /127.0.0.1:52039
+[INFO] Completed job. Left: 9
+[INFO] Going to start job for: org.asynchttpclient.channel.NoopChannelPool. Expected to end in 60 seconds, by 2017-10-15T18:56:18.698
+[INFO] Registered remote process from /127.0.0.1:52043
+[INFO] Registered remote process from /127.0.0.1:52049
+[INFO] Completed job. Left: 8
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyDirectBody. Expected to end in 60 seconds, by 2017-10-15T18:57:01.151
+[INFO] Registered remote process from /127.0.0.1:52054
+[INFO] Completed job. Left: 7
+[INFO] Going to start job for: org.asynchttpclient.AsyncCompletionHandlerBase. Expected to end in 60 seconds, by 2017-10-15T18:57:44.382
+[INFO] Registered remote process from /127.0.0.1:52062
+[INFO] Registered remote process from /127.0.0.1:52068
+[INFO] Completed job. Left: 6
+[INFO] Going to start job for: org.asynchttpclient.netty.OnLastHttpContentCallback. Expected to end in 60 seconds, by 2017-10-15T18:58:28.591
+[INFO] Registered remote process from /127.0.0.1:52074
+[INFO] Completed job. Left: 5
+[INFO] Going to start job for: org.asynchttpclient.util.StringBuilderPool. Expected to end in 60 seconds, by 2017-10-15T18:59:08.952
+[INFO] Registered remote process from /127.0.0.1:52086
+[INFO] Registered remote process from /127.0.0.1:52092
+[INFO] Completed job. Left: 4
+[INFO] Going to start job for: org.asynchttpclient.exception.RemotelyClosedException. Expected to end in 60 seconds, by 2017-10-15T18:59:52.657
+[INFO] Registered remote process from /127.0.0.1:52098
+[INFO] Registered remote process from /127.0.0.1:52105
+[INFO] Completed job. Left: 3
+[INFO] Going to start job for: org.asynchttpclient.util.DateUtils. Expected to end in 60 seconds, by 2017-10-15T19:00:07.877
+[INFO] Registered remote process from /127.0.0.1:52108
+[INFO] Registered remote process from /127.0.0.1:52114
+[INFO] Completed job. Left: 2
+[INFO] Going to start job for: org.asynchttpclient.filter.FilterContext. Expected to end in 60 seconds, by 2017-10-15T19:00:49.397
+[INFO] Registered remote process from /127.0.0.1:52120
+[INFO] Registered remote process from /127.0.0.1:52126
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: org.asynchttpclient.netty.request.body.NettyMultipartBody. Expected to end in 60 seconds, by 2017-10-15T19:01:34.540
+[INFO] Registered remote process from /127.0.0.1:52133
+[INFO] Completed job. Left: 0
+[INFO] [MASTER] 19:00:37.684 [main] WARN  StorageManager - No CSV file for CUT  with test suite at /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/tmp_2017_10_15_16_15_18/tests/org/asynchttpclient/BoundRequestBuilder_ESTest.java
+[INFO] [MASTER] 19:00:37.690 [main] WARN  StorageManager - No CSV file for CUT  with test suite at /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/tmp_2017_10_15_16_15_18/tests/org/asynchttpclient/RequestBuilder_ESTest.java
+[INFO] [MASTER] 19:00:37.690 [main] WARN  StorageManager - No CSV file for CUT  with test suite at /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/client/.evosuite/tmp_2017_10_15_16_15_18/tests/org/asynchttpclient/RequestBuilderBase_ESTest.java
+[INFO] * Updating database to org.asynchttpclient.netty.handler.intercept.ProxyUnauthorized407Interceptor
+[INFO] * Updating database to org.asynchttpclient.exception.TooManyConnectionsPerHostException
+[INFO] * Updating database to org.asynchttpclient.util.Utf8UrlEncoder
+[INFO] * Updating database to org.asynchttpclient.netty.channel.NonBlockingSemaphoreInfinite
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyReactiveStreamsBody
+[INFO] * Updating database to org.asynchttpclient.netty.NettyResponseStatus
+[INFO] * Updating database to org.asynchttpclient.netty.handler.StreamedResponsePublisher
+[INFO] * Updating database to org.asynchttpclient.config.AsyncHttpClientConfigDefaults
+[INFO] * Updating database to org.asynchttpclient.AsyncHttpClientState
+[INFO] * Updating database to org.asynchttpclient.netty.handler.intercept.Redirect30xInterceptor
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyFileBody
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.MultipartBody
+[INFO] * Updating database to org.asynchttpclient.ws.WebSocketUtils
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyByteBufferBody
+[INFO] * Updating database to org.asynchttpclient.netty.request.NettyRequestFactory
+[INFO] * Updating database to org.asynchttpclient.netty.request.WriteListener
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyByteArrayBody
+[INFO] * Updating database to org.asynchttpclient.netty.NettyResponse
+[INFO] * Updating database to org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask
+[INFO] * Updating database to org.asynchttpclient.webdav.WebDavResponse
+[INFO] * Updating database to org.asynchttpclient.Param
+[INFO] * Updating database to org.asynchttpclient.channel.DefaultKeepAliveStrategy
+[INFO] * Updating database to org.asynchttpclient.request.body.generator.InputStreamBodyGenerator
+[INFO] * Updating database to org.asynchttpclient.request.body.generator.ReactiveStreamsBodyGenerator
+[INFO] * Updating database to org.asynchttpclient.netty.NettyResponseFuture
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyInputStreamBody
+[INFO] * Updating database to org.asynchttpclient.netty.channel.EpollSocketChannelFactory
+[INFO] * Updating database to org.asynchttpclient.netty.future.StackTraceInspector
+[INFO] * Updating database to org.asynchttpclient.netty.handler.intercept.Interceptors
+[INFO] * Updating database to org.asynchttpclient.ntlm.NtlmEngineException
+[INFO] * Updating database to org.asynchttpclient.handler.resumable.PropertiesBasedResumableProcessor
+[INFO] * Updating database to org.asynchttpclient.util.StringUtils
+[INFO] * Updating database to org.asynchttpclient.request.body.generator.ByteArrayBodyGenerator
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.MultipartUtils
+[INFO] * Updating database to org.asynchttpclient.handler.MaxRedirectException
+[INFO] * Updating database to org.asynchttpclient.netty.handler.intercept.ResponseFiltersInterceptor
+[INFO] * Updating database to org.asynchttpclient.netty.channel.ChannelManager
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.BodyChunkedInput
+[INFO] * Updating database to org.asynchttpclient.netty.channel.NoopHandler
+[INFO] * Updating database to org.asynchttpclient.netty.timeout.ReadTimeoutTimerTask
+[INFO] * Updating database to org.asynchttpclient.util.ProxyUtils
+[INFO] * Updating database to org.asynchttpclient.netty.request.WriteProgressListener
+[INFO] * Updating database to org.asynchttpclient.spnego.SpnegoEngine
+[INFO] * Updating database to org.asynchttpclient.netty.channel.NonBlockingSemaphore
+[INFO] * Updating database to org.asynchttpclient.Realm
+[INFO] * Updating database to org.asynchttpclient.oauth.RequestToken
+[INFO] * Updating database to org.asynchttpclient.netty.channel.DefaultChannelPool
+[INFO] * Updating database to org.asynchttpclient.handler.AsyncHandlerExtensionsUtils
+[INFO] * Updating database to org.asynchttpclient.ClientStats
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyCompositeByteArrayBody
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.part.FileMultipartPart
+[INFO] * Updating database to org.asynchttpclient.SslEngineFactory
+[INFO] * Updating database to org.asynchttpclient.util.MiscUtils
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.part.MessageEndMultipartPart
+[INFO] * Updating database to org.asynchttpclient.resolver.RequestHostnameResolver
+[INFO] * Updating database to org.asynchttpclient.DefaultAsyncHttpClient
+[INFO] * Updating database to org.asynchttpclient.request.body.generator.BoundedQueueFeedableBodyGenerator
+[INFO] * Updating database to org.asynchttpclient.RequestBuilder
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.part.StringMultipartPart
+[INFO] * Updating database to org.asynchttpclient.handler.resumable.ResumableAsyncHandler
+[INFO] * Updating database to org.asynchttpclient.netty.ssl.DefaultSslEngineFactory
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.part.MultipartPart
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.ByteArrayPart
+[INFO] * Updating database to org.asynchttpclient.HostStats
+[INFO] * Updating database to org.asynchttpclient.handler.ExtendedAsyncHandler
+[INFO] * Updating database to org.asynchttpclient.oauth.Parameters
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.FileUploadStalledException
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyBody
+[INFO] * Updating database to org.asynchttpclient.netty.request.NettyChannelConnector
+[INFO] * Updating database to org.asynchttpclient.netty.request.WriteCompleteListener
+[INFO] * Updating database to org.asynchttpclient.oauth.OAuthSignatureCalculator
+[INFO] * Updating database to org.asynchttpclient.filter.ReleasePermitOnComplete
+[INFO] * Updating database to org.asynchttpclient.request.body.generator.UnboundedQueueFeedableBodyGenerator
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.BodyFileRegion
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.StringPart
+[INFO] * Updating database to org.asynchttpclient.netty.request.NettyRequestSender
+[INFO] * Updating database to org.asynchttpclient.AsyncCompletionHandler
+[INFO] * Updating database to org.asynchttpclient.netty.channel.Channels
+[INFO] * Updating database to org.asynchttpclient.handler.resumable.ResumableRandomAccessFileListener
+[INFO] * Updating database to org.asynchttpclient.exception.TooManyConnectionsException
+[INFO] * Updating database to org.asynchttpclient.netty.channel.NioSocketChannelFactory
+[INFO] * Updating database to org.asynchttpclient.uri.UriParser
+[INFO] * Updating database to org.asynchttpclient.request.body.generator.QueueBasedFeedableBodyGenerator
+[INFO] * Updating database to org.asynchttpclient.netty.timeout.TimeoutTimerTask
+[INFO] * Updating database to org.asynchttpclient.util.ThrowableUtil
+[INFO] * Updating database to org.asynchttpclient.filter.ThrottleRequestFilter
+[INFO] * Updating database to org.asynchttpclient.netty.handler.intercept.Unauthorized401Interceptor
+[INFO] * Updating database to org.asynchttpclient.netty.handler.intercept.ConnectSuccessInterceptor
+[INFO] * Updating database to org.asynchttpclient.request.body.generator.BodyChunk
+[INFO] * Updating database to org.asynchttpclient.HttpResponseStatus
+[INFO] * Updating database to org.asynchttpclient.request.body.generator.FileBodyGenerator
+[INFO] * Updating database to org.asynchttpclient.DefaultAsyncHttpClientConfig
+[INFO] * Updating database to org.asynchttpclient.netty.ssl.JsseSslEngineFactory
+[INFO] * Updating database to org.asynchttpclient.handler.resumable.ResumableIOExceptionFilter
+[INFO] * Updating database to org.asynchttpclient.spnego.SpnegoEngineException
+[INFO] * Updating database to org.asynchttpclient.ntlm.NtlmEngine
+[INFO] * Updating database to org.asynchttpclient.netty.handler.WebSocketHandler
+[INFO] * Updating database to org.asynchttpclient.AsyncHandler
+[INFO] * Updating database to org.asynchttpclient.netty.ws.NettyWebSocket
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.FilePart
+[INFO] * Updating database to org.asynchttpclient.request.body.generator.PushBody
+[INFO] * Updating database to org.asynchttpclient.netty.request.NettyRequest
+[INFO] * Updating database to org.asynchttpclient.Dsl
+[INFO] * Updating database to org.asynchttpclient.util.Assertions
+[INFO] * Updating database to org.asynchttpclient.BoundRequestBuilder
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.part.ByteArrayMultipartPart
+[INFO] * Updating database to org.asynchttpclient.util.UriEncoder
+[INFO] * Updating database to org.asynchttpclient.HttpResponseBodyPart
+[INFO] * Updating database to org.asynchttpclient.ws.WebSocketListener
+[INFO] * Updating database to org.asynchttpclient.DefaultRequest
+[INFO] * Updating database to org.asynchttpclient.util.Base64
+[INFO] * Updating database to org.asynchttpclient.netty.LazyResponseBodyPart
+[INFO] * Updating database to org.asynchttpclient.oauth.ConsumerKey
+[INFO] * Updating database to org.asynchttpclient.handler.TransferCompletionHandler
+[INFO] * Updating database to org.asynchttpclient.webdav.WebDavCompletionHandlerBase
+[INFO] * Updating database to org.asynchttpclient.oauth.OAuthSignatureCalculatorInstance
+[INFO] * Updating database to org.asynchttpclient.netty.handler.AsyncHttpClientHandler
+[INFO] * Updating database to org.asynchttpclient.RequestBuilderBase
+[INFO] * Updating database to org.asynchttpclient.netty.handler.intercept.Continue100Interceptor
+[INFO] * Updating database to org.asynchttpclient.netty.SimpleFutureListener
+[INFO] * Updating database to org.asynchttpclient.netty.timeout.TimeoutsHolder
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.PartBase
+[INFO] * Updating database to org.asynchttpclient.ws.WebSocketUpgradeHandler
+[INFO] * Updating database to org.asynchttpclient.netty.EagerResponseBodyPart
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyBodyBody
+[INFO] * Updating database to org.asynchttpclient.netty.ssl.SslEngineFactoryBase
+[INFO] * Updating database to org.asynchttpclient.util.AuthenticatorUtils
+[INFO] * Updating database to org.asynchttpclient.filter.FilterException
+[INFO] * Updating database to org.asynchttpclient.channel.NoopChannelPool
+[INFO] * Updating database to org.asynchttpclient.netty.handler.HttpHandler
+[INFO] * Updating database to org.asynchttpclient.config.AsyncHttpClientConfigHelper
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyDirectBody
+[INFO] * Updating database to org.asynchttpclient.handler.BodyDeferringAsyncHandler
+[INFO] * Updating database to org.asynchttpclient.util.HttpUtils
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.part.FileLikeMultipartPart
+[INFO] * Updating database to org.asynchttpclient.netty.channel.ConnectionSemaphore
+[INFO] * Updating database to org.asynchttpclient.netty.SimpleChannelFutureListener
+[INFO] * Updating database to org.asynchttpclient.oauth.Parameter
+[INFO] * Updating database to org.asynchttpclient.AsyncCompletionHandlerBase
+[INFO] * Updating database to org.asynchttpclient.proxy.ProxyServer
+[INFO] * Updating database to org.asynchttpclient.request.body.multipart.FileLikePart
+[INFO] * Updating database to org.asynchttpclient.netty.OnLastHttpContentCallback
+[INFO] * Updating database to org.asynchttpclient.util.StringBuilderPool
+[INFO] * Updating database to org.asynchttpclient.exception.RemotelyClosedException
+[INFO] * Updating database to org.asynchttpclient.uri.Uri
+[INFO] * Updating database to org.asynchttpclient.util.DateUtils
+[INFO] * Updating database to org.asynchttpclient.filter.FilterContext
+[INFO] * Updating database to org.asynchttpclient.netty.channel.NettyConnectListener
+[INFO] * Updating database to org.asynchttpclient.netty.request.body.NettyMultipartBody
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 123
+[INFO] Missing classes:
+[INFO] org.asynchttpclient.netty.handler.intercept.ProxyUnauthorized407Interceptor
+[INFO] org.asynchttpclient.netty.handler.intercept.Redirect30xInterceptor
+[INFO] org.asynchttpclient.netty.request.NettyRequestFactory
+[INFO] org.asynchttpclient.netty.request.WriteListener
+[INFO] org.asynchttpclient.netty.NettyResponse
+[INFO] org.asynchttpclient.netty.NettyResponseFuture
+[INFO] org.asynchttpclient.netty.handler.intercept.Interceptors
+[INFO] org.asynchttpclient.netty.channel.ChannelManager
+[INFO] org.asynchttpclient.util.ProxyUtils
+[INFO] org.asynchttpclient.netty.channel.DefaultChannelPool
+[INFO] org.asynchttpclient.RequestBuilder
+[INFO] org.asynchttpclient.handler.resumable.ResumableAsyncHandler
+[INFO] org.asynchttpclient.netty.request.NettyChannelConnector
+[INFO] org.asynchttpclient.netty.request.NettyRequestSender
+[INFO] org.asynchttpclient.AsyncCompletionHandler
+[INFO] org.asynchttpclient.netty.channel.Channels
+[INFO] org.asynchttpclient.netty.handler.intercept.Unauthorized401Interceptor
+[INFO] org.asynchttpclient.netty.handler.WebSocketHandler
+[INFO] org.asynchttpclient.AsyncHandler
+[INFO] org.asynchttpclient.netty.ws.NettyWebSocket
+[INFO] org.asynchttpclient.BoundRequestBuilder
+[INFO] org.asynchttpclient.handler.TransferCompletionHandler
+[INFO] org.asynchttpclient.RequestBuilderBase
+[INFO] org.asynchttpclient.netty.handler.HttpHandler
+[INFO] org.asynchttpclient.netty.channel.NettyConnectListener
+[INFO] org.asynchttpclient.netty.request.body.NettyMultipartBody
+[INFO] WARN: failed to generate tests for 26 classes out of 149
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Extras Parent 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-extras-parent >>>
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/asynchttpclient/async-http-client/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloaded: https://oss.sonatype.org/content/repositories/snapshots/org/asynchttpclient/async-http-client/2.1.0-SNAPSHOT/maven-metadata.xml (1.2 kB at 294 B/s)
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-parent ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-parent ---
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-extras-parent <<<
+[INFO]
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/asynchttpclient/async-http-client/2.1.0-SNAPSHOT/async-http-client-2.1.0-20170925.143014-160-tests.jar
+Downloaded: https://oss.sonatype.org/content/repositories/snapshots/org/asynchttpclient/async-http-client/2.1.0-SNAPSHOT/async-http-client-2.1.0-20170925.143014-160-tests.jar (769 kB at 899 kB/s)
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-extras-parent ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: null
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras
+[INFO] Nothing to test
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Guava Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-extras-guava >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-guava ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-guava ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-guava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/guava/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-guava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-extras-guava <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-extras-guava ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/guava/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/guava
+[INFO] Started spawn process manager on port 52141
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:52142
+[INFO] Going to execute 2 jobs
+[INFO] Estimated completion time: 4 minutes, by 2017-10-15T19:04:46.743
+[INFO] Going to start job for: org.asynchttpclient.extras.guava.RateLimitedThrottleRequestFilter. Expected to end in 180 seconds, by 2017-10-15T19:03:46.788
+[INFO] Registered remote process from /127.0.0.1:52143
+[INFO] Registered remote process from /127.0.0.1:52149
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: org.asynchttpclient.extras.guava.ListenableFutureAdapter. Expected to end in 60 seconds, by 2017-10-15T19:03:49.222
+[INFO] Registered remote process from /127.0.0.1:52156
+[INFO] Registered remote process from /127.0.0.1:52162
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to org.asynchttpclient.extras.guava.ListenableFutureAdapter
+[INFO] * Updating database to org.asynchttpclient.extras.guava.RateLimitedThrottleRequestFilter
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 2
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client JDeferred Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-extras-jdeferred >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-jdeferred ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-jdeferred ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-jdeferred ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/jdeferred/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-jdeferred ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-extras-jdeferred <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-extras-jdeferred ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/jdeferred/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/jdeferred
+[INFO] Started spawn process manager on port 52167
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:52169
+[INFO] Going to execute 3 jobs
+[INFO] Estimated completion time: 6 minutes, by 2017-10-15T19:09:35.634
+[INFO] Going to start job for: org.asynchttpclient.extras.jdeferred.ContentWriteProgress. Expected to end in 120 seconds, by 2017-10-15T19:05:35.688
+[INFO] Registered remote process from /127.0.0.1:52170
+[INFO] Registered remote process from /127.0.0.1:52177
+[INFO] Completed job. Left: 2
+[INFO] Going to start job for: org.asynchttpclient.extras.jdeferred.AsyncHttpDeferredObject. Expected to end in 120 seconds, by 2017-10-15T19:05:38.908
+[INFO] Registered remote process from /127.0.0.1:52178
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: org.asynchttpclient.extras.jdeferred.HttpResponseBodyPartProgress. Expected to end in 120 seconds, by 2017-10-15T19:07:04.399
+[INFO] Registered remote process from /127.0.0.1:52193
+[INFO] Registered remote process from /127.0.0.1:52199
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to org.asynchttpclient.extras.jdeferred.ContentWriteProgress
+[INFO] * Updating database to org.asynchttpclient.extras.jdeferred.AsyncHttpDeferredObject
+[INFO] * Updating database to org.asynchttpclient.extras.jdeferred.HttpResponseBodyPartProgress
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 2
+[INFO] WARN: failed to generate tests for org.asynchttpclient.extras.jdeferred.ContentWriteProgress
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Registry Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-extras-registry >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-registry ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-registry ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-registry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/registry/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-registry ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-extras-registry <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-extras-registry ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/registry/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/registry
+[INFO] Started spawn process manager on port 52207
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:52208
+[INFO] Going to execute 4 jobs
+[INFO] Estimated completion time: 8 minutes, by 2017-10-15T19:14:35.090
+[INFO] Going to start job for: org.asynchttpclient.extras.registry.AsyncHttpClientFactory. Expected to end in 169 seconds, by 2017-10-15T19:09:24.135
+[INFO] Registered remote process from /127.0.0.1:52209
+[INFO] Registered remote process from /127.0.0.1:52215
+[INFO] Completed job. Left: 3
+[INFO] Going to start job for: org.asynchttpclient.extras.registry.AsyncHttpClientRegistryImpl. Expected to end in 169 seconds, by 2017-10-15T19:09:27.939
+[INFO] Registered remote process from /127.0.0.1:52216
+[INFO] Registered remote process from /127.0.0.1:52222
+[INFO] Completed job. Left: 2
+[INFO] Going to start job for: org.asynchttpclient.extras.registry.AsyncImplHelper. Expected to end in 81 seconds, by 2017-10-15T19:09:58.344
+[INFO] Registered remote process from /127.0.0.1:52237
+[INFO] Registered remote process from /127.0.0.1:52243
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: org.asynchttpclient.extras.registry.AsyncHttpClientImplException. Expected to end in 60 seconds, by 2017-10-15T19:10:41.142
+[INFO] Registered remote process from /127.0.0.1:52250
+[INFO] Registered remote process from /127.0.0.1:52256
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to org.asynchttpclient.extras.registry.AsyncHttpClientImplException
+[INFO] * Updating database to org.asynchttpclient.extras.registry.AsyncHttpClientFactory
+[INFO] * Updating database to org.asynchttpclient.extras.registry.AsyncImplHelper
+[INFO] * Updating database to org.asynchttpclient.extras.registry.AsyncHttpClientRegistryImpl
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 3
+[INFO] WARN: failed to generate tests for org.asynchttpclient.extras.registry.AsyncHttpClientFactory
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client RxJava Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-extras-rxjava >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-rxjava ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-rxjava ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-rxjava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-rxjava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-extras-rxjava <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-extras-rxjava ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava
+[INFO] Started spawn process manager on port 52260
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:52261
+[INFO] Going to execute 7 jobs
+[INFO] Estimated completion time: 14 minutes, by 2017-10-15T19:24:08.301
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava.single.AbstractSingleSubscriberBridge. Expected to end in 350 seconds, by 2017-10-15T19:15:58.345
+[INFO] Registered remote process from /127.0.0.1:52262
+[INFO] Registered remote process from /127.0.0.1:52268
+[INFO] Completed job. Left: 6
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava.single.AbstractProgressSingleSubscriberBridge. Expected to end in 156 seconds, by 2017-10-15T19:14:35.450
+[INFO] Registered remote process from /127.0.0.1:52276
+[INFO] Registered remote process from /127.0.0.1:52282
+[INFO] Completed job. Left: 5
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava.single.AsyncHttpSingle. Expected to end in 92 seconds, by 2017-10-15T19:15:25.553
+[INFO] Registered remote process from /127.0.0.1:52292
+[INFO] Registered remote process from /127.0.0.1:52298
+[INFO] Completed job. Left: 4
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava.UnsubscribedException. Expected to end in 60 seconds, by 2017-10-15T19:15:18.344
+[INFO] Registered remote process from /127.0.0.1:52300
+[INFO] Registered remote process from /127.0.0.1:52307
+[INFO] Completed job. Left: 3
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava.single.ProgressAsyncSingleSubscriberBridge. Expected to end in 60 seconds, by 2017-10-15T19:15:46.263
+[INFO] Registered remote process from /127.0.0.1:52311
+[INFO] Registered remote process from /127.0.0.1:52317
+[INFO] Completed job. Left: 2
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava.AsyncHttpObservable. Expected to end in 60 seconds, by 2017-10-15T19:16:38.499
+[INFO] Registered remote process from /127.0.0.1:52324
+[INFO] Registered remote process from /127.0.0.1:52331
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava.single.AsyncSingleSubscriberBridge. Expected to end in 60 seconds, by 2017-10-15T19:17:13.714
+[INFO] Registered remote process from /127.0.0.1:52333
+[INFO] Registered remote process from /127.0.0.1:52339
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava.single.AbstractProgressSingleSubscriberBridge
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava.single.AsyncHttpSingle
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava.UnsubscribedException
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava.single.ProgressAsyncSingleSubscriberBridge
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava.AsyncHttpObservable
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava.single.AbstractSingleSubscriberBridge
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava.single.AsyncSingleSubscriberBridge
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 4
+[INFO] Missing classes:
+[INFO] org.asynchttpclient.extras.rxjava.single.AsyncHttpSingle
+[INFO] org.asynchttpclient.extras.rxjava.AsyncHttpObservable
+[INFO] org.asynchttpclient.extras.rxjava.single.AbstractSingleSubscriberBridge
+[INFO] WARN: failed to generate tests for 3 classes out of 7
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client RxJava2 Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-extras-rxjava2 >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-rxjava2 ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-rxjava2 ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-rxjava2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava2/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-rxjava2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava2/target/classes
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-extras-rxjava2 <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-extras-rxjava2 ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava2/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/rxjava2
+[INFO] Started spawn process manager on port 52346
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:52348
+[INFO] Going to execute 7 jobs
+[INFO] Estimated completion time: 14 minutes, by 2017-10-15T19:31:12.728
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava2.maybe.AbstractMaybeAsyncHandlerBridge. Expected to end in 375 seconds, by 2017-10-15T19:23:27.774
+[INFO] Registered remote process from /127.0.0.1:52349
+[INFO] Registered remote process from /127.0.0.1:52355
+[INFO] Completed job. Left: 6
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava2.maybe.AbstractMaybeProgressAsyncHandlerBridge. Expected to end in 138 seconds, by 2017-10-15T19:24:10.165
+[INFO] Registered remote process from /127.0.0.1:52382
+[INFO] Registered remote process from /127.0.0.1:52388
+[INFO] Completed job. Left: 5
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava2.DefaultRxHttpClient. Expected to end in 86 seconds, by 2017-10-15T19:25:06.831
+[INFO] Registered remote process from /127.0.0.1:52400
+[INFO] Registered remote process from /127.0.0.1:52406
+[INFO] Completed job. Left: 4
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava2.RxHttpClient. Expected to end in 60 seconds, by 2017-10-15T19:25:51.058
+[INFO] Registered remote process from /127.0.0.1:52412
+[INFO] Completed job. Left: 3
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava2.maybe.ProgressAsyncMaybeEmitterBridge. Expected to end in 60 seconds, by 2017-10-15T19:26:49.079
+[INFO] Registered remote process from /127.0.0.1:52424
+[INFO] Registered remote process from /127.0.0.1:52430
+[INFO] Completed job. Left: 2
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava2.DisposedException. Expected to end in 60 seconds, by 2017-10-15T19:27:40.808
+[INFO] Registered remote process from /127.0.0.1:52433
+[INFO] Registered remote process from /127.0.0.1:52439
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: org.asynchttpclient.extras.rxjava2.maybe.MaybeAsyncHandlerBridge. Expected to end in 60 seconds, by 2017-10-15T19:28:07.519
+[INFO] Registered remote process from /127.0.0.1:52442
+[INFO] Registered remote process from /127.0.0.1:52448
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava2.RxHttpClient
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava2.maybe.AbstractMaybeProgressAsyncHandlerBridge
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava2.maybe.AbstractMaybeAsyncHandlerBridge
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava2.DefaultRxHttpClient
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava2.maybe.ProgressAsyncMaybeEmitterBridge
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava2.DisposedException
+[INFO] * Updating database to org.asynchttpclient.extras.rxjava2.maybe.MaybeAsyncHandlerBridge
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 7
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Simple Client 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-extras-simple >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-simple ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-simple ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-simple ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/simple/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-simple ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/simple/target/classes
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-extras-simple <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-extras-simple ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/simple/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/simple
+[INFO] Started spawn process manager on port 52452
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:52454
+[INFO] Going to execute 5 jobs
+[INFO] Estimated completion time: 10 minutes, by 2017-10-15T19:38:05.793
+[INFO] Going to start job for: org.asynchttpclient.extras.simple.SimpleAsyncHttpClient. Expected to end in 338 seconds, by 2017-10-15T19:33:43.837
+[INFO] Registered remote process from /127.0.0.1:52455
+[INFO] Registered remote process from /127.0.0.1:52461
+[INFO] Completed job. Left: 4
+[INFO] Going to start job for: org.asynchttpclient.extras.simple.AppendableBodyConsumer. Expected to end in 81 seconds, by 2017-10-15T19:33:25.020
+[INFO] Registered remote process from /127.0.0.1:52479
+[INFO] Completed job. Left: 3
+[INFO] Going to start job for: org.asynchttpclient.extras.simple.OutputStreamBodyConsumer. Expected to end in 60 seconds, by 2017-10-15T19:33:36.701
+[INFO] Registered remote process from /127.0.0.1:52487
+[INFO] Registered remote process from /127.0.0.1:52493
+[INFO] Completed job. Left: 2
+[INFO] Going to start job for: org.asynchttpclient.extras.simple.ByteBufferBodyConsumer. Expected to end in 60 seconds, by 2017-10-15T19:33:41.370
+[INFO] Registered remote process from /127.0.0.1:52494
+[INFO] Registered remote process from /127.0.0.1:52501
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: org.asynchttpclient.extras.simple.FileBodyConsumer. Expected to end in 60 seconds, by 2017-10-15T19:34:34.728
+[INFO] Registered remote process from /127.0.0.1:52505
+[INFO] Registered remote process from /127.0.0.1:52511
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to org.asynchttpclient.extras.simple.AppendableBodyConsumer
+[INFO] * Updating database to org.asynchttpclient.extras.simple.SimpleAsyncHttpClient
+[INFO] * Updating database to org.asynchttpclient.extras.simple.OutputStreamBodyConsumer
+[INFO] * Updating database to org.asynchttpclient.extras.simple.ByteBufferBodyConsumer
+[INFO] * Updating database to org.asynchttpclient.extras.simple.FileBodyConsumer
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 4
+[INFO] WARN: failed to generate tests for org.asynchttpclient.extras.simple.OutputStreamBodyConsumer
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Retrofit2 Extras 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-extras-retrofit2 >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-extras-retrofit2 ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-extras-retrofit2 ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-extras-retrofit2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/retrofit2/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-extras-retrofit2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/retrofit2/target/classes
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-extras-retrofit2 <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-extras-retrofit2 ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/retrofit2/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/extras/retrofit2
+[INFO] Started spawn process manager on port 52515
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:52516
+[INFO] Going to execute 2 jobs
+[INFO] Estimated completion time: 4 minutes, by 2017-10-15T19:38:19.903
+[INFO] Going to start job for: org.asynchttpclient.extras.retrofit.AsyncHttpClientCall. Expected to end in 160 seconds, by 2017-10-15T19:36:59.965
+[INFO] Registered remote process from /127.0.0.1:52517
+[INFO] Registered remote process from /127.0.0.1:52525
+[INFO] Completed job. Left: 1
+[INFO] Going to start job for: org.asynchttpclient.extras.retrofit.AsyncHttpClientCallFactory. Expected to end in 80 seconds, by 2017-10-15T19:37:45.776
+[INFO] Registered remote process from /127.0.0.1:52533
+[INFO] Registered remote process from /127.0.0.1:52540
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to org.asynchttpclient.extras.retrofit.AsyncHttpClientCall
+[INFO] * Updating database to org.asynchttpclient.extras.retrofit.AsyncHttpClientCallFactory
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 0
+[INFO] Missing classes:
+[INFO] org.asynchttpclient.extras.retrofit.AsyncHttpClientCall
+[INFO] org.asynchttpclient.extras.retrofit.AsyncHttpClientCallFactory
+[INFO] WARN: failed to generate tests for 2 classes out of 2
+[INFO] Stopping spawn process manager
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Asynchronous Http Client Example 2.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> evosuite-maven-plugin:1.0.5:generate (default-cli) > compile @ async-http-client-example >>>
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ async-http-client-example ---
+[INFO]
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ async-http-client-example ---
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ async-http-client-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/example/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ async-http-client-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/example/target/classes
+[INFO]
+[INFO] <<< evosuite-maven-plugin:1.0.5:generate (default-cli) < compile @ async-http-client-example <<<
+[INFO]
+[INFO]
+[INFO] --- evosuite-maven-plugin:1.0.5:generate (default-cli) @ async-http-client-example ---
+[INFO] Going to generate tests with EvoSuite
+[INFO] Total memory: 800mb
+[INFO] Time per class: 2 minutes
+[INFO] Number of used cores: 1
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng/1.6.6/powermock-module-testng-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-core/1.6.6/powermock-core-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-reflect/1.6.6/powermock-reflect-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-module-testng-common/1.6.6/powermock-module-testng-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito/1.6.6/powermock-api-mockito-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-mockito-common/1.6.6/powermock-api-mockito-common-1.6.6.jar
+[WARNING] Skipping PowerMock dependency at: /Users/Peifeng/.m2/repository/org/powermock/powermock-api-support/1.6.6/powermock-api-support-1.6.6.jar
+[INFO] Target: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/example/target/classes
+[INFO] Basedir: /Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/async-http-client/example
+[INFO] Started spawn process manager on port 52546
+[INFO] SLF4J: Class path contains multiple SLF4J bindings.
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: Found binding in [jar:file:/Users/Peifeng/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[INFO] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[INFO] SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[INFO] * EvoSuite 1.0.5
+[INFO] Registered remote process from /127.0.0.1:52547
+[INFO] Going to execute 1 jobs
+[INFO] Estimated completion time: 2 minutes, by 2017-10-15T19:39:56.084
+[INFO] Going to start job for: org.asynchttpclient.example.completable.CompletableFutures. Expected to end in 120 seconds, by 2017-10-15T19:39:56.167
+[INFO] Registered remote process from /127.0.0.1:52548
+[INFO] Registered remote process from /127.0.0.1:52555
+[INFO] Completed job. Left: 0
+[INFO] * Updating database to org.asynchttpclient.example.completable.CompletableFutures
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 1
+[INFO] Stopping spawn process manager
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] Asynchronous Http Client Project ................... SUCCESS [  1.903 s]
+[INFO] Asynchronous Http Client Netty Utils ............... SUCCESS [03:19 min]
+[INFO] Asynchronous Http Client ........................... SUCCESS [  02:45 h]
+[INFO] Asynchronous Http Client Extras Parent ............. SUCCESS [  5.950 s]
+[INFO] Asynchronous Http Client Guava Extras .............. SUCCESS [02:48 min]
+[INFO] Asynchronous Http Client JDeferred Extras .......... SUCCESS [02:58 min]
+[INFO] Asynchronous Http Client Registry Extras ........... SUCCESS [03:33 min]
+[INFO] Asynchronous Http Client RxJava Extras ............. SUCCESS [07:01 min]
+[INFO] Asynchronous Http Client RxJava2 Extras ............ SUCCESS [10:53 min]
+[INFO] Asynchronous Http Simple Client .................... SUCCESS [06:10 min]
+[INFO] Asynchronous Http Client Retrofit2 Extras .......... SUCCESS [03:41 min]
+[INFO] Asynchronous Http Client Example ................... SUCCESS [01:40 min]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:27 h
+[INFO] Finished at: 2017-10-15T19:39:32-07:00
+[INFO] Final Memory: 37M/410M
+[INFO] ------------------------------------------------------------------------
+Peifengs-MacBook-Air:async-http-client Peifeng$

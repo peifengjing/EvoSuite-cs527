@@ -1,5 +1,0 @@
-[MASTER] 00:27:28.172 [main] ERROR ExternalProcessHandler - Class org.asynchttpclient.DefaultRequest. Clients have not finished yet, although a timeout occurred.
-ClientNode: SEARCH
-
-[MASTER] 00:27:28.283 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
-[MASTER] 00:27:28.385 [main] ERROR TestGeneration - failed to write statistics data
