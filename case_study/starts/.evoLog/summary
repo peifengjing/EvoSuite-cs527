@@ -1,0 +1,49 @@
+[ERROR]
+[INFO] [MASTER] 13:41:54.961 [main] ERROR MethodInstrumentation - Number of frames does not match number number of bytecode instructions: 0/101
+[INFO] [MASTER] 13:41:54.962 [main] ERROR MethodInstrumentation - Skipping mutation of method edu.illinois.starts.asm.ClassWriter.newHandleItem(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ledu/illinois/starts/asm/Item;
+[INFO] [MASTER] 13:41:55.665 [main] ERROR MethodInstrumentation - Number of frames does not match number number of bytecode instructions: 0/101
+[INFO] [MASTER] 13:41:55.665 [main] ERROR MethodInstrumentation - Skipping mutation of method edu.illinois.starts.asm.ClassWriter.newHandleItem(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ledu/illinois/starts/asm/Item;
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Building starts-core 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 33
+[INFO] Missing classes:
+[INFO] edu.illinois.starts.asm.Edge
+[INFO] edu.illinois.starts.util.Pair
+[INFO] edu.illinois.starts.asm.Handle
+[INFO] edu.illinois.starts.maven.MavenCFT
+[INFO] edu.illinois.starts.asm.Type
+[INFO] edu.illinois.starts.maven.AbstractMojoInterceptor
+[INFO] WARN: failed to generate tests for 6 classes out of 39
+[INFO] Stopping spawn process manager
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Building STARTS Maven Plugin 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] === CTG run results ===
+[INFO] Removed test suites: 0
+[INFO] New test suites: 4
+[INFO] Missing classes:
+[INFO] edu.illinois.starts.jdeps.CleanMojo
+[INFO] edu.illinois.starts.jdeps.StartsMojo
+[INFO] HelpMojo
+[INFO] edu.illinois.starts.jdeps.BaseMojo
+[INFO] WARN: failed to generate tests for 4 classes out of 8
+[INFO] Stopping spawn process manager
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO]
+[INFO] STARTS ............................................. SUCCESS [  3.891 s]
+[INFO] starts-core ........................................ SUCCESS [54:22 min]
+[INFO] STARTS Maven Plugin ................................ SUCCESS [05:20 min]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 59:48 min
+[INFO] Finished at: 2017-10-15T14:41:22-07:00
+[INFO] Final Memory: 38M/406M
+[INFO] ------------------------------------------------------------------------

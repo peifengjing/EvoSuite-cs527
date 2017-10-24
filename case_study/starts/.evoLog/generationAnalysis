@@ -1,0 +1,113 @@
+Analysis of Missing Class in EvoSuite Test Generation
+
+============================================
+edu.illinois.starts.asm.Edge
+============================================
+This class is skipped in EvoSuite Test Generation because it is a simple class without any class or
+instance methods. Therefore, it should be unneccessary to test this class.
+
+This Edge class is only implemented in [edu.illinois.starts.MethodWriter.java] in the following
+ways:
+[MethodWriter.java:989|1086|1223|1226]  Edge.NORMAL
+[MethodWriter.java:1429|1538|1669]      Edge b = new Edge();
+[MethodWriter.java:1473|1624]           Edge e = l.successors;
+[MethodWriter.java:1539]                b.info = Edge.EXCEPTION;
+
+===========================================
+edu.illinois.starts.util.Pair
+===========================================
+This class is an implementation of java.io.Serializable interface and overrides three methods
+(toString, equals, hashCode).
+
+This Pair class is utilized in the following methods:
+[DiffMojo.java:20|58|72|74]         Pair<Set<String>,Set<String>> data = ...
+[EkstaziHelper.java:19|30|52|55|62] return new Pair<>(nonAffected, changed);
+[ImpactedMojo.java:16|50]           Pair<Set<String>,Set<String>> data = ...
+[Piar.java:35]                      Piar<?,?> pair = (Pair<?,?>) obj;
+[RunMojo.java:17|100]               Pair<Set<String>,Set<String>> data = ...
+[SelectMojo.java:13|52]             Pair<Set<String>,Set<String>> data = ...
+[ZLCHelper.java:24|123]             public static Pair<Set<String>,Set<String>> getChangedData(...)
+[ZLCHelper.java:177]                return new Pair<>(nonAffected, changedClasses)
+
+============================================
+edu.illinois.starts.asm.Handle
+============================================
+This class contains parameters, a cothree override nstructor and methods (equals, hashcode,
+toString from java.lang.Object).
+
+This class is utilized in the following methods:
+[ClassReader.java:1429]       Handle bsm = (Handle) readConst(readUnsignedShort(bsmindex), c);
+[ClassReader.java:2494]       return new Handle(tag, owner, name, desc);
+[ClassWriter.java:1054]       else if (cst instanceof Handle) {...}
+[ClassWriter.java:1055]       Handle h = (Handle) cst;
+[ClassWriter.java:1258|1343]  final Handle bsm;
+[Handle.java:144]             if (!(obj instanceof Handle)) {...}
+[Handle.java:147]             Handle h = (Handle) obj
+[MethodVisitor.java:505]      Handle bsm;
+[MethodWriter.java:939]       final Handle bsm;
+
+============================================
+edu.illinois.starts.maven.MavenCFT
+============================================
+This class is an implementation of java.lang.instrument.ClassFileTransformer and utilizes constants
+from [start-core] edu.illinois.starts.constants.StartsConstants.
+This class consists of two static sub-class and two methods overriding the interfaces
+  * MavenMethodVisitor extends MethodVisitor
+    * Method: visitcode()
+  * MavenClassVisitor extends ClassVisitor
+    * Method: visitMethod()
+  * Method: transform()
+  * Method: addInterceptor()
+However, these
+
+This class is utilized in the following code:
+[JavaAgent.java:22] instrumentation.addTransformer(new MavenCFT(), true);
+
+============================================
+edu.illinois.starts.asm.Type
+============================================
+This class is used for manipulating java type and method descriptors. It consists of a few
+constants, fields, constructor, methods and override methods (equals, hashCode, toString).
+
+This class is used in the following code:
+[AnnotationVisitor.java:137]  else if (value instanceof Type) {...}
+[AnnotationVisitor.java:138]  bv.put12('c',cw.newUTF8(((Type) value).getDescriptor()));
+[ClassReader.java:1736]       int synthetics = Type.getArgumentTypes(context.desc).length - n;
+[ClassReader.java:1861]       av.visit(name, Type.getType(readUTF8(v, buf)));
+[ClassReader.java:2481]       return Type.getObjectType(readUTF8(index,buf));
+[ClassReader.java:2485]       return Type.getMethodType(readUTF8(index, buf));
+[ClassReader.java:1044]       else if (cst instanceof Type) {...}
+[ClassReader.java:1045]       Type t = (Type) cst;
+[ClassReader.java:1047]       if (s == Type.OBJECT) {...}
+[ClassReader.java:1049]       else if (s == Type.METHOD) {...}
+[Frame.java:733]              pop((Type.getArgumentsAndReturnSizes(desc) >> 2) -1);
+[Frame.java:814]              final Type[] args;
+
+===================================================
+edu.illinois.starts.maven.AbstractMojoInterceptor
+===================================================
+This class implement the constant class [start-core] edu.illinois.starts.constants.StartsConstants
+and consists of three public class methods and four protected class methods.
+
+This class is utilized in the following code:
+[AgentLoader.java:25]          URL agentJarURL = AbstractMojoInterceptor.extractJarURL(JavaAgent.class);
+[SurefireMojoInterceptor.java] public final class SurefireMojoInterceptor extends
+AbstractMojoInterceptor implements StartsConstants {...}
+
+===================================================
+edu.illinois.starts.jdeps.CleanMojo
+===================================================
+This class is an implementation of the abstract class edu.illinois.starts.jdeps.BaseMojo to Remove
+STARTS plugin artifects. It consists of one method (execute())
+
+Although this class is not utilized in any code, it might be used by users. The ES tests covers this
+ method in DiffMojo, ImpactedMojo, RunMojo, SelectMojo
+
+===================================================
+edu.illinois.starts.jdeps.StartsMojo
+===================================================
+This class is an implementation of the abstract class edu.illinois.starts.jdeps.BaseMojo to invoke
+STARTS plugin artifects. It consists of one method (execute())
+
+Although this class is not utilized in any code, it might be used by users. The ES tests covers this
+ method in DiffMojo, ImpactedMojo, RunMojo, SelectMojo
