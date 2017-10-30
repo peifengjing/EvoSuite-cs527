@@ -1,24 +1,58 @@
 Item_ESTest
   test02
+    This test is wrong caused by EvoSuite. The type of item0 and item1 are both "ClassWriter.INT"
+    and their intVal are the same. But the test expects them to be different.
 Cache_ESTest
   test3
+    This test fails because the code fails to catch empty list exception. The method
+    "loadM2EdgesFromCache" fails if the input list "moreEdges" is empty.
 EkstaziHelper_ESTest
   test1
+    This test failure is caused by timeout parameter in the annotation. The test will succeed if the
+    time out parameters is removed. This failure does not appear in "mvn test" process but comes up
+    in the code coverage analysis.
   test2
+    This is the same failure type as the EsktaziHelper_ESTest.test1
   test5
+    This is the same failure type as the EsktaziHelper_ESTest.test1
 Loadables_ESTest
-  test13
-  test14
-  test04
-  test05
-  test11
   test01
-  test06
-  test07
-  test19
-YasglHelper_ESTest
-  test21
-  test20
+    This test failure is caused by failing to catch the FileNotFound Exception when using
+    DirectedGraph.fromGiraphString. The code should catch the exception if the file does not
+    exist, or the ES test should create the file before calling the method.
+  test04
+    This test failure is caused by timeout parameter in the annotation. The test will succeed if the
+    time out parameters is removed. This failure does not appear in "mvn test" process but comes up
+    in the code coverage analysis.
   test05
+    This test failure is the same as Loadables_ESTest.test01
+  test06
+    This test failure is the same as Loadables_ESTest.test01
+  test07
+    This test failure is the same as Loadables_ESTest.test01
+  test11
+    This test failure is the same as Loadables_ESTest.test04
+  test13
+    This test failure is the same as Loadables_ESTest.test04
+  test14
+    This test failure is the same as Loadables_ESTest.test04
+  test19
+    This test failure is the same as Loadables_ESTest.test01
+YasglHelper_ESTest
+  test05
+    This test failure is caused by timeout parameter in the annotation. The test will succeed if the
+    time out parameters is removed. This failure does not appear in "mvn test" process but comes up
+    in the code coverage analysis.
+  test20
+    This test failure is caused by failing to catch the FileNotFound Exception when using
+    DirectedGraph.fromGiraphString. The code should catch the exception if the file does not
+    exist, or the ES test should create the file before calling the method.
+  test21
+    This test failure is caused by failing to catch the FileNotFound Exception when using
+    DirectedGraph.fromGiraphString. The code should catch the exception if the file does not
+    exist, or the ES test should create the file before calling the method.
 ZLCHelper_ESTest
   test3
+    This test failure is caused by catching the NoSuchFile Exception in ZLCHelper.java:136. It is
+    the incorrect test generation by EvoSuite because it should create a mock file before calling
+    the methods.
