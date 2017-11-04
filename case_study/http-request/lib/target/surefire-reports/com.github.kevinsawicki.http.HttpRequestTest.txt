@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.github.kevinsawicki.http.HttpRequestTest
 -------------------------------------------------------------------------------
-Tests run: 161, Failures: 9, Errors: 1, Skipped: 0, Time elapsed: 1.185 sec <<< FAILURE!
-basicProxyAuthentication(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.208 sec  <<< FAILURE!
+Tests run: 161, Failures: 9, Errors: 1, Skipped: 0, Time elapsed: 1.485 sec <<< FAILURE!
+basicProxyAuthentication(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.444 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -42,7 +42,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-postWithNumericQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+postWithNumericQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<2> but was:<null>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -83,7 +83,7 @@ java.lang.AssertionError: expected:<2> but was:<null>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-deleteWithEscapedMappedQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+deleteWithEscapedMappedQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<us er> but was:<null>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -124,7 +124,7 @@ java.lang.AssertionError: expected:<us er> but was:<null>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-headWithMappedQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+headWithMappedQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<user> but was:<null>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -165,7 +165,7 @@ java.lang.AssertionError: expected:<user> but was:<null>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-putWithVarargsQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+putWithVarargsQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<user> but was:<null>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -247,7 +247,7 @@ java.lang.AssertionError: expected:<us er> but was:<null>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-postWithEscapedVarargsQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+postWithEscapedVarargsQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<us er> but was:<null>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -288,7 +288,7 @@ java.lang.AssertionError: expected:<us er> but was:<null>
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-verifierAccepts(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.001 sec  <<< ERROR!
+verifierAccepts(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.ClassCastException: sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
 	at com.github.kevinsawicki.http.HttpRequestTest.verifierAccepts(HttpRequestTest.java:1797)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -325,7 +325,7 @@ java.lang.ClassCastException: sun.net.www.protocol.http.HttpURLConnection cannot
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-deleteWithEscapedVarargsQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+deleteWithEscapedVarargsQueryParams(com.github.kevinsawicki.http.HttpRequestTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<us er> but was:<null>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
