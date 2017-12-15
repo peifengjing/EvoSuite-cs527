@@ -1,4 +1,0 @@
-[MASTER] 20:06:57.180 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.gson.internal.bind.JsonTreeWriter: com/google/gson/internal/bind/JsonTreeWriter$1
-[MASTER] 20:06:57.289 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.gson.stream.JsonReader: com/google/gson/internal/JsonReaderInternalAccess
-[MASTER] 20:06:57.399 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.gson.internal.bind.JsonTreeReader: com/google/gson/stream/JsonReader$1
-[MASTER] 20:06:57.980 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize com.google.gson.internal.bind.JsonTreeReader: com/google/gson/internal/bind/JsonTreeReader$1

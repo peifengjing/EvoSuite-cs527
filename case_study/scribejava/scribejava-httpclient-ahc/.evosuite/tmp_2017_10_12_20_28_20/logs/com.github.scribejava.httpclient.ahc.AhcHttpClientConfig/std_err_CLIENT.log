@@ -1,4 +1,0 @@
-[MASTER] 20:34:51.786 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.AsyncHttpClientConfig$ResponseBodyPartFactory: org/asynchttpclient/AsyncHttpClientConfig$ResponseBodyPartFactory$1
-[MASTER] 20:34:51.837 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.handler.ssl.SslContext: io/netty/handler/ssl/JdkSslServerContext
-[MASTER] 20:34:51.859 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize org.asynchttpclient.proxy.ProxyServerSelector: java.lang.NoClassDefFoundError: org/asynchttpclient/uri/Uri
-[MASTER] 20:34:51.899 [pool-2-thread-1] ERROR ClassStateSupport - Could not initialize io.netty.buffer.ByteBufAllocator: io/netty/buffer/ByteBufUtil
