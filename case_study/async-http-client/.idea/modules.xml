@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/extras/simple/async-http-client-extras-simple.iml" filepath="$PROJECT_DIR$/extras/simple/async-http-client-extras-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-utils/async-http-client-netty-utils.iml" filepath="$PROJECT_DIR$/netty-utils/async-http-client-netty-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/async-http-client-project.iml" filepath="$PROJECT_DIR$/async-http-client-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/target/maven-archiver/maven-archiver.iml" filepath="$PROJECT_DIR$/example/target/maven-archiver/maven-archiver.iml" />
     </modules>
   </component>
 </project>

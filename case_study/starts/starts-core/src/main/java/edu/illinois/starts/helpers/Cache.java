@@ -4,6 +4,7 @@
 
 package edu.illinois.starts.helpers;
 
+import com.sun.istack.internal.NotNull;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -32,7 +33,7 @@ public class Cache {
         this.m2Repo = m2Repo;
     }
 
-    public void loadM2EdgesFromCache(List<String> moreEdges, String pathString) {
+    public void loadM2EdgesFromCache(@NotNull List<String> moreEdges, String pathString) {
         if (!jdepsCache.exists()) {
             if (!jdepsCache.mkdir()) {
                 throw new RuntimeException("I could not create the jdeps cache: " + jdepsCache.getAbsolutePath());

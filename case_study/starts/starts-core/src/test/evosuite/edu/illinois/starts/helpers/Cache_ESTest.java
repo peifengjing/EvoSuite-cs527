@@ -108,7 +108,7 @@ public class Cache_ESTest extends Cache_ESTest_scaffolding {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/Users/Peifeng/Desktop/Study/Topics-in-Software-Engineering/GitLab/evosuite/case_study/starts/starts-core/UZKym'/Fy[Y<Z/UZKym'/Fy[Y<Z/.graph");
       FileSystemHandling.createFolder(evoSuiteFile0);
       Cache cache0 = new Cache(mockFile0, "UZKym'/Fy[Y<Z");
-      LinkedList<String> linkedList0 = new LinkedList<String>();
+      LinkedList<String> linkedList0 = null;
       cache0.loadM2EdgesFromCache(linkedList0, ".jar");
       assertEquals(0, linkedList0.size());
   }

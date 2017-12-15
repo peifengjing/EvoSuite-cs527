@@ -16,6 +16,7 @@
         <module name="async-http-client-extras-rxjava2" />
         <module name="async-http-client-extras-simple" />
         <module name="async-http-client-netty-utils" />
+        <module name="maven-archiver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +32,7 @@
       <module name="async-http-client-extras-simple" target="1.8" />
       <module name="async-http-client-netty-utils" target="1.8" />
       <module name="async-http-client-project" target="1.8" />
+      <module name="maven-archiver" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

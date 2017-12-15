@@ -315,7 +315,7 @@ public class YasglHelper_ESTest extends YasglHelper_ESTest_scaffolding {
       assertNull(directedGraphBuilder0);
   }
 
-  @Test(timeout = 4000)
+  @Test
   public void test20()  throws Throwable  {
       LinkedHashSet<String> linkedHashSet0 = new LinkedHashSet<String>();
       linkedHashSet0.add(".");
